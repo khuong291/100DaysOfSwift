@@ -3,3 +3,13 @@
 Here is a punch of example projects with Swift, I am going to build 100 example projects here. 
 
 2 days will create 1 project :)
+
+## Project Demos
+
+### Project MyLocation
+
+![](MyLocation.gif)
+
+### Project ImageCropper
+
+![](ImageCopper.gif)
