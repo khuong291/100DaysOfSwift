@@ -17,26 +17,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Image Cropper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neS-Rm-F81">
-                                <rect key="frame" x="91" y="28" width="193" height="44"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Cropper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neS-Rm-F81">
+                                <rect key="frame" x="99" y="28" width="178" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nV0-3E-8Y3">
-                                <rect key="frame" x="27" y="134" width="320" height="320"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nV0-3E-8Y3">
+                                <rect key="frame" x="27" y="174" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="2PI-Xd-lbw"/>
+                                    <constraint firstAttribute="height" constant="320" id="sQQ-ap-exb"/>
+                                </constraints>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hwy-ta-2Zz">
-                                <rect key="frame" x="90" y="561" width="195" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hwy-ta-2Zz">
+                                <rect key="frame" x="101" y="547" width="173" height="44"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <state key="normal" title="Crop And Save">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="cropAndSaveButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oXK-tQ-wYb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="Hwy-ta-2Zz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Osh-IU-ymO"/>
+                            <constraint firstItem="neS-Rm-F81" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Sq8-u5-GDp"/>
+                            <constraint firstItem="nV0-3E-8Y3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ws5-63-r7Z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Hwy-ta-2Zz" secondAttribute="bottom" constant="76" id="fsB-Gy-UyG"/>
+                            <constraint firstItem="nV0-3E-8Y3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jxm-N2-5N2"/>
+                            <constraint firstItem="neS-Rm-F81" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ldv-j1-Mdb"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="scrollView" destination="nV0-3E-8Y3" id="ddF-t3-Xxw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
