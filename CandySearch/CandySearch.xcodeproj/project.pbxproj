@@ -11,6 +11,9 @@
 		99E162061CA2FD6400AE0D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E162041CA2FD6400AE0D15 /* Main.storyboard */; };
 		99E162081CA2FD6400AE0D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E162071CA2FD6400AE0D15 /* Assets.xcassets */; };
 		99E1620B1CA2FD6400AE0D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E162091CA2FD6400AE0D15 /* LaunchScreen.storyboard */; };
+		99E162131CA3027800AE0D15 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E162121CA3027800AE0D15 /* MasterViewController.swift */; };
+		99E162151CA302BC00AE0D15 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E162141CA302BC00AE0D15 /* DetailViewController.swift */; };
+		99E162171CA3032800AE0D15 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E162161CA3032800AE0D15 /* Candy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		99E162071CA2FD6400AE0D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99E1620A1CA2FD6400AE0D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99E1620C1CA2FD6400AE0D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E162121CA3027800AE0D15 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		99E162141CA302BC00AE0D15 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		99E162161CA3032800AE0D15 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				99E162071CA2FD6400AE0D15 /* Assets.xcassets */,
 				99E162091CA2FD6400AE0D15 /* LaunchScreen.storyboard */,
 				99E1620C1CA2FD6400AE0D15 /* Info.plist */,
+				99E162121CA3027800AE0D15 /* MasterViewController.swift */,
+				99E162141CA302BC00AE0D15 /* DetailViewController.swift */,
+				99E162161CA3032800AE0D15 /* Candy.swift */,
 			);
 			path = CandySearch;
 			sourceTree = "<group>";
@@ -132,6 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E162151CA302BC00AE0D15 /* DetailViewController.swift in Sources */,
+				99E162171CA3032800AE0D15 /* Candy.swift in Sources */,
+				99E162131CA3027800AE0D15 /* MasterViewController.swift in Sources */,
 				99E162011CA2FD6400AE0D15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
