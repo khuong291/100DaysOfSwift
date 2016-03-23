@@ -100,8 +100,8 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Detail" id="bkx-fN-Cas"/>
                     <connections>
-                        <outlet property="candyImageView" destination="uni-aA-XE1" id="JWA-Zc-w66"/>
-                        <outlet property="detailDescriptionLabel" destination="9hW-sq-4gy" id="X5H-NW-vG6"/>
+                        <outlet property="candyImageView" destination="uni-aA-XE1" id="yEp-Wq-Ujv"/>
+                        <outlet property="detailDescriptionLabel" destination="9hW-sq-4gy" id="fSN-FI-AY0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBv-tm-qwa" sceneMemberID="firstResponder"/>
@@ -141,6 +141,9 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="7BN-P0-frh" kind="show" identifier="showDetail" id="Ay9-sk-7TK"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
@@ -171,4 +174,7 @@
     <resources>
         <image name="Inline-Logo" width="300" height="100"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ay9-sk-7TK"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -18,6 +18,18 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        candies = [
+            Candy(category:"Chocolate", name:"Chocolate Bar"),
+            Candy(category:"Chocolate", name:"Chocolate Chip"),
+            Candy(category:"Chocolate", name:"Dark Chocolate"),
+            Candy(category:"Hard", name:"Lollipop"),
+            Candy(category:"Hard", name:"Candy Cane"),
+            Candy(category:"Hard", name:"Jaw Breaker"),
+            Candy(category:"Other", name:"Caramel"),
+            Candy(category:"Other", name:"Sour Chew"),
+            Candy(category:"Other", name:"Gummi Bear")
+        ]
+
         if let splitViewController = splitViewController {
             let controllers = splitViewController.viewControllers
             detailViewController = (controllers[controllers.count - 1] as! UINavigationController).topViewController as? DetailViewController
