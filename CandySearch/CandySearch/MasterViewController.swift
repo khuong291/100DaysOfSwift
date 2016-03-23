@@ -13,6 +13,9 @@ class MasterViewController: UITableViewController {
     // MARK: - Properties
     var detailViewController: DetailViewController? = nil
     var candies = [Candy]()
+    var filteredCandies = [Candy]()
+
+    let searchController = UISearchController(searchResultsController: nil)
 
     // MARK: - View Setup
     override func viewDidLoad() {
@@ -29,6 +32,11 @@ class MasterViewController: UITableViewController {
             Candy(category:"Other", name:"Sour Chew"),
             Candy(category:"Other", name:"Gummi Bear")
         ]
+
+        searchController.searchResultsUpdater = self
+        searchController.dimsBackgroundDuringPresentation = false
+        definesPresentationContext = true
+        tableView.tableHeaderView = searchController.searchBar
 
         if let splitViewController = splitViewController {
             let controllers = splitViewController.viewControllers
@@ -75,6 +83,22 @@ class MasterViewController: UITableViewController {
             }
         }
     }
+
+    // MARK: - Search
+
+    func filterContentForSearchText(searchText: String, scope: String = "All") {
+        filteredCandies = candies.filter { candy in
+            return candy.name.lowercaseString.containsString(searchText.lowercaseString)
+        }
+
+        tableView.reloadData()
+    }
     
+}
+
+extension MasterViewController: UISearchResultsUpdating {
+    func updateSearchResultsForSearchController(searchController: UISearchController) {
+        filterContentForSearchText(searchController.searchBar.text!)
+    }
 }
 
