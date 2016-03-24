@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     }
 
     func buttonAction(button: UIButton) {
+
+        button.alpha = 0.0
+
         let myFirstLabel = UILabel()
         myFirstLabel.text = "Hello"
         myFirstLabel.font = UIFont.systemFontOfSize(36)
@@ -47,7 +50,18 @@ class ViewController: UIViewController {
             mySecondLabel.center = CGPoint(x: 200, y: 90 + 200)
             mySecondLabel.alpha = 1
             }) {(_) -> Void in
-                button.alpha = 0.0
+
+                myFirstLabel.alpha = 0.0
+
+                let animation = CATransition()
+                animation.duration = 1.0
+                animation.type = kCATransitionFade
+                animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+                mySecondLabel.layer.addAnimation(animation, forKey: "changeTextTransition")
+                mySecondLabel.text = "Welcome to my project"
+                mySecondLabel.font = UIFont.boldSystemFontOfSize(30)
+                mySecondLabel.center = CGPoint(x: 150, y: 90 + 200)
+                mySecondLabel.sizeToFit()
         }
     }
 
