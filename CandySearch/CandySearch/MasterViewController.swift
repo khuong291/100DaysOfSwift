@@ -59,15 +59,23 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if searchController.active && searchController.searchBar.text != "" {
+            return filteredCandies.count
+        }
         return candies.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
 
-        let candy = candies[indexPath.row]
-        cell.textLabel!.text = candy.name
-        cell.detailTextLabel!.text = candy.category
+        let candy: Candy
+        if searchController.active && searchController.searchBar.text != "" {
+            candy = filteredCandies[indexPath.row]
+        } else {
+            candy = candies[indexPath.row]
+        }
+        cell.textLabel?.text = candy.name
+        cell.detailTextLabel?.text = candy.category
         return cell
     }
 
