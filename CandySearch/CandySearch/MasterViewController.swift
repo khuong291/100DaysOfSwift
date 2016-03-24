@@ -21,6 +21,9 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        searchController.searchBar.scopeButtonTitles = ["All", "Chocolate", "Hard", "Other"]
+        searchController.searchBar.delegate = self
+
         candies = [
             Candy(category:"Chocolate", name:"Chocolate Bar"),
             Candy(category:"Chocolate", name:"Chocolate Chip"),
@@ -83,7 +86,12 @@ class MasterViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let candy = candies[indexPath.row]
+                let candy: Candy
+                if searchController.active && searchController.searchBar.text != "" {
+                    candy = filteredCandies[indexPath.row]
+                } else {
+                    candy = candies[indexPath.row]
+                }
                 let controller = (segue.destinationViewController as! UINavigationController).topViewController as! DetailViewController
                 controller.detailCandy = candy
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem()
@@ -96,7 +104,8 @@ class MasterViewController: UITableViewController {
 
     func filterContentForSearchText(searchText: String, scope: String = "All") {
         filteredCandies = candies.filter { candy in
-            return candy.name.lowercaseString.containsString(searchText.lowercaseString)
+            let categoryMatch = (scope == "All") || (candy.category == scope)
+            return categoryMatch && candy.name.lowercaseString.containsString(searchText.lowercaseString)
         }
 
         tableView.reloadData()
@@ -106,7 +115,15 @@ class MasterViewController: UITableViewController {
 
 extension MasterViewController: UISearchResultsUpdating {
     func updateSearchResultsForSearchController(searchController: UISearchController) {
-        filterContentForSearchText(searchController.searchBar.text!)
+        let searchBar = searchController.searchBar
+        let scope = searchBar.scopeButtonTitles![searchBar.selectedScopeButtonIndex]
+        filterContentForSearchText(searchController.searchBar.text!, scope: scope)
+    }
+}
+
+extension MasterViewController: UISearchBarDelegate {
+    func searchBar(searchBar: UISearchBar, selectedScopeButtonIndexDidChange selectedScope: Int) {
+        filterContentForSearchText(searchBar.text!, scope: searchBar.scopeButtonTitles![selectedScope])
     }
 }
 
