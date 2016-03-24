@@ -13,3 +13,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 ### Project ImageCropper
 
 ![](ImageCropper.gif)
+
+### Project CandySearch
+
+![](CandySearch.gif)
