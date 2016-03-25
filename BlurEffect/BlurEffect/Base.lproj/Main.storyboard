@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlurEffect" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,59 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troll" translatesAutoresizingMaskIntoConstraints="NO" id="BaD-Qf-7sQ">
+                                <rect key="frame" x="136" y="147" width="328" height="305"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="328" id="Fpp-4h-WqC"/>
+                                    <constraint firstAttribute="height" constant="305" id="UKg-hp-OPc"/>
+                                </constraints>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vGa-iN-auP">
+                                <rect key="frame" x="136" y="515" width="328" height="29"/>
+                                <segments>
+                                    <segment title="Dark"/>
+                                    <segment title="Extra Light"/>
+                                    <segment title="Light"/>
+                                    <segment title="Original"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Lel-z3-g5I"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BaD-Qf-7sQ" secondAttribute="trailing" id="2DT-n4-8Xf"/>
+                            <constraint firstItem="BaD-Qf-7sQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3Bu-tS-HLI"/>
+                            <constraint firstItem="BaD-Qf-7sQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3o2-uR-Xsx"/>
+                            <constraint firstItem="BaD-Qf-7sQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Al2-4d-QBA"/>
+                            <constraint firstItem="vGa-iN-auP" firstAttribute="trailing" secondItem="BaD-Qf-7sQ" secondAttribute="trailing" id="VrL-MY-wvR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BaD-Qf-7sQ" secondAttribute="bottom" id="aBF-wc-9fb"/>
+                            <constraint firstItem="BaD-Qf-7sQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dgB-Ms-lOr"/>
+                            <constraint firstItem="vGa-iN-auP" firstAttribute="top" secondItem="BaD-Qf-7sQ" secondAttribute="bottom" constant="63" id="raJ-fO-dlZ"/>
+                            <constraint firstItem="vGa-iN-auP" firstAttribute="leading" secondItem="BaD-Qf-7sQ" secondAttribute="leading" id="vKd-x5-8AS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2DT-n4-8Xf"/>
+                                <exclude reference="Al2-4d-QBA"/>
+                                <exclude reference="dgB-Ms-lOr"/>
+                                <exclude reference="aBF-wc-9fb"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="BaD-Qf-7sQ" id="BhZ-EW-aIU"/>
+                        <outlet property="segmentedControl" destination="vGa-iN-auP" id="K64-Na-uwb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="396" y="303"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="troll" width="261" height="195"/>
+    </resources>
 </document>

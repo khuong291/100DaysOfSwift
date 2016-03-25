@@ -10,16 +10,42 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var segmentedControl: UISegmentedControl!
+
+    var blurEffect = UIBlurEffect()
+    var blurView = UIVisualEffectView()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        segmentedControl.selectedSegmentIndex = 3
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func segmentChanged(segment: UISegmentedControl) {
+
+        if segmentedControl.selectedSegmentIndex == 3 {
+            imageView.subviews.forEach{ $0.removeFromSuperview() }
+        }
+
+        switch segmentedControl.selectedSegmentIndex {
+        case 0:
+            blurEffect = UIBlurEffect(style: .Dark)
+            blurView = UIVisualEffectView(effect: blurEffect)
+            blurView.frame = imageView.bounds
+            imageView.addSubview(blurView)
+        case 1:
+            blurEffect = UIBlurEffect(style: .ExtraLight)
+            blurView = UIVisualEffectView(effect: blurEffect)
+            blurView.frame = imageView.bounds
+            imageView.addSubview(blurView)
+        case 2:
+            blurEffect = UIBlurEffect(style: .Light)
+            blurView = UIVisualEffectView(effect: blurEffect)
+            blurView.frame = imageView.bounds
+            imageView.addSubview(blurView)
+        default: break
+        }
+
     }
-
-
 }
 
