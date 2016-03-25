@@ -23,10 +23,6 @@ class ViewController: UIViewController {
 
     @IBAction func segmentChanged(segment: UISegmentedControl) {
 
-        if segmentedControl.selectedSegmentIndex == 3 {
-            imageView.subviews.forEach{ $0.removeFromSuperview() }
-        }
-
         switch segmentedControl.selectedSegmentIndex {
         case 0:
             blurEffect = UIBlurEffect(style: .Dark)
@@ -43,6 +39,7 @@ class ViewController: UIViewController {
             blurView = UIVisualEffectView(effect: blurEffect)
             blurView.frame = imageView.bounds
             imageView.addSubview(blurView)
+        case 3: imageView.subviews.forEach{ $0.removeFromSuperview() }
         default: break
         }
 
