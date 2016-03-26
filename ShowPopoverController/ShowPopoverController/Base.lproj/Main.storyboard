@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ixe-pO-NMg">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
@@ -16,29 +16,69 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0s-q8-2Iv">
-                                <rect key="frame" x="193" y="20" width="214" height="51"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="aVk-px-OlO"/>
-                                    <constraint firstAttribute="width" constant="214" id="gSS-cv-0qw"/>
-                                </constraints>
-                                <state key="normal" title="Show PopoverViewController"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QU3-6m-fnm"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mtR-Si-wGW">
+                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="2QE-ly-VTB">
+                            <connections>
+                                <action selector="barButtonTapped:" destination="BYZ-38-t0r" id="CO5-TZ-fWb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="303"/>
+        </scene>
+        <!--Pop View Controller-->
+        <scene sceneID="mKX-gC-5mF">
+            <objects>
+                <viewController storyboardIdentifier="PopViewController" id="qqN-J5-1IA" customClass="PopViewController" customModule="ShowPopoverController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mhe-Z5-Qdb"/>
+                        <viewControllerLayoutGuide type="bottom" id="b9D-9h-4ef"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u5v-H3-HVO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="troll2" translatesAutoresizingMaskIntoConstraints="NO" id="afs-Pc-f9S">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="C0s-q8-2Iv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="OMs-pZ-p3D"/>
-                            <constraint firstItem="C0s-q8-2Iv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeU-J8-wGh"/>
+                            <constraint firstItem="afs-Pc-f9S" firstAttribute="leading" secondItem="u5v-H3-HVO" secondAttribute="leading" id="ZdO-Or-yP9"/>
+                            <constraint firstItem="b9D-9h-4ef" firstAttribute="top" secondItem="afs-Pc-f9S" secondAttribute="bottom" id="aib-Kr-Rmq"/>
+                            <constraint firstItem="afs-Pc-f9S" firstAttribute="top" secondItem="Mhe-Z5-Qdb" secondAttribute="bottom" id="fT5-ol-hc1"/>
+                            <constraint firstAttribute="trailing" secondItem="afs-Pc-f9S" secondAttribute="trailing" id="ukB-wn-sZK"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RoR-yH-Bnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124" y="968"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="krL-sm-UGL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ixe-pO-NMg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vX6-hO-RZr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wHI-hs-3wD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gaa-Al-EQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="266" y="303"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="troll2" width="252" height="200"/>
+    </resources>
 </document>
