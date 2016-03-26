@@ -12,6 +12,8 @@
 		992C9F521CA65457001AF8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992C9F501CA65457001AF8E2 /* Main.storyboard */; };
 		992C9F541CA65457001AF8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992C9F531CA65457001AF8E2 /* Assets.xcassets */; };
 		992C9F571CA65457001AF8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992C9F551CA65457001AF8E2 /* LaunchScreen.storyboard */; };
+		992C9F5F1CA654B8001AF8E2 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 992C9F5E1CA654B8001AF8E2 /* MyCustomView.xib */; };
+		992C9F611CA654E3001AF8E2 /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992C9F601CA654E3001AF8E2 /* MyCustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		992C9F531CA65457001AF8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		992C9F561CA65457001AF8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		992C9F581CA65457001AF8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992C9F5E1CA654B8001AF8E2 /* MyCustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
+		992C9F601CA654E3001AF8E2 /* MyCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				992C9F531CA65457001AF8E2 /* Assets.xcassets */,
 				992C9F551CA65457001AF8E2 /* LaunchScreen.storyboard */,
 				992C9F581CA65457001AF8E2 /* Info.plist */,
+				992C9F5E1CA654B8001AF8E2 /* MyCustomView.xib */,
+				992C9F601CA654E3001AF8E2 /* MyCustomView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992C9F571CA65457001AF8E2 /* LaunchScreen.storyboard in Resources */,
+				992C9F5F1CA654B8001AF8E2 /* MyCustomView.xib in Resources */,
 				992C9F541CA65457001AF8E2 /* Assets.xcassets in Resources */,
 				992C9F521CA65457001AF8E2 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992C9F4F1CA65457001AF8E2 /* ViewController.swift in Sources */,
+				992C9F611CA654E3001AF8E2 /* MyCustomView.swift in Sources */,
 				992C9F4D1CA65457001AF8E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

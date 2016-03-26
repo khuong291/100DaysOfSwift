@@ -1,25 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CustomView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MUM-iS-kgF">
+                                <rect key="frame" x="0.0" y="224" width="180" height="219"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lXN-2c-cHy" customClass="MyCustomView" customModule="CustomView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="189"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5DA-dJ-bQg">
+                                        <rect key="frame" x="0.0" y="189" width="180" height="30"/>
+                                        <state key="normal" title="Messi"/>
+                                        <connections>
+                                            <action selector="messiButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Dm-Z8-Qj8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ryc-hL-fgv">
+                                <rect key="frame" x="195" y="224" width="180" height="219"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="djM-9E-LCa" customClass="MyCustomView" customModule="CustomView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="189"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giJ-N5-tzQ">
+                                        <rect key="frame" x="0.0" y="189" width="180" height="30"/>
+                                        <state key="normal" title="Ronaldo"/>
+                                        <connections>
+                                            <action selector="ronaldoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hxs-3x-Ct2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ryc-hL-fgv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6EB-JC-ffS"/>
+                            <constraint firstAttribute="trailing" secondItem="ryc-hL-fgv" secondAttribute="trailing" id="ao2-G2-gID"/>
+                            <constraint firstItem="MUM-iS-kgF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bYc-ZU-LYK"/>
+                            <constraint firstItem="MUM-iS-kgF" firstAttribute="bottom" secondItem="ryc-hL-fgv" secondAttribute="bottom" id="bgM-4L-kas"/>
+                            <constraint firstItem="ryc-hL-fgv" firstAttribute="top" secondItem="MUM-iS-kgF" secondAttribute="top" id="bhD-xS-56J"/>
+                            <constraint firstItem="ryc-hL-fgv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="195" id="c5A-bz-5YX"/>
+                            <constraint firstItem="MUM-iS-kgF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="204" id="kNg-cE-but"/>
+                            <constraint firstItem="ryc-hL-fgv" firstAttribute="leading" secondItem="MUM-iS-kgF" secondAttribute="trailing" constant="15" id="kzx-qH-KN8"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="messiView" destination="lXN-2c-cHy" id="CVD-Jx-XNI"/>
+                        <outlet property="ronaldoView" destination="djM-9E-LCa" id="XsG-u5-emn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="395.5" y="303.5"/>
         </scene>
     </scenes>
 </document>

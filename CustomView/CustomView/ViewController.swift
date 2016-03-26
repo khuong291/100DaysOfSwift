@@ -10,9 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var messiView: MyCustomView!
+    @IBOutlet var ronaldoView: MyCustomView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
+    @IBAction func messiButtonTapped(sender: AnyObject) {
+        messiView.image = UIImage(named: "messi")
+        messiView.nameLabel.text = "Lionel Messi"
+    }
+
+    @IBAction func ronaldoButtonTapped(sender: AnyObject) {
+        ronaldoView.image = UIImage(named: "ronaldo")
+        ronaldoView.nameLabel.text = "Cristiano Ronaldo"
+    }
 }
 
