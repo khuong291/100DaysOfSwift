@@ -16,7 +16,12 @@ struct numbers {
 
 var list = [numbers]()
 
-for index in 0..<100 {
-    let randomNumber = Int(arc4random_uniform(UInt32(100)))
+for index in 0..<5 {
+    let randomNumber = Int(arc4random_uniform(UInt32(10)))
     list.append(numbers(name: randomNumber.description, number: randomNumber))
 }
+
+var filteredList = list.filter( { $0.number < 5 } )
+print(filteredList)
+var sortedList = filteredList.sort( {$0.number < $1.number} )
+print(sortedList)
