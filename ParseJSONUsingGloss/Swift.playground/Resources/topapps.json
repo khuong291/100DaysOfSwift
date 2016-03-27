@@ -1,0 +1,2069 @@
+{
+    "feed": {
+        "author": {
+            "name": {
+                "label": "iTunes Store"
+            },
+            "uri": {
+                "label": "http://www.apple.com/itunes/"
+            }
+        },
+        "entry": [
+            {
+                "im:name": {
+                    "label": "Game of War - Fire Age"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple3/v4/4d/91/9f/4d919f6a-d0b2-1680-ae72-e483ef2bec43/mzl.kktkfiqb.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple3/v4/4d/91/9f/4d919f6a-d0b2-1680-ae72-e483ef2bec43/mzl.kktkfiqb.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple3/v4/4d/91/9f/4d919f6a-d0b2-1680-ae72-e483ef2bec43/mzl.kktkfiqb.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Join the ULTIMATE battle for domination of the Kingdom in Game of War – Fire Age! PLAY FOR FREE in the most addicting, interactive Action Strategy MMO GAME!\n\nFeatures:\n  - Play & chat with millions of Online Players from around the world in 32 different languages – all in real-time.\n  - Be part of a Global Alliance where you can make friends, co-op with Alliance members & become the all-powerful King!\n  - Train vast armies to lead into action packed battles & watch the fighting in real-time on the stunning World Map.\n  - Attack & conquer the Wonder to become the King! Use your power to give special Titles to your Friends & Enemies in the Kingdom! \n  - Talk & strategize with your Alliance & friends in Chat – Alliance Chat, 1-on-1 Chat, or Chat with the Entire World.\n  - Team up & join Forces with friends or smack-talk & burn your enemies!\n  - Forge diplomatic alliances to Conquer enemies & become the most POWERFUL Alliance in the Kingdom! \n  - Build & Customize your Empire - Upgrade buildings, walls & weapons to strengthen your Empire.\n  - Train,  level-up and deck out your Hero – Craft legendary weapons and embed them with powerful Gems to rise above the competition!\n\n“I found Game of War – Fire Age more engaging than its closest analogue, Clash of Clans” - NY Times review\n\n5/5 “I love strategic RPG games like this. I first started off with Clash Of Clans and wondered if there was anything as similar to this and found Game Of War. It's easy to get started with and addictive.”\n\n5/5 “This is the best MMO and game ever. I have played other MMO games but this is the best one yet! You can battle other players and collect resources and build really cool buildings. If I had to rate this game it would be 10 stars. But, there is no 10 star rating.”\n\n5/5 “Best real-time Strategy game I have ever played!”\n\n5/5 “If you like games like Boom Beach or Clash of Clans I think you'll like this one!”"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Machine Zone Inc."
+                },
+                "title": {
+                    "label": "Game of War - Fire Age - Machine Zone, Inc"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/game-of-war-fire-age/id667728512?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/game-of-war-fire-age/id667728512?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "667728512",
+                        "im:bundleId": "com.machinezone.ody0"
+                    }
+                },
+                "im:artist": {
+                    "label": "Machine Zone, Inc",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/machine-zone-inc/id299968102?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2013-07-25T00:00:00-07:00",
+                    "attributes": {
+                        "label": "July 25, 2013"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Clash of Clans"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple69/v4/c3/2f/62/c32f6214-62b9-0c60-76fa-75418daa5bd6/mzl.aslhyaca.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple69/v4/c3/2f/62/c32f6214-62b9-0c60-76fa-75418daa5bd6/mzl.aslhyaca.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple69/v4/c3/2f/62/c32f6214-62b9-0c60-76fa-75418daa5bd6/mzl.aslhyaca.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "From rage-­filled Barbarians with glorious mustaches to pyromaniac wizards, raise your own army and lead your clan to victory! Build your village to fend off raiders, battle against millions of players worldwide, and forge a powerful clan with others to destroy enemy clans.\n \nPLEASE NOTE!  Clash of Clans is free to download and play, however, some game items can also be purchased for real money. If you don't want to use this feature, please disable in-app purchases in your device's settings.  Also, under our Terms of Service and Privacy Policy, you must be at least 13 years of age to play or download Clash of Clans. \n\nA network connection is also required.\n\nFEATURES\n●\tBuild your village into an unbeatable fortress \n●\tRaise your own army of Barbarians, Archers, Hog Riders, Wizards, Dragons and other mighty fighters\n●\tBattle with players worldwide and take their Trophies\n●\tJoin together with other players to form the ultimate Clan\n●\tFight against rival Clans in epic Clan Wars \n●\tBuild 18 unique units with multiple levels of upgrades\n●\tDiscover your favorite attacking army from countless combinations of troops, spells, Heroes and Clan reinforcements \n●\tDefend your village with a multitude of Cannons, Towers, Mortars, Bombs, Traps  and Walls\n●\tFight against the Goblin King in a campaign through the realm\n\nPLAYER REVIEWS \nClash of Clans proudly announces over one million five star reviews on the App Store.\n\nSUPPORT\nChief, are you having problems?  Visit http://supercell.helpshift.com/a/clash-of-clans/ or http://supr.cl/ClashForum or contact us in game by going to Settings > Help and Support.\n\nPrivacy Policy:\nhttp://www.supercell.net/privacy-policy/\n\nTerms of Service:\nhttp://www.supercell.net/terms-of-service/\n\nParent’s Guide:\nhttp://www.supercell.net/parents"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2012 Supercell"
+                },
+                "title": {
+                    "label": "Clash of Clans - Supercell"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/clash-of-clans/id529479190?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/clash-of-clans/id529479190?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "529479190",
+                        "im:bundleId": "com.supercell.magic"
+                    }
+                },
+                "im:artist": {
+                    "label": "Supercell",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/supercell/id488106216?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2012-08-02T01:24:58-07:00",
+                    "attributes": {
+                        "label": "August 2, 2012"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Candy Crush Saga"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple6/v4/d3/1b/90/d31b9065-106a-6d90-36f0-7a6ff64e2dc6/mzl.gdtnxsfn.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple6/v4/d3/1b/90/d31b9065-106a-6d90-36f0-7a6ff64e2dc6/mzl.gdtnxsfn.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple6/v4/d3/1b/90/d31b9065-106a-6d90-36f0-7a6ff64e2dc6/mzl.gdtnxsfn.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Candy Crush Saga, from the makers of Candy Crush Soda Saga & Farm Heroes Saga!\n\nThe sweetest game around!\n\nJoin Tiffi and Mr. Toffee on their sweet adventure through the Candy Kingdom. Travel through magical lands, visiting wondrous places and meeting deliciously kookie characters! Switch and match your way through hundreds of levels in this delicious puzzle adventure.  The sweetest game just keeps getting sweeter!\n\nTake on this deliciously sweet Saga alone or play with friends to see who can get the highest score! \n\nCandy Crush Saga is completely free to play but some in-game items such as extra moves or lives will require payment.\n\nYou can turn off the payment feature by disabling in-app purchases in your device’s settings.\n\nCandy Crush Saga features:\n\n● Collect sugar drops to advance along the sugar track for special suprises!\n\n● Tasty candy graphics that will leave you hungry for more\n\n● Unwrap delicious environments and meet the sweetest characters\n\n● Helpful magical boosters to help with challenging levels \n\n● Complete adventurous levels and unlock treats\n\n● Easy and fun to play, challenging to master \n\n● Hundreds of sweet levels in the Candy Kingdom - more added every 2 weeks!\n\n● Leaderboards to watch your friends and competitors!\n\n● Easily sync the game between devices and unlock full game features when connected to the Internet\n\nAlready a fan of Candy Crush Saga? Like us on Facebook or follow us on Twitter for the latest news:\n\nfacebook.com/CandyCrushSaga\n\ntwitter.com/CandyCrushSaga\n\nLast but not least, a big THANK YOU goes out to everyone who has played Candy Crush Saga! \u2028\u2028\n\nMinimum iOS version recommended: 5.1.1"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© King.com Limited 2011-13. All rights reserved."
+                },
+                "title": {
+                    "label": "Candy Crush Saga - King.com Limited"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/candy-crush-saga/id553834731?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/candy-crush-saga/id553834731?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "553834731",
+                        "im:bundleId": "com.midasplayer.apps.candycrushsaga"
+                    }
+                },
+                "im:artist": {
+                    "label": "King.com Limited",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/king.com-limited/id526656015?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2012-11-14T06:41:32-07:00",
+                    "attributes": {
+                        "label": "November 14, 2012"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "HBO NOW"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple3/v4/2b/21/65/2b21656b-6a5d-5107-e695-cf50eba7c7e7/mzl.uhnqigeq.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple3/v4/2b/21/65/2b21656b-6a5d-5107-e695-cf50eba7c7e7/mzl.uhnqigeq.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple3/v4/2b/21/65/2b21656b-6a5d-5107-e695-cf50eba7c7e7/mzl.uhnqigeq.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "HBO NOW is the new standalone streaming service from HBO, currently available for a limited-time, introductory free trial. Now all you need is the internet to get instant access to all of HBO, including all the big premieres at the same time they air on TV. Watch every episode of every season of Game of Thrones, True Detective, The Jinx, Girls, The Sopranos, The Wire and so many more series, as well as hundreds of exclusive movies. A subscription (30-day free trial, then $14.99/month) gets you instant access to the best of HBO: the original series, movies, comedy specials, documentaries, special events and smart talk shows.\n \nHow do I watch?\n1. Download the HBO NOW app.\n2. Subscribe via an in-app purchase using your Apple ID, or log in with credentials provided when subscribing through a participating broadband provider.\n3. Create your HBO NOW profile and stream on iOS devices—iPad, iPhone, iPod Touch and Apple TV—or on the web at HBONOW.com.\n \nWhat programming is included?\n\n• More than 2,000 titles, including all seasons of critically acclaimed current series: Game of Thrones, True Detective, Silicon Valley, Girls, Veep and The Leftovers\n\n• Highly-anticipated new, upcoming original programs: HBO Films’ Bessie, starring Queen Latifah, and Nightingale, starring David Oyelowo; Ballers, the comedy starring Dwayne Johnson; The Brink, the comedy starring Jack Black and Tim Robbins; and Westworld, the drama starring Anthony Hopkins and Ed Harris\n\n• The latest hit movies, including: Dawn of the Planet of the Apes and This is Where I Leave You in May; Gone Girl and The Judge in June; and Horrible Bosses 2 and The Maze Runner in July\n\n• Weekly installments of Last Week Tonight with John Oliver, Real Time with Bill Maher and VICE\n\n• HBO Sports documentaries, series and World Championship Boxing events\n\n• Groundbreaking documentary programming such as Kurt Cobain: Montage of Heck, Going Clear: Scientology and the Prison of Belief, The Jinx: The Life and Deaths of Robert Durst and Oscar-winner Citizenfour\n\n• The best original series and miniseries from yesterday: The Sopranos, Sex and the City, The Wire, Entourage, Band of Brothers, True Blood, The Pacific, Deadwood and more\n \nWhat’s the difference between HBO GO and HBO NOW?\nHBO GO is HBO’s authenticated online streaming service, available at no additional cost to HBO subscribers through their participating television provider. HBO NOW is a new, standalone online streaming service that is available to all customers with a high-speed internet connection.\n \nHBO NOW℠ is only accessible in the U.S. and certain U.S. territories where a high-speed broadband connection is available. Minimum 3G connection is required for viewing on mobile devices. ©2015 Home Box Office, Inc. All rights reserved. HBO®, HBO NOWSM and related channels and service marks are the property of Home Box Office, Inc. All devices, titles and related trademarks are property of their respective owners. For assistance, please visithelp.hbonow.com."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2015 Home Box Office, Inc. All Rights Reserved."
+                },
+                "title": {
+                    "label": "HBO NOW - HBO"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/hbo-now/id971265422?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/hbo-now/id971265422?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "971265422",
+                        "im:bundleId": "com.hbo.hbonow"
+                    }
+                },
+                "im:artist": {
+                    "label": "HBO",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/hbo/id300988148?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6016",
+                        "term": "Entertainment",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-entertainment/id6016?mt=8&uo=2",
+                        "label": "Entertainment"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2015-04-07T08:07:43-07:00",
+                    "attributes": {
+                        "label": "April 7, 2015"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Big Fish Casino – Free Slots, Vegas Slots & Slot Tournaments! Plus Poker, Cards, 21 and more!"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple6/v4/5e/c6/77/5ec677af-1738-782c-4c42-7d8d1a3fac86/pr_source.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/5e/c6/77/5ec677af-1738-782c-4c42-7d8d1a3fac86/pr_source.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple6/v4/5e/c6/77/5ec677af-1738-782c-4c42-7d8d1a3fac86/pr_source.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Download now! New players get 100,000 FREE BONUS CHIPS in the #1 FREE to play Casino app in the world! Over 65,000 5-star reviews!\n\nBig Fish Casino gives you the chance to WIN BIG in Slots, Blackjack, Texas Hold'em Poker, Roulette, and more! Play live with your friends, with all the thrill of Las Vegas! Sit down, relax, have a drink & some chips – on us. We've got gorgeous games and millions of friendly people to play with for FREE!\n\nMake a fortune with HUGE Jackpots, Free Daily Games, Slots Bonus Games, and more! Will you play it safe and hold your cards, or double down and get a lucky ace? Over 16 BILLION chips in Jackpots given out each day!\n\nHave an adventure like no other in our original Slot Machines! Hit Flaming 7's for multiple jackpot levels in Jackpot City! Hunt for clues to uncover a huge win in Sherlock Mysteries! Fortune awaits those brave enough to enter the Enchanted Cavern…\n\nTOP FEATURES: \n• Exciting slot machines with FREE SPINS and Bonus Games you won't find anywhere else!\n• Everybody wins together in our unique Social Scatter™ Slots Games!\n• Win up to 1 MILLION chips in our Reward Center games!\n• Daily FREE game and bonuses could win you up to 65k FREE Chips just for logging in!\n• Play LIVE with your friends! Beat the house in Blackjack or test your skills in Poker! \n• Customize and strut your stuff with free pets, gifts, and power ups! \n\n--------------------- \n\nQuestions? Suggestions? Contact us at www.bigfishcasinosupport.com!\n\n--------------------- \n\nThis game is intended for an adult audience and does not offer real money gambling or an opportunity to win real money or prizes.  Practice or success at social gaming does not imply future success at real money gambling."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Big Fish Games, Inc."
+                },
+                "title": {
+                    "label": "Big Fish Casino – Free Slots, Vegas Slots & Slot Tournaments! Plus Poker, Cards, 21 and more! - Big Fish Games, Inc"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/big-fish-casino-free-slots/id538212549?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/big-fish-casino-free-slots/id538212549?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "538212549",
+                        "im:bundleId": "com.bigfishgames.bfcasinouniversalfreemium"
+                    }
+                },
+                "im:artist": {
+                    "label": "Big Fish Games, Inc",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/big-fish-games-inc/id292594310?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2012-08-15T18:34:42-07:00",
+                    "attributes": {
+                        "label": "August 15, 2012"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Candy Crush Soda Saga"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/31/13/e7/3113e76c-f1a5-6d9a-6aeb-70e6329c9227/mzl.nndgnyqn.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/31/13/e7/3113e76c-f1a5-6d9a-6aeb-70e6329c9227/mzl.nndgnyqn.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple6/v4/31/13/e7/3113e76c-f1a5-6d9a-6aeb-70e6329c9227/mzl.nndgnyqn.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Download Candy Crush Soda Saga for free now.  It’s Sodalicious!\n\nCandy Crush Soda Saga is a brand new game from the makers of the legendary Candy Crush Saga. New candies, more divine combinations and challenging game modes brimming with purple soda!\n\nCandy Crush Soda Saga is completely free to play, but some in-game items such as extra moves or lives will require payment.\n\nYou can turn off the payment feature by disabling in-app purchases in your device’s settings.\n\nNew Candy Crush Soda Saga features: \n\n* Over 250 Sodalicious levels\n* New Game Modes include:\nSoda – switch bottles and candies to release purple soda and save the Candy Bears\nFrosting – match candies to smash the ice and set the Candy Bears free\nHoney – match candies next to the honey to release the trapped Candy Bears.\n* Scrumptious new candies and sublime new combinations:\nMatch 4 candies in a square to make a Swedish Fish\nMatch 7 candies to create the remarkable Coloring Candy\n* Explore juicy new environments and meet the kookiest characters\n* Mouth-watering new graphics, Candy Crush never looked so tasty\n* Easy and fun to play, yet challenging to fully master\n* For players that Facebook Connect, there are leaderboards for you and your friends to compare your Sodalicious scores\n* Easily sync the game between mobile and tablet devices and unlock the full game features when connected to the internet\n\nThis mouth-watering puzzle adventure will instantly quench your thirst for fun.  Join Kimmy on her juicy journey to find Tiffi, by switching and matching your way through new dimensions of magical gameplay.  Take on this Sodalicious Saga alone or play with friends to see who can get the highest score!\n\nAre you already a fan of the new Candy Crush Soda Saga?  If so then visit our website, like us on Facebook or follow us on Twitter for the latest news:\n\nwww.candycrushsodasaga.com\nfacebook.com/CandyCrushSodaSaga \ntwitter.com/CandyCrushSodaSaga\n\nLast but not least, a big THANK YOU goes out to everyone who has played Candy Crush Soda Saga!"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© King.com Limited 2014. All rights reserved."
+                },
+                "title": {
+                    "label": "Candy Crush Soda Saga - King.com Limited"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/candy-crush-soda-saga/id850417475?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/candy-crush-soda-saga/id850417475?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "850417475",
+                        "im:bundleId": "com.midasplayer.apps.candycrushsodasaga"
+                    }
+                },
+                "im:artist": {
+                    "label": "King.com Limited",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/king.com-limited/id526656015?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-11-11T01:57:44-07:00",
+                    "attributes": {
+                        "label": "November 11, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "DoubleDown Casino - Free Slots, Video Poker, Blackjack, and More"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/e0/f4/d3/e0f4d3ba-73d6-553a-158f-ce702852cfb5/mzl.svdrtury.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple6/v4/e0/f4/d3/e0f4d3ba-73d6-553a-158f-ce702852cfb5/mzl.svdrtury.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple6/v4/e0/f4/d3/e0f4d3ba-73d6-553a-158f-ce702852cfb5/mzl.svdrtury.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Experience the BIG WIN of Las Vegas in the world’s largest FREE to play casino.\n\nGet 1 MILLION free chips to start, plus daily bonuses up to 2 MILLION!\n\nEnjoy the thrill of winning in over 80 authentic slot games including Wheel of Fortune®, Double Diamond™, Golden Goddess™, DaVinci Diamonds™ and MORE!\n\nAll your favorite games directly from the casino floor.\n\nTake DoubleDown’s FULL casino experience everywhere you go by spinning the reels, playing your hand at Game King™ Video Poker, or placing bets at Poker, Player’s Suite™ Blackjack or Roulette.  \n\nDouble down and get lucky today!\n\nProduct Features:\n• The only place to play authentic Vegas games\n• 1 Million FREE Chips, Plus Daily Bonuses Up to 2M\n• Play with friends to get free chip gifts, and earn extra bonuses\n• Login with Facebook, or play as a Guest\n\nContinue the thrill of winning across all your devices! \n\nLike us on Facebook: https://www.facebook.com/doubledowncasino\nNeed help? Visit the DoubleDown Help Center.\n\nInternet connection required to play.\n\nDoubleDown Casino is intended for players 21 yrs+ and does not offer “real money gambling” or an opportunity to win real money or prizes based on the outcome of play.  \n\nPlaying DoubleDown Casino does not imply future success at “real money gambling”."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2015 DoubleDown Interactive B.V."
+                },
+                "title": {
+                    "label": "DoubleDown Casino - Free Slots, Video Poker, Blackjack, and More - DoubleDown Interactive B.V."
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/doubledown-casino-free-slots/id485126024?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/doubledown-casino-free-slots/id485126024?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "485126024",
+                        "im:bundleId": "com.doubledowninteractive.DDCasino"
+                    }
+                },
+                "im:artist": {
+                    "label": "DoubleDown Interactive B.V.",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/doubledown-interactive-b.v./id997491633?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2012-03-01T11:32:50-07:00",
+                    "attributes": {
+                        "label": "March 1, 2012"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "GSN Casino – FREE Slots, Bingo, Video Poker, and Cards!"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/45/c9/b2/45c9b29a-08e6-ede2-fc30-7e8140cddac6/pr_source.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple6/v4/45/c9/b2/45c9b29a-08e6-ede2-fc30-7e8140cddac6/pr_source.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple6/v4/45/c9/b2/45c9b29a-08e6-ede2-fc30-7e8140cddac6/pr_source.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "The world’s BEST casino app – free slots, bingo, poker, and blackjack! \n\nWheel of Fortune Slots®\n- Go for the JACKPOT! It’s a casino twist on America’s #1 game show.\n\nDeal or No Deal Slots\n- Battle the Banker for a Token multiplier! \n\nAmerican Buffalo Slots\n-Discover 1,024 ways to win a Jackpot in American Buffalo Slots -the greatest NEW slots game to hit GSN Casino! \n\nWheel of Fortune Slots®: Vegas Edition \n-Get fired up spinning the reels in the electrifying city of Las Vegas! Step right up to experience the suspense of the fabulous Wheel of Fortune, and win a HUGE Jackpot\n\nWheel of Fortune Slots®: Classic Edition\n-Play America’s #1 game show with a casino twist. Step right up, spin the reels and go for a Jackpot! It’s the casino slots game you know and love.\n\nVideo Bingo\n- Rack up PRIZE BALLS, activate the Rocket boost, and go for Triple Bingo.\n\nOutlaw Video Poker \n- Score up to 250x your bet in this poker favorite!\n\nPLUS:\nUndersea Treasure Slots\nClassic 777 Slots\nDeuces Wild \n\nMillions of players are already winning – get in on the action!\n- Score 12,500 FREE Tokens when you register to play. \n- Pocket a Token Bonus EVERY DAY when you log in to the casino. \n\nLog in with Facebook, GSN.com, or play as a guest. Your device must have an active Internet connection.\n\nPlay even more free casino games at GSN.com  \n\nLike us on Facebook: https://www.facebook.com/GamesbyGSN\n\nFollow us on Google+: https://plus.google.com/104346212084811735671\n\nQuestions? Suggestions? https://gamesbygsn.zendesk.com/hc/en-us/requests/new?ticket_form_id=51794\n\n·The games are intended for a mature audience.\n\n·The games do not offer \"real money gambling\" or\n an opportunity to win real money or prizes.\n\n·Past success at social casino gaming has no relationship to future success at \"real money gambling.”"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2014 GSN  All Rights Reserved."
+                },
+                "title": {
+                    "label": "GSN Casino – FREE Slots, Bingo, Video Poker, and Cards! - Game Show Network"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/gsn-casino-free-slots-bingo/id469231420?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/gsn-casino-free-slots-bingo/id469231420?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "469231420",
+                        "im:bundleId": "com.gsn.gsncasino"
+                    }
+                },
+                "im:artist": {
+                    "label": "Game Show Network",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/game-show-network/id342254535?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2011-12-15T16:37:39-07:00",
+                    "attributes": {
+                        "label": "December 15, 2011"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Heart of Vegas - Play Free Slots Casino!"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple69/v4/a5/59/bb/a559bb7f-0f11-f395-94f3-27a425bdecf3/mzl.zwvsvisq.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple69/v4/a5/59/bb/a559bb7f-0f11-f395-94f3-27a425bdecf3/mzl.zwvsvisq.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple69/v4/a5/59/bb/a559bb7f-0f11-f395-94f3-27a425bdecf3/mzl.zwvsvisq.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "With over 5 million downloads worldwide Heart of Vegas has many of the world's most popular REAL Vegas slots. Start playing today with the biggest welcome bonus -- 2,000,000 FREE coins! \n\nWin HUGE JACKPOTS, enjoy amazing BONUSES and collect thousands of FREE COINS every day!\t\t\n\t\t\nExperience the thrill of Las Vegas no matter where you are! Play your favorite games like 50 LIONS, SUN & MOON and so many more!\t\t\n\t\t\n***Features***\t\t\n\t\t\n•  Your favorite real slots including More Chilli, Miss Kitty, Where's the Gold and Dolphin Treasure!\t\t\n\t\t\n•  New games added all the time!\t\t\n\t\t\n•  Best Jackpots and Biggest Wins!\t\t\n\t\t\n•  Thousands of FREE coins from the Daily Wheel and Hourly Bonuses for the most exciting experience!\t\t\n\t\t\nYou've found the best slots app on mobile, now just install and have some FUN!\t\t\n\t\t\nBecome a fan of Heart of Vegas on Facebook for special rewards and to enjoy everything we have to offer! https://www.facebook.com/HeartofVegas\t\t\n\t\t\nHere at Heart of Vegas, we’d love to hear your feedback. If you have any questions or queries, email us at support_hov@productmadness.com\t\t\n\t\t\nThis game is intended for an adult audience (21+) and does not offer \"real money gambling\" or an opportunity to win real money or prizes. Practice or success at this game does not imply future success at \"real money gambling\"."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Product Madness"
+                },
+                "title": {
+                    "label": "Heart of Vegas - Play Free Slots Casino! - Product Madness"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/heart-vegas-play-free-slots/id785537179?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/heart-vegas-play-free-slots/id785537179?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "785537179",
+                        "im:bundleId": "com.productmadness.hovmobile"
+                    }
+                },
+                "im:artist": {
+                    "label": "Product Madness",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/product-madness/id525894639?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-07-26T13:37:31-07:00",
+                    "attributes": {
+                        "label": "July 26, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Hay Day"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/a2/b1/71/a2b171fb-769d-61a3-fc67-84bf1203fac9/mzl.zgpvyfls.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple69/v4/a2/b1/71/a2b171fb-769d-61a3-fc67-84bf1203fac9/mzl.zgpvyfls.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/a2/b1/71/a2b171fb-769d-61a3-fc67-84bf1203fac9/mzl.zgpvyfls.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Best. Farm. Ever. Welcome to Hay Day, the most popular farming game on mobiles and tablets, number one in 122 countries.\n\nLearn the lay of the land, tend to your crops, and trade goods with neighbors and friends. It’s a real special place where the crops never die even though it never rains. Sharing the farm with our quirky animals only makes things more fun!\n\nPLEASE NOTE! Hay Day is free to download and install. However, some game items can also be purchased for real money. If you don't want to use this feature, please disable in­-app purchases in your device's settings. A network connection is also required.\n\n~~~~~~~~~~\nFEATURES\n~~~~~~~~~~\n* Grow and customize your farm\n* Trade crops and fresh goods with neighbors and friends through your very own roadside shop\n* Fulfill orders with your truck and even by steamboat\n* Repair your dock and cast your lure to fish the waters\n* Build your own town and welcome visitors\n\n~~~~~~~~~~~\nMEDIA MENTIONS\n~~~~~~~~~~~\n\nHay Day‘s presentation is fairly cinematic for a mobile game. It’s eye candy. The controls are also smooth, non intrusive, and use the iPhone’s touch screen well.\n\nhttp://www.gamezebo.com/2012/07/03/hay-day-review/\n\nWatching your crops grow and your twee factories spew out products is a quietly pleasing experience.\n\nhttp://www.pocketgamer.co.uk/r/Multiformat/Hay+Day/review.asp?c=42764\n\n~~~~~~~~~~~\nPLAYER REVIEWS\n~~~~~~~~~~~\n\n5/5 The artwork is phenomenal, clear, missing no details and certainly comical.\n\n5/5 The animals are super cute and nothing ever dies. No pressure if you can’t play for a few days.\n\n5/5 I love this game I play it everyday to build my farm up. I love how it branches out from just a farm to fishing and mining. Overall very fun game :)\n\n5/5 Great game. Love the options!! Got this game for my iPad and it out does any other farm game I have played. Wonderful design and thought process.\n\n5/5 A “happy feel good” game! 6 stars from this girl!\n\n~~~~~~~~~~\nSUPPORT\n~~~~~~~~~~\n\nNeighbor, are you having problems? Visit https://supercell.helpshift.com/a/hay-day/?l=en or contact us in game by going to Settings > Help and Support.\n\nUnder our Terms of Services and Privacy Policy, Hay Day is allowed for download and play only for persons 13 years or over of age without parental consent\n\nPrivacy Policy:\nhttp://www.supercell.net/privacy-policy/\n\nTerms of Service:\nhttp://www.supercell.net/terms-of-service/\n\nParent's Guide:\nhttp://www.supercell.net/parents/"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2012-2015 Supercell"
+                },
+                "title": {
+                    "label": "Hay Day - Supercell"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/hay-day/id506627515?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/hay-day/id506627515?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "506627515",
+                        "im:bundleId": "com.supercell.soil"
+                    }
+                },
+                "im:artist": {
+                    "label": "Supercell",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/supercell/id488106216?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2012-06-21T01:10:22-07:00",
+                    "attributes": {
+                        "label": "June 21, 2012"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Boom Beach"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/77/37/66/77376611-3d46-e71d-d5af-7024635b4ba0/mzl.jmpbvkva.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple69/v4/77/37/66/77376611-3d46-e71d-d5af-7024635b4ba0/mzl.jmpbvkva.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple69/v4/77/37/66/77376611-3d46-e71d-d5af-7024635b4ba0/mzl.jmpbvkva.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Welcome to Boom Beach: come with a plan or leave in defeat!\n\nFight the evil Blackguard with brains and brawn in this epic combat strategy game. Attack enemy bases to free enslaved islanders and unlock the secrets of this tropical paradise. Create a Task Force with players around the world to take on the enemy together. Scout, plan, then BOOM THE BEACH!\n\nPLEASE NOTE! Boom Beach is free to download and play. However, some game items can also be purchased for real money. If you don't want to use this feature, please disable in-app purchases in your device's settings.\n\nFEATURES\n- Play with millions of other players, raid hundreds of enemy bases for loot\n- Battle for control of precious resources to upgrade your base against enemy attacks \n- Explore a huge tropical archipelago and discover the mysterious power of the Life Crystals\n- Face fearsome Blackguard Bosses and uncover their evil plans\n- Join other players to form an unstoppable Task Force to take on co-op missions\n\nUnder our Terms of Services and Privacy Policy, Boom Beach is allowed for download and play only for persons 13 years or over of age without parental consent.\n\nNote: A network connection is required to play.\n\nParent's guide:\nhttp://www.supercell.net/parents\n\nPrivacy Policy:\nhttp://www.supercell.net/privacy-policy/\n\nTerms of Service:\nhttp://www.supercell.net/terms-of-service/"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2013-2015 Supercell"
+                },
+                "title": {
+                    "label": "Boom Beach - Supercell"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/boom-beach/id672150402?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/boom-beach/id672150402?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "672150402",
+                        "im:bundleId": "com.supercell.reef"
+                    }
+                },
+                "im:artist": {
+                    "label": "Supercell",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/supercell/id488106216?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-03-26T11:12:04-07:00",
+                    "attributes": {
+                        "label": "March 26, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Wizard of Oz Free Slots Vegas Casino"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/53/a1/bc/53a1bc4d-5cea-3018-df66-6352802ead30/mzl.pefsrdnk.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/53/a1/bc/53a1bc4d-5cea-3018-df66-6352802ead30/mzl.pefsrdnk.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/53/a1/bc/53a1bc4d-5cea-3018-df66-6352802ead30/mzl.pefsrdnk.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Play Wizard of Oz Slots, the only FREE casino slots game from the Emerald City! Join Dorothy, Scarecrow, Tin Man and the Cowardly Lion as they journey to see the Wizard. Travel the Yellow Brick Road to relive MOVIE experiences and win HUGE PAYOUTS with FREE SPINS and MEGA WILDS in all-new casino slots machines. Collect MILLIONS of FREE CREDITS every day!\n\nRELIVE THE ADVENTURE AND REKINDLE YOUR LOVE FOR THE MOVIE\n-See the story unfold as you unlock new casino slot machines. Each machine is centered around a major chapter from the movie, so the more you unlock, the more of the story you see. THIS IS VEGAS Slots in the Emerald City\n- UNBELIEVABLE Free Spins, JACKPOTS, A HUGE variety of AMAZING casino mini-games, STUNNING Dual Reels, and dozens of BONUSES and ways to WIN BIG absolutely FREE. PLAY YOUR JOURNEY ANYWHERE\n- Play the game Online or Offline and have your adventure sync across all devices with Facebook Connect.\n\nFOLLOW YOUR FRIENDS\n- You have the option to follow your friends on the Yellow Brick Road as you Journey to the Emerald City, unlocking new casino slot machines and sending FREE gifts along the way.\n\nFollow us on Twitter: https://twitter.com/zWizardofOz\nFollow-us on Facebook: https://www.facebook.com/SlotsWizardOfOz\n\nThis game is intended for an adult audience and does not offer real money gambling or an opportunity to win real money or prizes. Practice or success at social gaming does not imply future success at real money gambling. Use of this application is governed by the Zynga Terms of Service. Collection and use of personal data are subject to Zynga’s Privacy Policy. Both policies are available in the Application License Agreement below as well as at www.zynga.com. Social Networking Service terms may also apply. Terms of Service: http://m.zynga.com/legal/terms-of-service"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2015 Zynga Inc"
+                },
+                "title": {
+                    "label": "Wizard of Oz Free Slots Vegas Casino - Zynga Inc."
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/wizard-oz-free-slots-vegas/id916869395?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/wizard-oz-free-slots-vegas/id916869395?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "916869395",
+                        "im:bundleId": "com.zynga.wizardofoz"
+                    }
+                },
+                "im:artist": {
+                    "label": "Zynga Inc.",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/zynga-inc./id295913422?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-11-11T23:55:29-07:00",
+                    "attributes": {
+                        "label": "November 11, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Slots Free Casino House of Fun! Play & Win with the Latest Slots Games Now"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple3/v4/dd/b0/72/ddb072e1-10c0-98dc-98cc-bbb556b137a0/mzl.fsyvljvv.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple3/v4/dd/b0/72/ddb072e1-10c0-98dc-98cc-bbb556b137a0/mzl.fsyvljvv.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple3/v4/dd/b0/72/ddb072e1-10c0-98dc-98cc-bbb556b137a0/mzl.fsyvljvv.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Voted the #1 SLOTS APP by millions of players worldwide, House of Fun is the original home of thrilling casino and video slots. \n\nInstall now for your free slots coins bonus and spin to win on your iPhone or iPad.\n\nHouse of Fun players enjoy:\n\n* Incredible Big Wins, WILDs & Free Spins on the hottest online slots reels\n* One of the largest genuine slot machine selections from Egypt slots and Oz slots to Elvis, Aladdin & the all new Rapid Reels\n* Progressive Jackpots & HUGE BONUS ROUNDS. Enjoy the jackpot party 24/7\n* Collect your slots bonus EVERY 4 HOURS!\n* Spin the Wheel of Fun! This exclusive slots bonus feature is a roulette style wheel that doubles or even triples your slots bonus\n* Weekly Updates – Enjoy new games each and every week!\n*  A massive community of online slots fans. Join now and earn even more slots bonuses with friends\n* The best support team in the social gaming industry \n\nFollow House of Fun on Facebook and Twitter for exclusive offers and bonuses! http://www.facebook.com/houseoffungames | http://twitter.com/houseoffungames\n\nPlaying slots for fun is easy at House of Fun. Here’s how:\n\n1.\tInstall and collect your $1,000 free slots coins bonus and \n2.\tSpin to win at the leading online slot machine casino, House of Fun \n3.\tWIN BIG …It’s that easy! \n\nUnlike traditional gambling in a real casino or playing poker or the lottery, House of Fun is designed for social players who simply want to enjoy playing slots games minus the risk.\n\nThis product is intended for use by those 21 or older for amusement purposes only. Practice or success at social casino gaming does not imply future success at real money gambling."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Pacific Interactive Ltd"
+                },
+                "title": {
+                    "label": "Slots Free Casino House of Fun! Play & Win with the Latest Slots Games Now - Pacific-Interactive ltd"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/slots-free-casino-house-fun!/id586634331?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/slots-free-casino-house-fun!/id586634331?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "586634331",
+                        "im:bundleId": "HoF-Slots"
+                    }
+                },
+                "im:artist": {
+                    "label": "Pacific-Interactive ltd",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/pacific-interactive-ltd/id580824260?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2013-03-14T10:04:15-07:00",
+                    "attributes": {
+                        "label": "March 14, 2013"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Gummy Drop!"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/17/18/16/1718165d-2680-382e-9f8d-c28574190cab/mzl.qlfyrmsg.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/17/18/16/1718165d-2680-382e-9f8d-c28574190cab/mzl.qlfyrmsg.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple6/v4/17/18/16/1718165d-2680-382e-9f8d-c28574190cab/mzl.qlfyrmsg.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Stop crushing & start squishing! Matching gets sticky in this candy world! LET’S GO GUMMY!\n \nTravel a GUMMIFIED world and match your way from Sydney, to Tokyo, San Francisco, New York City, Paris, London, Rome, Berlin, New Orleans, Barcelona, Shanghai, Los Angeles, Seoul, Havana, Rio de Janeiro, St. Petersburg, Mexico City, Cape Town, and more coming soon!\n \nThe world as you know it has been taken over by gummy greatness. Now, it’s up to you to work side by side with gummy architects and put the map back together. Feed your snacking senses and drop those gummies! Tickle your taste buds with a guilt-free sensation.\n \nGummy Drop! features:\n• Hundreds of scrumptious levels with unique boosts and power-ups that can only be found in a gummy world\n \n• Faster-charging lives for speedier game play\n \n• High scores that can always get higher! Each level offers more coins to score and gummy workers to collect. Use coins and workers to build up a tasty world!\n \n• Friendly competition! How good are your friends’ Match 3 skills? Knock them off the leaderboards in each level for bragging rights!\n \n• Check out Daily Events and get a sweet burst of resources and rewards when you sign in with Facebook\n \n• Play in MANY languages! Now supported in English, German, French, Spanish, Italian, Portuguese, Dutch, Korean, Russian & Japanese. \n \n• Visit popular monuments without jumping on a jet plane! See famous monuments with your gummies!\n \nCan’t get enough of Gummy Drop! ? Like us on Facebook for sweet musings, matching tips, gummy stories, and tasty giveaways!\nGummy Drop! Facebook: https://www.facebook.com/pages/Gummy-Drop/785876241470890\n \nStill need a gummy fix? Visit Gummy Drop! Headquarters:\nhttp://www.bigfishgames.com/blog/gummy-drop-help-news-faq-and-videos/\n \n*Note for updates - having trouble seeing your progress after an update? Try connecting with Facebook again and that should do the trick!*"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Big Fish Games, Inc."
+                },
+                "title": {
+                    "label": "Gummy Drop! - Big Fish Games, Inc"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/gummy-drop!/id828578246?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/gummy-drop!/id828578246?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "828578246",
+                        "im:bundleId": "com.bigfishgames.worldsagaaapluniversalF2P"
+                    }
+                },
+                "im:artist": {
+                    "label": "Big Fish Games, Inc",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/big-fish-games-inc/id292594310?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-09-08T12:29:51-07:00",
+                    "attributes": {
+                        "label": "September 8, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Cookie Jam"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple3/v4/ad/7c/e6/ad7ce698-a919-d44b-54eb-4e9a8c35704e/pr_source.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple3/v4/ad/7c/e6/ad7ce698-a919-d44b-54eb-4e9a8c35704e/pr_source.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple3/v4/ad/7c/e6/ad7ce698-a919-d44b-54eb-4e9a8c35704e/pr_source.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Jam your cookies before they crumble! Sprinkled with a deliciously sweet twist, this match-3 game is equal parts fun and challenging. Hop in your traveling bakery to set sail on this new puzzle adventure and explore mouth-watering patisseries from around the world. \n\nWhip your way through dozens of addictively sweet recipe-solving challenges by concocting scrumptious combos. But jam, jam as fast as you can, or your batch will be ruined by the Gingerbread Man. It’s jam time! \n \nKey Ingredients:\n- Never-ending fun with over a thousand unique levels\n- Deliciously sweet supply of power-ups and combos\n- Float your way through fantastical bakery islands\n- Fun and easy to learn, but a rewarding challenge to master\n \nTopped With:\n- Facebook connection so you can share the adventure with friends\n- Special rewards and events all the time\n- Seamless sync across multiple devices and platforms!\n \nLIKE: https://www.facebook.com/cookiejamgame\nFOLLOW: @SGNgames\n \nDEVELOPER INFO: SGN is the leading developer in truly cross-platform social gaming! Chart-topping hits include Panda Pop, Sugar Smash: Book of Life, Juice Jam, Paint Monsters, Panda Jam and so many more! Wherever you are, pick up and play today."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© SGN"
+                },
+                "title": {
+                    "label": "Cookie Jam - SGN"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/cookie-jam/id727296976?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/cookie-jam/id727296976?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "727296976",
+                        "im:bundleId": "com.sgn.cookiejam"
+                    }
+                },
+                "im:artist": {
+                    "label": "SGN",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/sgn/id290671617?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-02-26T00:02:47-07:00",
+                    "attributes": {
+                        "label": "February 26, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "BINGO Blitz - FREE Bingo + Slots"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/51/2d/d4/512dd48e-4724-1b65-fd12-c383045e0c50/mzl.aazahfmu.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple69/v4/51/2d/d4/512dd48e-4724-1b65-fd12-c383045e0c50/mzl.aazahfmu.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple69/v4/51/2d/d4/512dd48e-4724-1b65-fd12-c383045e0c50/mzl.aazahfmu.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Pinkey Out: NEW Daubton Abbey BINGO!\nGameplay enhancements\n\nPlay the FREE Award-Winning BINGO & Slots game! BINGO Blitz mixes classic BINGO and Slots with exciting gameplay features such as Power-Ups, Collection Items, and Achievements. Download BINGO Blitz today!\n \nMORE BINGOS, MORE FUN\nBINGO around the world by daubing your way through each city on the BINGO map. Play Seasonal and Bonus content that features special themes, fun BINGO patterns, higher payouts, faster ball calls, and more!\n \nEPIC SLOTS\nSpin new and classic Slot machine reels on the Slots map to win huge jackpots! Featuring special wild symbols, unique bonus games, free spins, and more!\n \n#1 BINGO COMMUNITY\nPlay multiplayer BINGO against millions of players around the world! Chat with other players in between or during rounds. Compete for prizes in Free Daily Tournaments! Send and receive gifts from friends!\n \nWIN MORE WITH POWER-UPS\nUse an array of game-changing Power-Ups to BINGO, boost your score, and get more rewards!\n \nCROSS-PLATFORM PLAY\nConnect to Facebook and sync your profile, Credits, Power-Ups, and Coins across all your mobile devices!\n \nNEW FEATURES & CONTENT\nOur weekly app updates bring you new BINGO cities and Slot machines, additional features, and game improvements!\n \nLIKE US @ www.facebook.com/BingoBlitz\nFOLLOW US @ www.twitter.com/Bingo_Blitz\n \nHaving problems? Any suggestions? We would love to hear from you! You can reach us at contact-SMO@playtika.com.\n \nEnjoy the game directly on your PC at https://apps.facebook.com/bingoblitz/\nor www.bingoblitz.com.\n \n* BINGO Blitz contains optional in-app purchases.  \n* This product is intended for use by those 21 or older for amusement purposes only\n* Practice or success at social casino gaming does not imply future success at real money gambling"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2011-2015 Buffalo Studios, LLC"
+                },
+                "title": {
+                    "label": "BINGO Blitz - FREE Bingo + Slots - Playtika Santa Monica, LLC"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/bingo-blitz-free-bingo-+-slots/id529996768?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/bingo-blitz-free-bingo-+-slots/id529996768?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "529996768",
+                        "im:bundleId": "com.buffalo-studios.newflashbingo"
+                    }
+                },
+                "im:artist": {
+                    "label": "Playtika Santa Monica, LLC",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/playtika-santa-monica-llc/id504720043?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2012-08-08T21:32:19-07:00",
+                    "attributes": {
+                        "label": "August 8, 2012"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Jackpot Party Casino - Slots HD - Free Casino Games! - Spin to Win on Vegas Slots"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple69/v4/0d/29/cb/0d29cbc3-a0a6-d591-4047-757b40344436/mzl.pxkfqqhj.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/0d/29/cb/0d29cbc3-a0a6-d591-4047-757b40344436/mzl.pxkfqqhj.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple69/v4/0d/29/cb/0d29cbc3-a0a6-d591-4047-757b40344436/mzl.pxkfqqhj.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Get the excitement of real Las Vegas slots action without going to the casino!\n\nWith brilliant HD graphics made just for iPad, Jackpot Party Casino Slots fully immerses you in a world of real slot machine casino gaming.  Jackpot Party Casino Slots features more than 70 real slot machines from the WMS family of slots found in Las Vegas casinos and around the globe.  \n\nTreat yourself to a slots break and play world-famous slots like Zeus II, Jungle Wild, Super Jackpot Party & Invaders from the Planet Moolah.  As you spin the reels and level up, unlock tons of new slots with unique artwork and styles.  For even more winnings, try out Bonus Slots with features like colossal reels, videos and more!  From Nordic Spirit to OMG! Kittens, Jackpot Party Casino Slots has the slot machine for you!\n\nTake a trip to the casino from your iPad - download Jackpot Party Casino Slots today!\n\nJACKPOT PARTY CASINO SLOTS FEATURES:\n\nAuthentic WMS slot machines you know and love\n* Zeus II\n* Jungle Wild\n* Super Jackpot Party\n* Invaders from Planet Moolah\n* over 60 more!\n\nGreat Bonus features for even more winnings!\n* Promo Slot Unlocks\n* Daily Bonus Coins\n* New Slot Releases & Events\n* Gift Exchanges\n* And much, much more!\n\nLike our slots? We appreciate your feedback. Play today and join the Party!\n\nJackpot Party Casino Slots is a play-for-fun casino intended for amusement only.\n\nNote: Guest account does NOT merge with Facebook account\n\nThe games are intended for an adult audience. (E.g Intended for use by those 21 or older) \nThe games do not offer \"real money gambling\" or an opportunity to win real money or prizes.\nPractice or success at social casino gaming does not imply future success at \"real money gambling.\""
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2013 SG Interactive"
+                },
+                "title": {
+                    "label": "Jackpot Party Casino - Slots HD - Free Casino Games! - Spin to Win on Vegas Slots - Phantom EFX"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/jackpot-party-casino-slots/id594843575?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/jackpot-party-casino-slots/id594843575?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "594843575",
+                        "im:bundleId": "com.williamsinteractive.jackpotpartyhd"
+                    }
+                },
+                "im:artist": {
+                    "label": "Phantom EFX",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/phantom-efx/id310624343?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2013-02-04T10:37:38-07:00",
+                    "attributes": {
+                        "label": "February 4, 2013"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Farm Heroes Saga"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple69/v4/b2/9b/b2/b29bb27b-4001-f046-827a-84a6d7b0a4ee/pr_source.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple69/v4/b2/9b/b2/b29bb27b-4001-f046-827a-84a6d7b0a4ee/pr_source.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple69/v4/b2/9b/b2/b29bb27b-4001-f046-827a-84a6d7b0a4ee/pr_source.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "New and improved Farm Club available now!\n\nFrom the makers of the hit game Candy Crush Saga, comes Farm Heroes Saga!  \n\nSwitch and match the collectable cropsies in this fantastic adventure. \nJoin forces with the Farm Heroes to stop Rancid the Raccoon from spoiling the precious farm lands.  Switch and match three or more adorable cropsies to drive Rancid away for good! A farmtastic adventure filled with mixed fruit madness! Scrummy! \n\nFarm Heroes Saga is completely free to play but some in-game items such as extra moves or lives will require payment. You can turn-off the payment feature by disabling in-app purchases in your device’s settings.\n\nFarm Heroes Saga Features:\n\n● Gather all kinds of cropsies to win the level before you run out of moves.\n● Easy and fun to play, but a challenge to fully master. \n● Acres of luscious levels to complete and marvellous magic beans to collect.\n● Take on your friends to compete for the best score and see who can switch their way to the fattest onions ever! \n● Rechargeable boosters, extra moves and special power-ups to help with those challenging levels. \n\nPlay through hundreds of levels of strawberry switching, carrot crunching chaos to help our Farm Heroes save the day! Have you got what it takes to be the next Farm Hero?\n\nAlready a fan of Farm Heroes Saga?  Like us on Facebook or follow us on Twitter for all the latest farming fun:\n\nhttp://www.facebook.com/FarmHeroes\nhttp://www.twitter.com/farmheroes\n\n*Minimum iOS version is 5.0."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© King.com Limited 2011-13. All rights reserved."
+                },
+                "title": {
+                    "label": "Farm Heroes Saga - King.com Limited"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/farm-heroes-saga/id608206510?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/farm-heroes-saga/id608206510?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "608206510",
+                        "im:bundleId": "com.midasplayer.apps.farmheroessaga"
+                    }
+                },
+                "im:artist": {
+                    "label": "King.com Limited",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/king.com-limited/id526656015?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-01-02T06:32:08-07:00",
+                    "attributes": {
+                        "label": "January 2, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Slotomania HD Casino – Las Vegas Free Slot Machines Games app – Bet, Spin & Win"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple6/v4/05/3b/b6/053bb64b-188c-b00a-cf12-de10d3882ccd/mzl.zjyxsphd.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple6/v4/05/3b/b6/053bb64b-188c-b00a-cf12-de10d3882ccd/mzl.zjyxsphd.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/05/3b/b6/053bb64b-188c-b00a-cf12-de10d3882ccd/mzl.zjyxsphd.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Slotomania, the BEST free video slots app on iPad! Start playing with a 10,000 coin welcome bonus! \n\nWith OVER 100 slot games to choose from and tons of bonus features, you’re guaranteed non-stop excitement.\n\n\nEnjoyed by millions worldwide; Slotomania is the favorite social slots game online providing unlimited FREE entertainment, top-tier graphics, and high-quality sound effects.\n\nPlayers love Slotomania’s:\n*Unique new games added all the time\n*Frequent special promotions \n*Countless opportunities to win coins from bonus rounds, free spins, gifts, and mini games\n*Free gifts you can send and receive from friends\n*Many ways to quickly unlock games\n*Instant accessibility anywhere, anytime, and from any device\n\nThe best part is Slotomania is EASY to play and easy to win BIG! Play Slotomania now and MEET YOUR LUCK today!\n\nThis product is intended for use by those 21 or older for amusement purposes only.\nPractice or success at social casino gaming does not imply future success at real money gambling.\n\n*** Customized for iPhone 5 and iPad HD\n\n\n\nTerms of service http://playtika.com/terms-of-service.html"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Playtika LTD"
+                },
+                "title": {
+                    "label": "Slotomania HD Casino – Las Vegas Free Slot Machines Games app – Bet, Spin & Win - Playtika LTD"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/slotomania-hd-casino-las-vegas/id483165745?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/slotomania-hd-casino-las-vegas/id483165745?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "483165745",
+                        "im:bundleId": "com.playtika.slotomania.ipad"
+                    }
+                },
+                "im:artist": {
+                    "label": "Playtika LTD",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/playtika-ltd/id447553567?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2011-12-12T11:57:06-07:00",
+                    "attributes": {
+                        "label": "December 12, 2011"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Caesars Slots HD – Las Vegas Casino Slot Machines For Fun!"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple6/v4/cc/1b/6f/cc1b6f05-08d2-8f26-10bd-fd311aa88198/pr_source.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple6/v4/cc/1b/6f/cc1b6f05-08d2-8f26-10bd-fd311aa88198/pr_source.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/cc/1b/6f/cc1b6f05-08d2-8f26-10bd-fd311aa88198/pr_source.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Escape to Vegas and find your lucky slots jackpot with the world’s favorite casino! \n\n100% Free! Get all the thrills of big Vegas wins with the best FREE video slots for iPads !\n\nMillions of players LOVE our high-quality free slot games and exciting bonuses!\n\nPLAY CAESARS SLOTS NOW!\n\nFeatures:\n\n* HUGE VARIETY of exclusive games like ELVIS, Pink Panther, Lucky in Paris & Mammoth Moolah \n* NEW games added all the time!\n* BEST interactive BONUS GAMES, incredible FREE SPINS games and unique special features \n* Spin the BONUS WHEEL every day, collect FREE COINS every 4 hours\n* Play your SUPER BONUS to win more FREE coins!\n* Connect using your Facebook account for another FREE $25,000 BONUS!\n* 70+ Exclusive High Quality Slots Games\n* Daily Exciting Promotions \n* Join your FRIENDS and play 3 types of tournaments. Compete in FREE CONTESTS\n* Join a large community of fans, make new friends and Send & Receive FREE GIFTS \n* Race to the top of the Leader board\n* Auto Play, Free Double XP and many additional unique features \n* Connect to Facebook and play with one HUGE Balance Anytime, Anywhere\n* Award Winning Customer Support\n* Personal VIP Account Manager\n\n\n*** Have Fun and Good Luck ***\n\nPlayers Love Caesars Slots:\n\n\"Best Slots Game I have tried probably 20 different slot games, and this one is by far the best\"\n\n\"Fun fun fun! So many things to do not enough time. There's always fun around the next corner\"\n\n\"Awesome Fantastic graphics Awesome games\"\n\n\"Best slot games around. I highly recommend this one if you wanna enjoy playing slots!\"\n\n\"Top quality Casino Games\"\n\n\"5 Stars\"\n\n\"Caesars Slots. Are the best online FREE slots I have ever played. I have deleted all others. Caesars Slot's pay outs are forth coming and frequent. Can play for hours. Love it. Good luck to all. I definitely recommend Caesars Slots\"\n\n\"Always Have a Great Time Playing Cesar's Games! Awesome Graphics! Only Fools Would Not Play theses Slots!! This Site just keeps getting Better and Better!!!Awesome as Always!\"\n\n\"Love playing. They have a wide variety of fun slots to play. The payoff is good lets you level up faster\"\n\n\"Game variety Luv all the games! Keeps me entertained for hours\"\n\n\"Awesome game,very fun and addicted I love this game,lost all my coins,but it's cuz I got greedy,must download\"\n\n\"Fun fun fun Great game! Really like that game play is saved when interrupted, even when in a bonus game. The unlockable games look interesting enough to make you keep playing and want to unlock them. Over all this is a great game and my personal favorite\"\n\n***** Don’t forget to rate us and share your feedback! Your opinion is very important to us! *****\n\nTerms of service \nCaesars Casino does not manipulate or otherwise interfere with contest outcomes in any way. Results are based entirely on luck and the choices made by players in the contest. Live contests are in no way endorsed, sponsored by, or associated with Google.\nThis product is intended for use by those 21 or older for amusement purposes only. Practice or success at social casino gaming does not imply future success at real money gambling."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Playtika LTD"
+                },
+                "title": {
+                    "label": "Caesars Slots HD – Las Vegas Casino Slot Machines For Fun! - Playtika LTD"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/caesars-slots-hd-las-vegas/id718985796?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/caesars-slots-hd-las-vegas/id718985796?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "718985796",
+                        "im:bundleId": "com.playtika.caesars.videoslots.hd"
+                    }
+                },
+                "im:artist": {
+                    "label": "Playtika LTD",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/playtika-ltd/id447553567?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2013-12-18T00:40:16-07:00",
+                    "attributes": {
+                        "label": "December 18, 2013"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Hit it Rich! Free Casino Slots"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/66/36/6b/66366b0c-f976-ec16-2b40-8bf43e951035/mzl.shrsyifs.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/66/36/6b/66366b0c-f976-ec16-2b40-8bf43e951035/mzl.shrsyifs.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/66/36/6b/66366b0c-f976-ec16-2b40-8bf43e951035/mzl.shrsyifs.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Follow the yellow brick road to riches in THE WIZARD OF OZ™! Win big with THE TERMINATOR™! Go for glam in SEX AND THE CITY™! And play the original DUCK DYNASTY™ slots. Hit It Rich!™ slots has something for everyone, and its FREE!\n\nHit it Rich!™ is Zynga’s leading free online casino slots game, available on Facebook and right on your mobile! With Hit it Rich it is easy to join the jackpot party, win big bonuses & be a part of the club! There’s no better casino action than seeing that 777, collecting your reward & jumping for joy!\n\nFeatures:\n• ICONIC GAMES - Play slots featuring The Wizard of Oz™, The Terminator™, Sex and the City™, Bridesmaids™, Bettie Page™, Downton Abbey™, Evil Dead 2™, Beetle Bailey™, Hagar the Horrible™, Elvira™, Big Buckhunter™ and Duck Dynasty™\n\n• FREE COINS - Start Rich! Play with 30,000 free coins and get more free from Daily Bonuses and Bonus Games\n\n• WIN BIG WITH FRIENDS - Connect with Facebook and send your friends free spins, or extend their play with free coins\n\n• HIGH-QUALITY VEGAS DESIGN - Experience state-of-the art game design, graphics and sound\n\n• BONUS GAMES GALORE - Play action-packed bonus games with HUGE jackpots!\n\nFacebook’s best slots is available for iPhone, iPad and iPad mini!\n\nAdditional coins available for\npurchase. \n\nFacebook: facebook.com/HitItRichSlots\n\nTwitter:\ntwitter.com/HitItRichSlots\n\nThis game is intended for an adult audience and does not offer real money gambling or an opportunity to win real money or prizes. Practice or success at social gaming does not imply future success at real money gambling.  Use of this application is governed by the Zynga™ Terms of Service. Collection and use of personal data are subject to Zynga's Privacy Policy. Both policies are available in the Application License Agreement and Privacy Policy sections\nbelow, as well as at www.zynga.com. Social Networking Service terms may also apply. iOS 6 and above supported."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2013 Zynga Inc."
+                },
+                "title": {
+                    "label": "Hit it Rich! Free Casino Slots - Zynga Inc."
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/hit-it-rich!-free-casino-slots/id694876905?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/hit-it-rich!-free-casino-slots/id694876905?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "694876905",
+                        "im:bundleId": "com.zynga.hititrich"
+                    }
+                },
+                "im:artist": {
+                    "label": "Zynga Inc.",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/zynga-inc./id295913422?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2013-12-10T11:41:42-07:00",
+                    "attributes": {
+                        "label": "December 10, 2013"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "MARVEL Contest of Champions"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple69/v4/4a/8d/f7/4a8df710-d69d-7769-9f71-040af467c750/pr_source.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/4a/8d/f7/4a8df710-d69d-7769-9f71-040af467c750/pr_source.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple69/v4/4a/8d/f7/4a8df710-d69d-7769-9f71-040af467c750/pr_source.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "NEW TO THE CONTEST:\n• 5 Star Champions have arrived! These rare new Champions can be unlocked by earning 5 star crystal shards and include a new special moves mode.\n• Act 4 has arrived! Check out the new story quests today with more coming soon!\n\nWELCOME TO THE CONTEST:\nIron Man vs. Captain America! Hulk vs. Wolverine! Drax vs. Deadpool! The greatest battles in Marvel history are in your hands! The greedy Elder of the Universe known as The Collector has summoned you to a brawl of epic proportions against a line-up of vile villains including Thanos, Kang the Conqueror, and many more! Experience the ultimate free-to-play fighting game on your mobile device…Contest of Champions!\n \nSUIT UP WITH FRIENDS:\n• Ally with your friends and other Summoners to build the strongest Alliance\n• Strategize with your alliance, help them keep their Champions in the fight\n• Battle to the top in Alliance Events and take on Alliance Quest Series together in specially designed quest maps to earn exclusive Alliance rewards\n\nBUILD YOUR ULTIMATE TEAM OF CHAMPIONS:\n• Assemble a mighty team of heroes and villains (choosing Champions such as: Iron Man, Hulk, Wolverine, Storm, Star-Lord, Gamora, Spider-Man, Deadpool, Magneto and Winter Soldier) \n• Embark on quests to defeat Kang and Thanos and face the challenge of a mysterious new super powerful cosmic competitor, ultimately to prevent the total destruction of The Marvel Universe\n• Improve your team’s offense and defense with multiple Mastery trees \n\nCOLLECT THE MIGHTIEST HEROES (AND VILLAINS!):\n• Collect, level up, and manage your teams of heroes and villains wisely to receive synergy bonuses based upon team affiliation and relationships taken from the pages of Marvel Comics \n• Pairing up Black Panther and Storm or Cyclops and Wolverine for bonuses, or making a team of Guardians of the Galaxy for a team affiliation bonus\n• The more powerful the Champion, the better their stats, abilities and special moves will be\n \nQUEST AND BATTLE:\n• Journey through an exciting storyline in classic Marvel storytelling fashion \n• Fight it out with a huge array of heroes and villains in iconic locations spanning the Marvel Universe such as: Avengers Tower, Oscorp, The Kyln, Wakanda, The Savage Land, Asgard, the S.H.I.E.L.D. Helicarrier, and more!\n• Explore dynamic quest maps and engage in a healthy dose of action-packed fighting utilizing controls developed specifically for the mobile platform \n\nLike us on Facebook: www.facebook.com/MarvelContestofChampions\nSubscribe on YouTube: www.youtube.com/MarvelChampions \nFollow us on Twitter: www.twitter.com/MarvelChampions \nwww.playcontestofchampions.com \n\n********************************\nBy downloading this game, you agree to the Terms of Service, Privacy Policy and the License Agreement. \n\nhttps://www.kabam.com/corporate/terms-of-service \nhttps://www.kabam.com/corporate/privacy-policy\nhttps://www.kabam.com/corporate/eula\n********************************"
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© MARVEL MARVEL CONTEST OF CHAMPIONS SOFTWARE © 2015 KABAM, INC. DEVELOPED BY KABAM. ALL RIGHTS RESERVED."
+                },
+                "title": {
+                    "label": "MARVEL Contest of Champions - Kabam"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/marvel-contest-of-champions/id896112560?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/marvel-contest-of-champions/id896112560?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "896112560",
+                        "im:bundleId": "com.kabam.marvelbattle"
+                    }
+                },
+                "im:artist": {
+                    "label": "Kabam",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/kabam/id445459903?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2014-12-10T08:39:54-07:00",
+                    "attributes": {
+                        "label": "December 10, 2014"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Hulu"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/ab/4a/68/ab4a68bd-036e-1d3c-403f-b95d9962a6fe/mzl.kzmywncq.png/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple69/v4/ab/4a/68/ab4a68bd-036e-1d3c-403f-b95d9962a6fe/mzl.kzmywncq.png/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is3.mzstatic.com/image/thumb/Purple69/v4/ab/4a/68/ab4a68bd-036e-1d3c-403f-b95d9962a6fe/mzl.kzmywncq.png/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Get ready for the fall premieres of your favorite TV shows on Hulu! Catch up on the latest seasons before new episodes arrive. Choose to watch your favorite shows through our new No Commercials plan or through our existing Limited Commercials plan. Dive into all nine seasons of Seinfeld along with thousands of full seasons of top shows. And now, you can also add SHOWTIME® directly through Hulu.\n\n• Watch the latest episodes of shows like Empire, The Mindy Project, Once Upon a Time, The Last Man on Earth, The Voice, and many more.  \n• Enjoy previous seasons of Seinfeld, South Park, CSI: Crime Scene Investigation, The Last Ship, American Horror Story, and more.\n• Stream popular kids programs including Hey Arnold!, SpongeBob SquarePants, and Sesame Street; Latino series and top telenovelas; Hulu Original series Difficult People and the Emmy®-nominated East Los High; and much more. \n• Stream and control your viewing experience from your iPhone or iPad to your TV with Apple TV, Chromecast, Xbox One, PlayStation 3 and PlayStation 4 using the in-app remote control.\n• Use your Apple watch as a remote to control playback experience and captions on Xbox One, PS3, PS4, and Chromecast.\n• Resume watching from where you left off on your TV or other supported device.\n• Set Kids Lock on your iPad so your kids are restricted to the Kids hub.\n• Watch over WiFi, 3G and 4G.\n\n\nHulu supports iPhone 4 and above; iPad 2 and above, iPod touch 4th generation and above, all running iOS 7 and above.\n\nPlease contact mobilesupport@hulu.com, if you are experiencing any issues.\n\nIf you are new to Hulu, your base Hulu subscription fee will be charged $7.99/month for our Limited Commercials plan or $13.99/month for our No Commercials plan through your iTunes account as a recurring transaction. Payment will automatically renew unless you cancel your account at least 24 hours before the end of the current subscription month. You can manage your subscription, cancel anytime, or turn off auto-renewal by accessing your iTunes account. Hulu is available to US customers only.\n \nHulu's Terms of Use:  http://www.hulu.com/terms\nHulu’s Privacy Policy:  http://www.hulu.com/privacy\n\nThis app features third party software which enables third parties to calculate measurement statistics (e.g., Nielsen’s TV Ratings). To learn more about digital measurement products and your choices in regard to them, including opting out, please visit our privacy policy. You can also find more information about Nielsen measurement in the settings area of this app.\n\nWe may work with mobile advertising companies and other similar entities that help deliver advertisements tailored to your interests both on and outside of the Hulu services. For more information about such advertising practices, please visit our privacy policy at www.hulu.com/privacy. You can opt out of receiving tailored advertisements from Hulu outside of the Hulu services by going to the settings area of this app, and choosing “limit tracking” under the “Settings” tab.   You may also opt out of tracking and receiving tailored advertisements on your mobile device by some mobile advertising companies and other similar entities by downloading the App Choices app at www.aboutads.info/appchoices."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "Copyright © 2015 Hulu, LLC.  All Rights Reserved."
+                },
+                "title": {
+                    "label": "Hulu - Hulu, LLC"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/hulu/id376510438?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/hulu/id376510438?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "376510438",
+                        "im:bundleId": "com.hulu.plus"
+                    }
+                },
+                "im:artist": {
+                    "label": "Hulu, LLC",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/hulu-llc/id376510441?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6016",
+                        "term": "Entertainment",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-entertainment/id6016?mt=8&uo=2",
+                        "label": "Entertainment"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2010-06-29T11:39:25-07:00",
+                    "attributes": {
+                        "label": "June 29, 2010"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Bingo Bash™ HD - with Wheel of Fortune ® Bingo and Slots games FREE!"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple69/v4/cb/f8/9c/cbf89c62-73b5-20c0-09ef-990febe65932/mzl.yhfzkoop.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple69/v4/cb/f8/9c/cbf89c62-73b5-20c0-09ef-990febe65932/mzl.yhfzkoop.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is1.mzstatic.com/image/thumb/Purple69/v4/cb/f8/9c/cbf89c62-73b5-20c0-09ef-990febe65932/mzl.yhfzkoop.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Play the world’s #1 free bingo app - with an all new Wheel of Fortune® room in Bingo Bash, the ultimate app for free bingo games!\n\nJoin over 4 million players from across the globe on BINGO BASH – WIN BIG with 350+ levels, 50+ fun ways to play, and NEW rooms added every 2 weeks.\n\nPlay in our BRAND NEW ROOM – Wheel of Fortune® Bingo!\n- Wheel of Fortune® meets Bingo in an extraordinary partnership. America’s #1 Game Show & America’s #1 Bingo come together at last!\n- Walk on to the famous Wheel of Fortune® stage - and play the world’s #1 Bingo there.\n- Win unprecedented bonuses in the Wheel of Fortune® Spin to Win Minigame!\nPlay classic bingo games just as you remember them. Enjoy familiar bingo games with tons of added rooms and bonuses to help you win big!\n\nClassic Bingo Games!\n- Enter one of our 50+ Wonder and Special rooms.\n- Pick your bingo cards to start playing!\n- Daub the numbers called out.\n- Score bingos in 13 different ways - and win big!\n- Complete collection items to win goodies.\n- Unlock newer levels and cool new rooms.\n \nPlay Bingo Games and More in Bingo Rooms:\n- BINGO ROYALE SLOT ROOMS: Spin your way to more coins and chips! Play on the virtual Bingo Bash slot machine to win BIG!\n\n- WONDER ROOMS: Fly around the world in all of our special bingo rooms!\n- Swim in the Great Barrier Reef bingo room.\n- Battle gladiators in the Colosseum!\n- Have fun scaling the Great Wall of China.\n- Hit the Vegas strip for high-stakes casino games.\n- Unlock exciting bingo rooms like Purrfect Crime, Pot of Gold, and Wild West for more fun games!\n- Play in free seasonal rooms like Zombie Bash, Thanksgiving Room and more!\n \nExclusive Bingo Bash Features!\n- Unlock exciting new rooms every 2 weeks.\n- Multiplayer and real time play with millions of players!\n- Win HUGE power-ups, get Chips from finding Gems and Collectibles, and more!\n- Play and chat with friends in fun real-time games! Team up to uncover never before bonuses.\n- Win huge power-ups, surprise gifts, and more!\n\nBe a bingo-playing machine with the top bingo app in the world! Download Bingo Bash today and enjoy FREE BINGO in exclusive rooms and mini-games!\n\n**The only bingo game to make Apple’s Top 10 Apps of 2013!**\n\nContact our support team: Bashgaming.com/contact\n\n· Bingo Bash is intended for a mature audience.\n· Bingo Bash does not offer \"real money gambling\" or an opportunity to win real money or prizes.\n· Past success at social casino gaming has no relationship to future success at \"real money gambling\"."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© 2015 GSN All Rights Reserved"
+                },
+                "title": {
+                    "label": "Bingo Bash™ HD - with Wheel of Fortune ® Bingo and Slots games FREE! - BitRhymes Inc."
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/bingo-bash-hd-wheel-fortune/id486363584?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/bingo-bash-hd-wheel-fortune/id486363584?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "486363584",
+                        "im:bundleId": "com.bitrhymes.bingo2"
+                    }
+                },
+                "im:artist": {
+                    "label": "BitRhymes Inc.",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/bitrhymes-inc./id311349149?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2012-04-09T21:20:17-07:00",
+                    "attributes": {
+                        "label": "April 9, 2012"
+                    }
+                }
+            },
+            {
+                "im:name": {
+                    "label": "Slotomania Casino – Las Vegas Free Slot Machine Games – Bet, Spin & Win"
+                },
+                "im:image": [
+                    {
+                        "label": "http://is2.mzstatic.com/image/thumb/Purple6/v4/19/14/4e/19144eea-c2e3-5155-01e5-5a8dbd08ba8d/mzl.ebrshuuh.jpg/53x53bb-85.png",
+                        "attributes": {
+                            "height": "53"
+                        }
+                    },
+                    {
+                        "label": "http://is4.mzstatic.com/image/thumb/Purple6/v4/19/14/4e/19144eea-c2e3-5155-01e5-5a8dbd08ba8d/mzl.ebrshuuh.jpg/75x75bb-85.png",
+                        "attributes": {
+                            "height": "75"
+                        }
+                    },
+                    {
+                        "label": "http://is5.mzstatic.com/image/thumb/Purple6/v4/19/14/4e/19144eea-c2e3-5155-01e5-5a8dbd08ba8d/mzl.ebrshuuh.jpg/100x100bb-85.png",
+                        "attributes": {
+                            "height": "100"
+                        }
+                    }
+                ],
+                "summary": {
+                    "label": "Slotomania, the BEST free video slots app! Start playing with a 10,000 coin welcome bonus! \n\nWith OVER 100 slot games to choose from and tons of bonus features, you’re guaranteed non-stop excitement.\n\nEnjoyed by millions worldwide; Slotomania is the favorite social slots game online providing unlimited FREE entertainment, top-tier graphics, and high-quality sound effects.\n\nPlayers love Slotomania’s:\n*Unique new games added all the time\n*Frequent special promotions \n*Countless opportunities to win coins from bonus rounds, free spins, gifts, and mini games\n*Free gifts you can send and receive from friends\n*Many ways to quickly unlock games\n*Instant accessibility anywhere, anytime, and from any device\n\nThe best part is Slotomania is EASY to play and easy to win BIG! Play Slotomania now and MEET YOUR LUCK today!\n\nThis product is intended for use by those 21 or older for amusement purposes only.\nPractice or success at social casino gaming does not imply future success at real money gambling. \n\n*** Customized for iPhone 5 and iPad HD \n\n\nTerms of service http://playtika.com/terms-of-service.html\n\nSlotomania does not manipulate or otherwise interfere with tournament outcomes in any way. Results are based entirely on luck and the choices made by players in the tournament. Live Tournamania is in no way endorsed, sponsored by, or associated with Apple/iTunes."
+                },
+                "im:price": {
+                    "label": "Get",
+                    "attributes": {
+                        "amount": "0.00000",
+                        "currency": "USD"
+                    }
+                },
+                "im:contentType": {
+                    "attributes": {
+                        "term": "Application",
+                        "label": "Application"
+                    }
+                },
+                "rights": {
+                    "label": "© Playtika LTD"
+                },
+                "title": {
+                    "label": "Slotomania Casino – Las Vegas Free Slot Machine Games – Bet, Spin & Win - Playtika LTD"
+                },
+                "link": {
+                    "attributes": {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://itunes.apple.com/us/app/slotomania-casino-las-vegas/id447553564?mt=8&uo=2"
+                    }
+                },
+                "id": {
+                    "label": "https://itunes.apple.com/us/app/slotomania-casino-las-vegas/id447553564?mt=8&uo=2",
+                    "attributes": {
+                        "im:id": "447553564",
+                        "im:bundleId": "com.playtika.slotomania"
+                    }
+                },
+                "im:artist": {
+                    "label": "Playtika LTD",
+                    "attributes": {
+                        "href": "https://itunes.apple.com/us/developer/playtika-ltd/id447553567?mt=8&uo=2"
+                    }
+                },
+                "category": {
+                    "attributes": {
+                        "im:id": "6014",
+                        "term": "Games",
+                        "scheme": "https://itunes.apple.com/us/genre/ios-games/id6014?mt=8&uo=2",
+                        "label": "Games"
+                    }
+                },
+                "im:releaseDate": {
+                    "label": "2011-11-07T06:33:35-07:00",
+                    "attributes": {
+                        "label": "November 7, 2011"
+                    }
+                }
+            }
+        ],
+        "updated": {
+            "label": "2015-11-09T23:04:45-07:00"
+        },
+        "rights": {
+            "label": "Copyright 2008 Apple Inc."
+        },
+        "title": {
+            "label": "iTunes Store: Top Grossing iPad Apps"
+        },
+        "icon": {
+            "label": "http://itunes.apple.com/favicon.ico"
+        },
+        "link": [
+            {
+                "attributes": {
+                    "rel": "alternate",
+                    "type": "text/html",
+                    "href": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?cc=us&id=38&popId=46"
+                }
+            },
+            {
+                "attributes": {
+                    "rel": "self",
+                    "href": "https://itunes.apple.com/us/rss/topgrossingipadapplications/limit=25/json"
+                }
+            }
+        ],
+        "id": {
+            "label": "https://itunes.apple.com/us/rss/topgrossingipadapplications/limit=25/json"
+        }
+    }
+}
