@@ -114,32 +114,20 @@ public class NetworkReachabilityManager {
     }
 
     /**
-        Creates a `NetworkReachabilityManager` instance with the default socket IPv4 or IPv6 address.
+        Creates a `NetworkReachabilityManager` instance with the default socket address (`sockaddr_in6`).
 
         - returns: The new `NetworkReachabilityManager` instance.
      */
     public convenience init?() {
-        if #available(iOS 9.0, OSX 10.10, *) {
-            var address = sockaddr_in6()
-            address.sin6_len = UInt8(sizeofValue(address))
-            address.sin6_family = sa_family_t(AF_INET6)
+        var address = sockaddr_in6()
+        address.sin6_len = UInt8(sizeofValue(address))
+        address.sin6_family = sa_family_t(AF_INET6)
 
-            guard let reachability = withUnsafePointer(&address, {
-                SCNetworkReachabilityCreateWithAddress(nil, UnsafePointer($0))
-            }) else { return nil }
+        guard let reachability = withUnsafePointer(&address, {
+            SCNetworkReachabilityCreateWithAddress(nil, UnsafePointer($0))
+        }) else { return nil }
 
-            self.init(reachability: reachability)
-        } else {
-            var address = sockaddr_in()
-            address.sin_len = UInt8(sizeofValue(address))
-            address.sin_family = sa_family_t(AF_INET)
-
-            guard let reachability = withUnsafePointer(&address, {
-                SCNetworkReachabilityCreateWithAddress(nil, UnsafePointer($0))
-            }) else { return nil }
-
-            self.init(reachability: reachability)
-        }
+        self.init(reachability: reachability)
     }
 
     private init(reachability: SCNetworkReachability) {

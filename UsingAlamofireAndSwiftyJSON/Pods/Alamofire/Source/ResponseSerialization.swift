@@ -29,10 +29,10 @@ import Foundation
 */
 public protocol ResponseSerializerType {
     /// The type of serialized object to be created by this `ResponseSerializerType`.
-    associatedtype SerializedObject
+    typealias SerializedObject
 
     /// The type of error to be created by this `ResponseSerializer` if serialization fails.
-    associatedtype ErrorObject: ErrorType
+    typealias ErrorObject: ErrorType
 
     /**
         A closure used by response handlers that takes a request, response, data and error and returns a result.
@@ -176,12 +176,8 @@ extension Request {
 
         - returns: The request.
     */
-    public func responseData(
-        queue queue: dispatch_queue_t? = nil,
-        completionHandler: Response<NSData, NSError> -> Void)
-        -> Self
-    {
-        return response(queue: queue, responseSerializer: Request.dataResponseSerializer(), completionHandler: completionHandler)
+    public func responseData(completionHandler: Response<NSData, NSError> -> Void) -> Self {
+        return response(responseSerializer: Request.dataResponseSerializer(), completionHandler: completionHandler)
     }
 }
 
@@ -244,13 +240,11 @@ extension Request {
         - returns: The request.
     */
     public func responseString(
-        queue queue: dispatch_queue_t? = nil,
-        encoding: NSStringEncoding? = nil,
+        encoding encoding: NSStringEncoding? = nil,
         completionHandler: Response<String, NSError> -> Void)
         -> Self
     {
         return response(
-            queue: queue,
             responseSerializer: Request.stringResponseSerializer(encoding: encoding),
             completionHandler: completionHandler
         )
@@ -302,13 +296,11 @@ extension Request {
         - returns: The request.
     */
     public func responseJSON(
-        queue queue: dispatch_queue_t? = nil,
-        options: NSJSONReadingOptions = .AllowFragments,
+        options options: NSJSONReadingOptions = .AllowFragments,
         completionHandler: Response<AnyObject, NSError> -> Void)
         -> Self
     {
         return response(
-            queue: queue,
             responseSerializer: Request.JSONResponseSerializer(options: options),
             completionHandler: completionHandler
         )
@@ -362,13 +354,11 @@ extension Request {
         - returns: The request.
     */
     public func responsePropertyList(
-        queue queue: dispatch_queue_t? = nil,
-        options: NSPropertyListReadOptions = NSPropertyListReadOptions(),
+        options options: NSPropertyListReadOptions = NSPropertyListReadOptions(),
         completionHandler: Response<AnyObject, NSError> -> Void)
         -> Self
     {
         return response(
-            queue: queue,
             responseSerializer: Request.propertyListResponseSerializer(options: options),
             completionHandler: completionHandler
         )

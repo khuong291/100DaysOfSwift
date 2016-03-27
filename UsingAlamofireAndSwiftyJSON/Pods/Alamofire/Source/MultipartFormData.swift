@@ -428,6 +428,7 @@ public class MultipartFormData {
             throw Error.errorWithCode(NSURLErrorCannotOpenFile, failureReason: failureReason)
         }
 
+        outputStream.scheduleInRunLoop(NSRunLoop.currentRunLoop(), forMode: NSDefaultRunLoopMode)
         outputStream.open()
 
         self.bodyParts.first?.hasInitialBoundary = true
@@ -438,6 +439,7 @@ public class MultipartFormData {
         }
 
         outputStream.close()
+        outputStream.removeFromRunLoop(NSRunLoop.currentRunLoop(), forMode: NSDefaultRunLoopMode)
     }
 
     // MARK: - Private - Body Part Encoding
@@ -474,6 +476,7 @@ public class MultipartFormData {
 
     private func encodeBodyStreamDataForBodyPart(bodyPart: BodyPart) throws -> NSData {
         let inputStream = bodyPart.bodyStream
+        inputStream.scheduleInRunLoop(NSRunLoop.currentRunLoop(), forMode: NSDefaultRunLoopMode)
         inputStream.open()
 
         var error: NSError?
@@ -500,6 +503,7 @@ public class MultipartFormData {
         }
 
         inputStream.close()
+        inputStream.removeFromRunLoop(NSRunLoop.currentRunLoop(), forMode: NSDefaultRunLoopMode)
 
         if let error = error {
             throw error
@@ -533,6 +537,7 @@ public class MultipartFormData {
 
     private func writeBodyStreamForBodyPart(bodyPart: BodyPart, toOutputStream outputStream: NSOutputStream) throws {
         let inputStream = bodyPart.bodyStream
+        inputStream.scheduleInRunLoop(NSRunLoop.currentRunLoop(), forMode: NSDefaultRunLoopMode)
         inputStream.open()
 
         while inputStream.hasBytesAvailable {
@@ -558,6 +563,7 @@ public class MultipartFormData {
         }
 
         inputStream.close()
+        inputStream.removeFromRunLoop(NSRunLoop.currentRunLoop(), forMode: NSDefaultRunLoopMode)
     }
 
     private func writeFinalBoundaryDataForBodyPart(
