@@ -12,6 +12,8 @@
 		990A44EB1CA904B200A8A5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990A44E91CA904B200A8A5C0 /* Main.storyboard */; };
 		990A44ED1CA904B200A8A5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990A44EC1CA904B200A8A5C0 /* Assets.xcassets */; };
 		990A44F01CA904B200A8A5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990A44EE1CA904B200A8A5C0 /* LaunchScreen.storyboard */; };
+		990A44F81CA905F000A8A5C0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990A44F71CA905F000A8A5C0 /* MenuViewController.swift */; };
+		990A44FA1CA9060000A8A5C0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990A44F91CA9060000A8A5C0 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		990A44EC1CA904B200A8A5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990A44EF1CA904B200A8A5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990A44F11CA904B200A8A5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990A44F71CA905F000A8A5C0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		990A44F91CA9060000A8A5C0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				990A44EC1CA904B200A8A5C0 /* Assets.xcassets */,
 				990A44EE1CA904B200A8A5C0 /* LaunchScreen.storyboard */,
 				990A44F11CA904B200A8A5C0 /* Info.plist */,
+				990A44F71CA905F000A8A5C0 /* MenuViewController.swift */,
+				990A44F91CA9060000A8A5C0 /* BaseViewController.swift */,
 			);
 			path = SlideMenu;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				990A44E81CA904B200A8A5C0 /* ViewController.swift in Sources */,
+				990A44FA1CA9060000A8A5C0 /* BaseViewController.swift in Sources */,
+				990A44F81CA905F000A8A5C0 /* MenuViewController.swift in Sources */,
 				990A44E61CA904B200A8A5C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
