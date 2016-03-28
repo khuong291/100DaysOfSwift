@@ -65,3 +65,7 @@ http://ashishkakkad.com/
 ### Project UsingIBDesignableAndIBInspectable
 
 ![](UsingIBDesignableAndIBInspectable.png)
+
+### Project SlideMenu
+
+![](SlideMenu.gif)
