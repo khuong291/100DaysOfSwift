@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  EasyAnimation
+//  DrawRouteMap
 //
 //  Created by Khuong Pham on 3/28/16.
 //  Copyright © 2016 Fantageek. All rights reserved.

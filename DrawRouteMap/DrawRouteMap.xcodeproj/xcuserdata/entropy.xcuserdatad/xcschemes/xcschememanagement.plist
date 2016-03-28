@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>EasyAnimation.xcscheme</key>
+		<key>DrawRouteMap.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>990A44851CA8D1AB00A8A5C0</key>
+		<key>990A44A31CA8D8BD00A8A5C0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

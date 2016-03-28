@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "990A44851CA8D1AB00A8A5C0"
-               BuildableName = "EasyAnimation.app"
-               BlueprintName = "EasyAnimation"
-               ReferencedContainer = "container:EasyAnimation.xcodeproj">
+               BlueprintIdentifier = "990A44A31CA8D8BD00A8A5C0"
+               BuildableName = "DrawRouteMap.app"
+               BlueprintName = "DrawRouteMap"
+               ReferencedContainer = "container:DrawRouteMap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "990A44851CA8D1AB00A8A5C0"
-            BuildableName = "EasyAnimation.app"
-            BlueprintName = "EasyAnimation"
-            ReferencedContainer = "container:EasyAnimation.xcodeproj">
+            BlueprintIdentifier = "990A44A31CA8D8BD00A8A5C0"
+            BuildableName = "DrawRouteMap.app"
+            BlueprintName = "DrawRouteMap"
+            ReferencedContainer = "container:DrawRouteMap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "990A44851CA8D1AB00A8A5C0"
-            BuildableName = "EasyAnimation.app"
-            BlueprintName = "EasyAnimation"
-            ReferencedContainer = "container:EasyAnimation.xcodeproj">
+            BlueprintIdentifier = "990A44A31CA8D8BD00A8A5C0"
+            BuildableName = "DrawRouteMap.app"
+            BlueprintName = "DrawRouteMap"
+            ReferencedContainer = "container:DrawRouteMap.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "990A44851CA8D1AB00A8A5C0"
-            BuildableName = "EasyAnimation.app"
-            BlueprintName = "EasyAnimation"
-            ReferencedContainer = "container:EasyAnimation.xcodeproj">
+            BlueprintIdentifier = "990A44A31CA8D8BD00A8A5C0"
+            BuildableName = "DrawRouteMap.app"
+            BlueprintName = "DrawRouteMap"
+            ReferencedContainer = "container:DrawRouteMap.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
