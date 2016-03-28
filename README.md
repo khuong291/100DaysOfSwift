@@ -1,6 +1,14 @@
 # Swift_Example_Series
 
-Here is a punch of example projects with Swift, I am going to build 100 example projects here. 
+Here is a punch of example projects with Swift, I am going to build 100 example projects here. I follow some tutorials from:
+
+http://www.raywenderlich.com
+
+http://appcoda.com
+
+http://www.ioscreator.com/
+
+http://ashishkakkad.com/
 
 2 days will create 1 project :)
 
