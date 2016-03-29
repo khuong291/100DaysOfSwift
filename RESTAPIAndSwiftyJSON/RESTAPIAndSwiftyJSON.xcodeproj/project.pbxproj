@@ -12,9 +12,14 @@
 		990A45131CA9844100A8A5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990A45111CA9844100A8A5C0 /* Main.storyboard */; };
 		990A45151CA9844100A8A5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 990A45141CA9844100A8A5C0 /* Assets.xcassets */; };
 		990A45181CA9844100A8A5C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990A45161CA9844100A8A5C0 /* LaunchScreen.storyboard */; };
+		990A45221CA9AA9A00A8A5C0 /* InstagramTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990A45211CA9AA9A00A8A5C0 /* InstagramTableViewCell.swift */; };
+		E5FD9CE71CCDD39B1FE3743C /* Pods_RESTAPIAndSwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA33CBCCE933D697C9AE511 /* Pods_RESTAPIAndSwiftyJSON.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FC7AAA06BB7B2B4C710315D /* Pods-RESTAPIAndSwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESTAPIAndSwiftyJSON.release.xcconfig"; path = "Pods/Target Support Files/Pods-RESTAPIAndSwiftyJSON/Pods-RESTAPIAndSwiftyJSON.release.xcconfig"; sourceTree = "<group>"; };
+		314CF642133DD1487637D327 /* Pods-RESTAPIAndSwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RESTAPIAndSwiftyJSON.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RESTAPIAndSwiftyJSON/Pods-RESTAPIAndSwiftyJSON.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA33CBCCE933D697C9AE511 /* Pods_RESTAPIAndSwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RESTAPIAndSwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		990A450A1CA9844100A8A5C0 /* RESTAPIAndSwiftyJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTAPIAndSwiftyJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		990A450D1CA9844100A8A5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		990A450F1CA9844100A8A5C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		990A45141CA9844100A8A5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		990A45171CA9844100A8A5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		990A45191CA9844100A8A5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990A45211CA9AA9A00A8A5C0 /* InstagramTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FD9CE71CCDD39B1FE3743C /* Pods_RESTAPIAndSwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				990A450C1CA9844100A8A5C0 /* RESTAPIAndSwiftyJSON */,
 				990A450B1CA9844100A8A5C0 /* Products */,
+				CE00545C2F2764FF85D525D3 /* Pods */,
+				C3CF9FE2D577F1BE031C8F96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				990A45141CA9844100A8A5C0 /* Assets.xcassets */,
 				990A45161CA9844100A8A5C0 /* LaunchScreen.storyboard */,
 				990A45191CA9844100A8A5C0 /* Info.plist */,
+				990A45211CA9AA9A00A8A5C0 /* InstagramTableViewCell.swift */,
 			);
 			path = RESTAPIAndSwiftyJSON;
+			sourceTree = "<group>";
+		};
+		C3CF9FE2D577F1BE031C8F96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FA33CBCCE933D697C9AE511 /* Pods_RESTAPIAndSwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE00545C2F2764FF85D525D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				314CF642133DD1487637D327 /* Pods-RESTAPIAndSwiftyJSON.debug.xcconfig */,
+				0FC7AAA06BB7B2B4C710315D /* Pods-RESTAPIAndSwiftyJSON.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 990A451C1CA9844100A8A5C0 /* Build configuration list for PBXNativeTarget "RESTAPIAndSwiftyJSON" */;
 			buildPhases = (
+				EFDBEB3DDD7E786435556314 /* Check Pods Manifest.lock */,
 				990A45061CA9844100A8A5C0 /* Sources */,
 				990A45071CA9844100A8A5C0 /* Frameworks */,
 				990A45081CA9844100A8A5C0 /* Resources */,
+				F71584FCB1FC7D2B8E6A6651 /* Embed Pods Frameworks */,
+				9AF57F36A38403D7849A707C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,11 +160,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9AF57F36A38403D7849A707C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESTAPIAndSwiftyJSON/Pods-RESTAPIAndSwiftyJSON-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFDBEB3DDD7E786435556314 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F71584FCB1FC7D2B8E6A6651 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RESTAPIAndSwiftyJSON/Pods-RESTAPIAndSwiftyJSON-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		990A45061CA9844100A8A5C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				990A45221CA9AA9A00A8A5C0 /* InstagramTableViewCell.swift in Sources */,
 				990A45101CA9844100A8A5C0 /* ViewController.swift in Sources */,
 				990A450E1CA9844100A8A5C0 /* AppDelegate.swift in Sources */,
 			);
@@ -245,6 +324,7 @@
 		};
 		990A451D1CA9844100A8A5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314CF642133DD1487637D327 /* Pods-RESTAPIAndSwiftyJSON.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RESTAPIAndSwiftyJSON/Info.plist;
@@ -256,6 +336,7 @@
 		};
 		990A451E1CA9844100A8A5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC7AAA06BB7B2B4C710315D /* Pods-RESTAPIAndSwiftyJSON.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RESTAPIAndSwiftyJSON/Info.plist;
@@ -284,6 +365,7 @@
 				990A451E1CA9844100A8A5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
