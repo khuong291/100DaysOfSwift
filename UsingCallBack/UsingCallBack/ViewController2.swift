@@ -10,8 +10,17 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+    @IBOutlet var textField: UITextField!
+//    var vc1: ViewController?
+    var callback: ((String) -> Void)?
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
+    @IBAction func backToViewController(sender: AnyObject) {
+//        vc1?.myString = textField.text!
+        callback?(textField.text!)
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 }

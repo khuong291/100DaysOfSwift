@@ -16,12 +16,34 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wsp-aw-Gtt">
+                                <rect key="frame" x="133" y="296" width="109" height="75"/>
+                                <color key="backgroundColor" red="0.24825312129999999" green="0.99279205609999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="109" id="1KN-CM-6w3"/>
+                                    <constraint firstAttribute="height" constant="75" id="wrP-f5-2iQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="goToViewController2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gzj-Ep-wdL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69501982110000005" green="0.76122058920000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="wsp-aw-Gtt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="05b-Lz-aY4"/>
+                            <constraint firstItem="wsp-aw-Gtt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c3l-6E-v9q"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button" destination="wsp-aw-Gtt" id="Vrw-Ak-mNc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="258.5" y="295.5"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="Xei-ce-3tF">
@@ -34,9 +56,38 @@
                     <view key="view" contentMode="scaleToFill" id="iyQ-cH-WSY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nGQ-5H-jIk">
+                                <rect key="frame" x="139" y="319" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="1Zv-Kc-YOo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZh-TE-b5K">
+                                <rect key="frame" x="160" y="267" width="44" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="jPu-aB-LEf"/>
+                                </constraints>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backToViewController:" destination="bVu-Zk-Kby" eventType="touchUpInside" id="VB2-js-Gdc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.74701595200000004" green="1" blue="0.89502109169999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nGQ-5H-jIk" firstAttribute="top" secondItem="JZh-TE-b5K" secondAttribute="bottom" constant="22" id="EX1-vb-vsU"/>
+                            <constraint firstItem="JZh-TE-b5K" firstAttribute="leading" secondItem="iyQ-cH-WSY" secondAttribute="leading" constant="160" id="bvn-vM-1b7"/>
+                            <constraint firstItem="nGQ-5H-jIk" firstAttribute="centerY" secondItem="iyQ-cH-WSY" secondAttribute="centerY" id="pwi-hj-xmB"/>
+                            <constraint firstItem="nGQ-5H-jIk" firstAttribute="centerX" secondItem="iyQ-cH-WSY" secondAttribute="centerX" id="vkU-ty-4yh"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="textField" destination="nGQ-5H-jIk" id="mFX-HB-ebg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n66-4Z-SFD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
