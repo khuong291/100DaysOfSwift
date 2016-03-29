@@ -79,3 +79,7 @@ Progress: 16/100
 ### 16/ Project Header_Footer_TableView
 
 ![](Header_Footer_TableView.png)
+
+### 17/ Project ErrorHandling
+
+![](ErrorHandling.png)
