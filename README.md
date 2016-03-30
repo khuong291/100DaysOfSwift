@@ -10,7 +10,7 @@ http://www.ioscreator.com/
 
 http://ashishkakkad.com/
 
-Progress: 22/100
+Progress: 23/100
 
 2 days will create 1 project :)
 
@@ -103,3 +103,7 @@ Progress: 22/100
 ### 22/ Project SearchTableView
 
 ![](SearchTableView.gif)
+
+### 23/ Project CustomSearchBar
+
+![](CustomSearchBar.gif)
