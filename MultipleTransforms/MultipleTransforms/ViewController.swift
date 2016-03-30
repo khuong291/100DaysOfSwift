@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
 
@@ -15,16 +16,37 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        var t = CGAffineTransformIdentity
-//        t = CGAffineTransformTranslate(t, CGFloat(100), CGFloat(300))
-//        t = CGAffineTransformRotate(t, CGFloat(M_PI_4))
-//        t = CGAffineTransformScale(t, CGFloat(-1), CGFloat(2))
-//        imageView.transform = t
-        let rotate = CGAffineTransformMakeRotation(45*CGFloat((M_PI/180)))
-        let translate = CGAffineTransformMakeTranslation(UIScreen.mainScreen().bounds.width, -UIScreen.mainScreen().bounds.width / 2)
-        UIView.animateWithDuration(5.0) { () -> Void in
-            self.imageView.transform = CGAffineTransformConcat(translate, rotate)
+        let kRotationAnimationKey = "com.myapplication.rotationanimationkey"
+
+        func rotateView(view: UIView, duration: Double = 1) {
+            if view.layer.animationForKey(kRotationAnimationKey) == nil {
+                let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation")
+
+                rotationAnimation.fromValue = 0.0
+                rotationAnimation.toValue = Float(M_PI * 2.0)
+                rotationAnimation.duration = duration
+                rotationAnimation.repeatCount = Float.infinity
+
+                view.layer.addAnimation(rotationAnimation, forKey: kRotationAnimationKey)
+            }
+        }
+
+        func stopRotatingView(view: UIView) {
+            if view.layer.animationForKey(kRotationAnimationKey) != nil {
+                view.layer.removeAnimationForKey(kRotationAnimationKey)
+            }
+        }
+
+        var transform = CGAffineTransformMakeTranslation(UIScreen.mainScreen().bounds.width - 200, 0)
+        transform = CGAffineTransformScale(transform, 3.0, 3.0)
+        UIView.animateWithDuration(1.0, delay: 0, options: [.Repeat, .Autoreverse, .CurveEaseInOut], animations: { () -> Void in
+            self.imageView.transform = transform
+            rotateView(self.imageView)
+            self.view.layoutIfNeeded()
+            }) { (_) -> Void in
+               stopRotatingView(self.imageView)
         }
     }
+    
 }
 
