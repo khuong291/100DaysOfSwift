@@ -120,4 +120,4 @@ Progress: 26/100
 
 ### 26/ Project SavingDataUsingNSStringAndNSData
 
-![](SwipeViewConSavingDataUsingNSStringAndNSDatatroller.png)
+![](SavingDataUsingNSStringAndNSData.png)
