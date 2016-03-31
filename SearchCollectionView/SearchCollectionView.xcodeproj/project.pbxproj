@@ -14,7 +14,6 @@
 		99B7D4441CACDE06007C0D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B7D4421CACDE06007C0D3E /* LaunchScreen.storyboard */; };
 		99B7D44C1CACE62B007C0D3E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7D44B1CACE62B007C0D3E /* MyCollectionViewCell.swift */; };
 		99B7D44E1CACE89B007C0D3E /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7D44D1CACE89B007C0D3E /* Hero.swift */; };
-		99B7D4501CAD0780007C0D3E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7D44F1CAD0780007C0D3E /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		99B7D4451CACDE07007C0D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99B7D44B1CACE62B007C0D3E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		99B7D44D1CACE89B007C0D3E /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
-		99B7D44F1CAD0780007C0D3E /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +66,6 @@
 				99B7D4451CACDE07007C0D3E /* Info.plist */,
 				99B7D44B1CACE62B007C0D3E /* MyCollectionViewCell.swift */,
 				99B7D44D1CACE89B007C0D3E /* Hero.swift */,
-				99B7D44F1CAD0780007C0D3E /* HeaderView.swift */,
 			);
 			path = SearchCollectionView;
 			sourceTree = "<group>";
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B7D4501CAD0780007C0D3E /* HeaderView.swift in Sources */,
 				99B7D43C1CACDE06007C0D3E /* ViewController.swift in Sources */,
 				99B7D43A1CACDE06007C0D3E /* AppDelegate.swift in Sources */,
 				99B7D44C1CACE62B007C0D3E /* MyCollectionViewCell.swift in Sources */,
