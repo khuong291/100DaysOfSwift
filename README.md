@@ -12,7 +12,7 @@ http://ashishkakkad.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 24/100
+Progress: 25/100
 
 2 days will create 1 project :)
 
@@ -113,3 +113,7 @@ Progress: 24/100
 ### 24/ Project SearchCollectionView
 
 ![](SearchCollectionView.gif)
+
+### 25/ Project SwipeViewController
+
+![](SwipeViewController.gif)
