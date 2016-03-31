@@ -12,7 +12,7 @@ http://ashishkakkad.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 23/100
+Progress: 24/100
 
 2 days will create 1 project :)
 
@@ -109,3 +109,7 @@ Progress: 23/100
 ### 23/ Project CustomSearchBar
 
 ![](CustomSearchBar.gif)
+
+### 24/ Project SearchCollectionView
+
+![](SearchCollectionView.gif)
