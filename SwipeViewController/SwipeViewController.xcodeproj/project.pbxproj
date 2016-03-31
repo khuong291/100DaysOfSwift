@@ -12,9 +12,13 @@
 		99B7D4631CAD4C17007C0D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B7D4611CAD4C17007C0D3E /* Main.storyboard */; };
 		99B7D4651CAD4C17007C0D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B7D4641CAD4C17007C0D3E /* Assets.xcassets */; };
 		99B7D4681CAD4C17007C0D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B7D4661CAD4C17007C0D3E /* LaunchScreen.storyboard */; };
+		99B7D4701CAD5473007C0D3E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7D46F1CAD5472007C0D3E /* InterfaceController.swift */; };
+		99B7D4721CAD5476007C0D3E /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7D4711CAD5476007C0D3E /* SwipeViewController.swift */; };
+		A9BB2AA6B7D148FBA9B53D36 /* Pods_SwipeViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD20BE2CA64496037B1FFFCF /* Pods_SwipeViewController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982D6895D60A051D6B7275A8 /* Pods-SwipeViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeViewController/Pods-SwipeViewController.release.xcconfig"; sourceTree = "<group>"; };
 		99B7D45A1CAD4C16007C0D3E /* SwipeViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B7D45D1CAD4C17007C0D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B7D45F1CAD4C17007C0D3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,10 @@
 		99B7D4641CAD4C17007C0D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B7D4671CAD4C17007C0D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B7D4691CAD4C17007C0D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B7D46F1CAD5472007C0D3E /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		99B7D4711CAD5476007C0D3E /* SwipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		B1350AAB9CB3886342EE4B03 /* Pods-SwipeViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeViewController/Pods-SwipeViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		FD20BE2CA64496037B1FFFCF /* Pods_SwipeViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9BB2AA6B7D148FBA9B53D36 /* Pods_SwipeViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12F3C901D04537756794A5AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1350AAB9CB3886342EE4B03 /* Pods-SwipeViewController.debug.xcconfig */,
+				982D6895D60A051D6B7275A8 /* Pods-SwipeViewController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		99B7D4511CAD4C16007C0D3E = {
 			isa = PBXGroup;
 			children = (
 				99B7D45C1CAD4C16007C0D3E /* SwipeViewController */,
 				99B7D45B1CAD4C16007C0D3E /* Products */,
+				12F3C901D04537756794A5AF /* Pods */,
+				C10BEDCBA19E8B13AAD5E448 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +74,8 @@
 		99B7D45C1CAD4C16007C0D3E /* SwipeViewController */ = {
 			isa = PBXGroup;
 			children = (
+				99B7D4711CAD5476007C0D3E /* SwipeViewController.swift */,
+				99B7D46F1CAD5472007C0D3E /* InterfaceController.swift */,
 				99B7D45D1CAD4C17007C0D3E /* AppDelegate.swift */,
 				99B7D45F1CAD4C17007C0D3E /* ViewController.swift */,
 				99B7D4611CAD4C17007C0D3E /* Main.storyboard */,
@@ -64,6 +86,14 @@
 			path = SwipeViewController;
 			sourceTree = "<group>";
 		};
+		C10BEDCBA19E8B13AAD5E448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD20BE2CA64496037B1FFFCF /* Pods_SwipeViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99B7D46C1CAD4C17007C0D3E /* Build configuration list for PBXNativeTarget "SwipeViewController" */;
 			buildPhases = (
+				5C9B8FD26D6BD2C01E6D12FB /* Check Pods Manifest.lock */,
 				99B7D4561CAD4C16007C0D3E /* Sources */,
 				99B7D4571CAD4C16007C0D3E /* Frameworks */,
 				99B7D4581CAD4C16007C0D3E /* Resources */,
+				40B50DD5A3BFF842ED8A17A5 /* Embed Pods Frameworks */,
+				2D111A214B34252EB84F00B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +163,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D111A214B34252EB84F00B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeViewController/Pods-SwipeViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40B50DD5A3BFF842ED8A17A5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeViewController/Pods-SwipeViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9B8FD26D6BD2C01E6D12FB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99B7D4561CAD4C16007C0D3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99B7D4701CAD5473007C0D3E /* InterfaceController.swift in Sources */,
 				99B7D4601CAD4C17007C0D3E /* ViewController.swift in Sources */,
 				99B7D45E1CAD4C17007C0D3E /* AppDelegate.swift in Sources */,
+				99B7D4721CAD5476007C0D3E /* SwipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +328,7 @@
 		};
 		99B7D46D1CAD4C17007C0D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1350AAB9CB3886342EE4B03 /* Pods-SwipeViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeViewController/Info.plist;
@@ -256,6 +340,7 @@
 		};
 		99B7D46E1CAD4C17007C0D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982D6895D60A051D6B7275A8 /* Pods-SwipeViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwipeViewController/Info.plist;
@@ -284,6 +369,7 @@
 				99B7D46E1CAD4C17007C0D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
