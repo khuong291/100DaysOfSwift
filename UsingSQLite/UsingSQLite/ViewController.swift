@@ -19,12 +19,35 @@ class ViewController: UIViewController {
 
         do {
             let baseUrl = try fileManager.URLForDirectory(.DocumentDirectory, inDomain: .UserDomainMask, appropriateForURL: nil, create: false)
-            dbUrl = baseUrl.URLByAppendingPathComponent("swift.sqlite")
+            dbUrl = baseUrl.URLByAppendingPathComponent("swift2.sqlite")
         } catch {
             print(error)
         }
 
         if let dbUrl = dbUrl {
+
+            let fmdb = FMDatabase(path: dbUrl.absoluteString)
+            fmdb.open()
+
+            let sqlStatement = "create table if not exists Tutorials (ID Integer Primary key AutoIncrement, Title Text, Author Text, PublicationDate Date);"
+            let insertStatement = "insert into Tutorials (Title, Author, PublicationDate) values ('Intro to SQLite', 'Ray Wenderlich', '2014-08-10 11:00:00')"
+            do {
+                try fmdb.executeUpdate(sqlStatement, values: nil)
+                try fmdb.executeUpdate(insertStatement, values: nil)
+            } catch {
+                print(error)
+            }
+
+            let selectSql = "select * from tutorials"
+            let fmresult = fmdb.executeQuery(selectSql, withParameterDictionary: nil)
+            while fmresult.next() {
+                let rowId = fmresult.intForColumn("ID")
+                let title = fmresult.stringForColumn("Title")
+                let author = fmresult.stringForColumn("Author")
+                let date = fmresult.stringForColumn("PublicationDate")
+
+                print("\(rowId) \(title) \(author) \(date)")
+            }
 
             let flags = SQLITE_OPEN_CREATE | SQLITE_OPEN_READWRITE
             let status = sqlite3_open_v2(dbUrl.absoluteString.cStringUsingEncoding(NSUTF8StringEncoding)!, &sqliteDB, flags, nil)
@@ -32,7 +55,7 @@ class ViewController: UIViewController {
             if status == SQLITE_OK {
 
                 let errMsg: UnsafeMutablePointer<UnsafeMutablePointer<Int8>> = nil
-                let sqlStatement = "create table if not exists Tutorials (ID Integer Primary key AutoIncrement, Title Text, Author Text, PublicationDate Date);";
+                let sqlStatement = "create table if not exists Tutorials (ID Integer Primary key AutoIncrement, Title Text, Author Text, PublicationDate Date);"
 
                 if sqlite3_exec(sqliteDB, sqlStatement, nil, nil, errMsg) == SQLITE_OK {
                     print("created table")
