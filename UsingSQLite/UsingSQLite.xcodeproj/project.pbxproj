@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9912DA9E1CAFE96B00BFE3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DA9D1CAFE96B00BFE3BE /* AppDelegate.swift */; };
-		9912DAA01CAFE96B00BFE3BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DA9F1CAFE96B00BFE3BE /* ViewController.swift */; };
 		9912DAA31CAFE96B00BFE3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912DAA11CAFE96B00BFE3BE /* Main.storyboard */; };
 		9912DAA51CAFE96B00BFE3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9912DAA41CAFE96B00BFE3BE /* Assets.xcassets */; };
 		9912DAA81CAFE96B00BFE3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912DAA61CAFE96B00BFE3BE /* LaunchScreen.storyboard */; };
+		9912DAB01CAFEBD100BFE3BE /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DAAF1CAFEBD100BFE3BE /* HomeScreenViewController.swift */; };
+		9912DAB21CAFEBDD00BFE3BE /* InsertRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DAB11CAFEBDD00BFE3BE /* InsertRecordViewController.swift */; };
+		9912DAB41CAFEE8200BFE3BE /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DAB31CAFEE8200BFE3BE /* StudentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9912DA9A1CAFE96B00BFE3BE /* UsingSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9912DA9D1CAFE96B00BFE3BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9912DA9F1CAFE96B00BFE3BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9912DAA21CAFE96B00BFE3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9912DAA41CAFE96B00BFE3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9912DAA71CAFE96B00BFE3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9912DAA91CAFE96B00BFE3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9912DAAF1CAFEBD100BFE3BE /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		9912DAB11CAFEBDD00BFE3BE /* InsertRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertRecordViewController.swift; sourceTree = "<group>"; };
+		9912DAB31CAFEE8200BFE3BE /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				9912DA9D1CAFE96B00BFE3BE /* AppDelegate.swift */,
-				9912DA9F1CAFE96B00BFE3BE /* ViewController.swift */,
 				9912DAA11CAFE96B00BFE3BE /* Main.storyboard */,
 				9912DAA41CAFE96B00BFE3BE /* Assets.xcassets */,
 				9912DAA61CAFE96B00BFE3BE /* LaunchScreen.storyboard */,
 				9912DAA91CAFE96B00BFE3BE /* Info.plist */,
+				9912DAAF1CAFEBD100BFE3BE /* HomeScreenViewController.swift */,
+				9912DAB11CAFEBDD00BFE3BE /* InsertRecordViewController.swift */,
+				9912DAB31CAFEE8200BFE3BE /* StudentCell.swift */,
 			);
 			path = UsingSQLite;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9912DAA01CAFE96B00BFE3BE /* ViewController.swift in Sources */,
+				9912DAB21CAFEBDD00BFE3BE /* InsertRecordViewController.swift in Sources */,
 				9912DA9E1CAFE96B00BFE3BE /* AppDelegate.swift in Sources */,
+				9912DAB01CAFEBD100BFE3BE /* HomeScreenViewController.swift in Sources */,
+				9912DAB41CAFEE8200BFE3BE /* StudentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
