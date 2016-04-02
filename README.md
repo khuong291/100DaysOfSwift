@@ -10,6 +10,8 @@ http://www.ioscreator.com/
 
 http://ashishkakkad.com/
 
+http://www.theappguruz.com/
+
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
 Progress: 28/100

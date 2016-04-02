@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+               BlueprintIdentifier = "9912DADC1CB02C9300BFE3BE"
                BuildableName = "UsingSQLite.app"
                BlueprintName = "UsingSQLite"
                ReferencedContainer = "container:UsingSQLite.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+            BlueprintIdentifier = "9912DADC1CB02C9300BFE3BE"
             BuildableName = "UsingSQLite.app"
             BlueprintName = "UsingSQLite"
             ReferencedContainer = "container:UsingSQLite.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+            BlueprintIdentifier = "9912DADC1CB02C9300BFE3BE"
             BuildableName = "UsingSQLite.app"
             BlueprintName = "UsingSQLite"
             ReferencedContainer = "container:UsingSQLite.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+            BlueprintIdentifier = "9912DADC1CB02C9300BFE3BE"
             BuildableName = "UsingSQLite.app"
             BlueprintName = "UsingSQLite"
             ReferencedContainer = "container:UsingSQLite.xcodeproj">
