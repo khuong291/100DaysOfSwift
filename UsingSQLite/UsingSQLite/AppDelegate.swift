@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SavingAndReadingDataInSQLite
+//  UsingSQLite
 //
 //  Created by Khuong Pham on 4/2/16.
 //  Copyright © 2016 Fantageek. All rights reserved.

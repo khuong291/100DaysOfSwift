@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SavingAndReadingDataInSQLite.xcscheme</key>
+		<key>UsingSQLite.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9912DA7B1CAFE5A300BFE3BE</key>
+		<key>9912DA991CAFE96B00BFE3BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

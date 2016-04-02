@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9912DA7B1CAFE5A300BFE3BE"
-               BuildableName = "SavingAndReadingDataInSQLite.app"
-               BlueprintName = "SavingAndReadingDataInSQLite"
-               ReferencedContainer = "container:SavingAndReadingDataInSQLite.xcodeproj">
+               BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+               BuildableName = "UsingSQLite.app"
+               BlueprintName = "UsingSQLite"
+               ReferencedContainer = "container:UsingSQLite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9912DA7B1CAFE5A300BFE3BE"
-            BuildableName = "SavingAndReadingDataInSQLite.app"
-            BlueprintName = "SavingAndReadingDataInSQLite"
-            ReferencedContainer = "container:SavingAndReadingDataInSQLite.xcodeproj">
+            BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+            BuildableName = "UsingSQLite.app"
+            BlueprintName = "UsingSQLite"
+            ReferencedContainer = "container:UsingSQLite.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9912DA7B1CAFE5A300BFE3BE"
-            BuildableName = "SavingAndReadingDataInSQLite.app"
-            BlueprintName = "SavingAndReadingDataInSQLite"
-            ReferencedContainer = "container:SavingAndReadingDataInSQLite.xcodeproj">
+            BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+            BuildableName = "UsingSQLite.app"
+            BlueprintName = "UsingSQLite"
+            ReferencedContainer = "container:UsingSQLite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9912DA7B1CAFE5A300BFE3BE"
-            BuildableName = "SavingAndReadingDataInSQLite.app"
-            BlueprintName = "SavingAndReadingDataInSQLite"
-            ReferencedContainer = "container:SavingAndReadingDataInSQLite.xcodeproj">
+            BlueprintIdentifier = "9912DA991CAFE96B00BFE3BE"
+            BuildableName = "UsingSQLite.app"
+            BlueprintName = "UsingSQLite"
+            ReferencedContainer = "container:UsingSQLite.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

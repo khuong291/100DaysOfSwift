@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9912DA801CAFE5A300BFE3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DA7F1CAFE5A300BFE3BE /* AppDelegate.swift */; };
-		9912DA821CAFE5A300BFE3BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DA811CAFE5A300BFE3BE /* ViewController.swift */; };
-		9912DA851CAFE5A300BFE3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912DA831CAFE5A300BFE3BE /* Main.storyboard */; };
-		9912DA871CAFE5A300BFE3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9912DA861CAFE5A300BFE3BE /* Assets.xcassets */; };
-		9912DA8A1CAFE5A300BFE3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912DA881CAFE5A300BFE3BE /* LaunchScreen.storyboard */; };
+		9912DA9E1CAFE96B00BFE3BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DA9D1CAFE96B00BFE3BE /* AppDelegate.swift */; };
+		9912DAA01CAFE96B00BFE3BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912DA9F1CAFE96B00BFE3BE /* ViewController.swift */; };
+		9912DAA31CAFE96B00BFE3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912DAA11CAFE96B00BFE3BE /* Main.storyboard */; };
+		9912DAA51CAFE96B00BFE3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9912DAA41CAFE96B00BFE3BE /* Assets.xcassets */; };
+		9912DAA81CAFE96B00BFE3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912DAA61CAFE96B00BFE3BE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9912DA7C1CAFE5A300BFE3BE /* SavingAndReadingDataInSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavingAndReadingDataInSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9912DA7F1CAFE5A300BFE3BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9912DA811CAFE5A300BFE3BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9912DA841CAFE5A300BFE3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9912DA861CAFE5A300BFE3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9912DA891CAFE5A300BFE3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9912DA8B1CAFE5A300BFE3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9912DA9A1CAFE96B00BFE3BE /* UsingSQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingSQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9912DA9D1CAFE96B00BFE3BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9912DA9F1CAFE96B00BFE3BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9912DAA21CAFE96B00BFE3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9912DAA41CAFE96B00BFE3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9912DAA71CAFE96B00BFE3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9912DAA91CAFE96B00BFE3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9912DA791CAFE5A300BFE3BE /* Frameworks */ = {
+		9912DA971CAFE96B00BFE3BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,71 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9912DA731CAFE5A300BFE3BE = {
+		9912DA911CAFE96B00BFE3BE = {
 			isa = PBXGroup;
 			children = (
-				9912DA7E1CAFE5A300BFE3BE /* SavingAndReadingDataInSQLite */,
-				9912DA7D1CAFE5A300BFE3BE /* Products */,
+				9912DA9C1CAFE96B00BFE3BE /* UsingSQLite */,
+				9912DA9B1CAFE96B00BFE3BE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9912DA7D1CAFE5A300BFE3BE /* Products */ = {
+		9912DA9B1CAFE96B00BFE3BE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9912DA7C1CAFE5A300BFE3BE /* SavingAndReadingDataInSQLite.app */,
+				9912DA9A1CAFE96B00BFE3BE /* UsingSQLite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9912DA7E1CAFE5A300BFE3BE /* SavingAndReadingDataInSQLite */ = {
+		9912DA9C1CAFE96B00BFE3BE /* UsingSQLite */ = {
 			isa = PBXGroup;
 			children = (
-				9912DA7F1CAFE5A300BFE3BE /* AppDelegate.swift */,
-				9912DA811CAFE5A300BFE3BE /* ViewController.swift */,
-				9912DA831CAFE5A300BFE3BE /* Main.storyboard */,
-				9912DA861CAFE5A300BFE3BE /* Assets.xcassets */,
-				9912DA881CAFE5A300BFE3BE /* LaunchScreen.storyboard */,
-				9912DA8B1CAFE5A300BFE3BE /* Info.plist */,
+				9912DA9D1CAFE96B00BFE3BE /* AppDelegate.swift */,
+				9912DA9F1CAFE96B00BFE3BE /* ViewController.swift */,
+				9912DAA11CAFE96B00BFE3BE /* Main.storyboard */,
+				9912DAA41CAFE96B00BFE3BE /* Assets.xcassets */,
+				9912DAA61CAFE96B00BFE3BE /* LaunchScreen.storyboard */,
+				9912DAA91CAFE96B00BFE3BE /* Info.plist */,
 			);
-			path = SavingAndReadingDataInSQLite;
+			path = UsingSQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9912DA7B1CAFE5A300BFE3BE /* SavingAndReadingDataInSQLite */ = {
+		9912DA991CAFE96B00BFE3BE /* UsingSQLite */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9912DA8E1CAFE5A300BFE3BE /* Build configuration list for PBXNativeTarget "SavingAndReadingDataInSQLite" */;
+			buildConfigurationList = 9912DAAC1CAFE96B00BFE3BE /* Build configuration list for PBXNativeTarget "UsingSQLite" */;
 			buildPhases = (
-				9912DA781CAFE5A300BFE3BE /* Sources */,
-				9912DA791CAFE5A300BFE3BE /* Frameworks */,
-				9912DA7A1CAFE5A300BFE3BE /* Resources */,
+				9912DA961CAFE96B00BFE3BE /* Sources */,
+				9912DA971CAFE96B00BFE3BE /* Frameworks */,
+				9912DA981CAFE96B00BFE3BE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SavingAndReadingDataInSQLite;
-			productName = SavingAndReadingDataInSQLite;
-			productReference = 9912DA7C1CAFE5A300BFE3BE /* SavingAndReadingDataInSQLite.app */;
+			name = UsingSQLite;
+			productName = UsingSQLite;
+			productReference = 9912DA9A1CAFE96B00BFE3BE /* UsingSQLite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9912DA741CAFE5A300BFE3BE /* Project object */ = {
+		9912DA921CAFE96B00BFE3BE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Fantageek;
 				TargetAttributes = {
-					9912DA7B1CAFE5A300BFE3BE = {
+					9912DA991CAFE96B00BFE3BE = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 9912DA771CAFE5A300BFE3BE /* Build configuration list for PBXProject "SavingAndReadingDataInSQLite" */;
+			buildConfigurationList = 9912DA951CAFE96B00BFE3BE /* Build configuration list for PBXProject "UsingSQLite" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 9912DA731CAFE5A300BFE3BE;
-			productRefGroup = 9912DA7D1CAFE5A300BFE3BE /* Products */;
+			mainGroup = 9912DA911CAFE96B00BFE3BE;
+			productRefGroup = 9912DA9B1CAFE96B00BFE3BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9912DA7B1CAFE5A300BFE3BE /* SavingAndReadingDataInSQLite */,
+				9912DA991CAFE96B00BFE3BE /* UsingSQLite */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9912DA7A1CAFE5A300BFE3BE /* Resources */ = {
+		9912DA981CAFE96B00BFE3BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9912DA8A1CAFE5A300BFE3BE /* LaunchScreen.storyboard in Resources */,
-				9912DA871CAFE5A300BFE3BE /* Assets.xcassets in Resources */,
-				9912DA851CAFE5A300BFE3BE /* Main.storyboard in Resources */,
+				9912DAA81CAFE96B00BFE3BE /* LaunchScreen.storyboard in Resources */,
+				9912DAA51CAFE96B00BFE3BE /* Assets.xcassets in Resources */,
+				9912DAA31CAFE96B00BFE3BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9912DA781CAFE5A300BFE3BE /* Sources */ = {
+		9912DA961CAFE96B00BFE3BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9912DA821CAFE5A300BFE3BE /* ViewController.swift in Sources */,
-				9912DA801CAFE5A300BFE3BE /* AppDelegate.swift in Sources */,
+				9912DAA01CAFE96B00BFE3BE /* ViewController.swift in Sources */,
+				9912DA9E1CAFE96B00BFE3BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9912DA831CAFE5A300BFE3BE /* Main.storyboard */ = {
+		9912DAA11CAFE96B00BFE3BE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9912DA841CAFE5A300BFE3BE /* Base */,
+				9912DAA21CAFE96B00BFE3BE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9912DA881CAFE5A300BFE3BE /* LaunchScreen.storyboard */ = {
+		9912DAA61CAFE96B00BFE3BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9912DA891CAFE5A300BFE3BE /* Base */,
+				9912DAA71CAFE96B00BFE3BE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9912DA8C1CAFE5A300BFE3BE /* Debug */ = {
+		9912DAAA1CAFE96B00BFE3BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		9912DA8D1CAFE5A300BFE3BE /* Release */ = {
+		9912DAAB1CAFE96B00BFE3BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,24 +243,24 @@
 			};
 			name = Release;
 		};
-		9912DA8F1CAFE5A300BFE3BE /* Debug */ = {
+		9912DAAD1CAFE96B00BFE3BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SavingAndReadingDataInSQLite/Info.plist;
+				INFOPLIST_FILE = UsingSQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.SavingAndReadingDataInSQLite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.UsingSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		9912DA901CAFE5A300BFE3BE /* Release */ = {
+		9912DAAE1CAFE96B00BFE3BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SavingAndReadingDataInSQLite/Info.plist;
+				INFOPLIST_FILE = UsingSQLite/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.SavingAndReadingDataInSQLite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.UsingSQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -268,24 +268,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9912DA771CAFE5A300BFE3BE /* Build configuration list for PBXProject "SavingAndReadingDataInSQLite" */ = {
+		9912DA951CAFE96B00BFE3BE /* Build configuration list for PBXProject "UsingSQLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9912DA8C1CAFE5A300BFE3BE /* Debug */,
-				9912DA8D1CAFE5A300BFE3BE /* Release */,
+				9912DAAA1CAFE96B00BFE3BE /* Debug */,
+				9912DAAB1CAFE96B00BFE3BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9912DA8E1CAFE5A300BFE3BE /* Build configuration list for PBXNativeTarget "SavingAndReadingDataInSQLite" */ = {
+		9912DAAC1CAFE96B00BFE3BE /* Build configuration list for PBXNativeTarget "UsingSQLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9912DA8F1CAFE5A300BFE3BE /* Debug */,
-				9912DA901CAFE5A300BFE3BE /* Release */,
+				9912DAAD1CAFE96B00BFE3BE /* Debug */,
+				9912DAAE1CAFE96B00BFE3BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9912DA741CAFE5A300BFE3BE /* Project object */;
+	rootObject = 9912DA921CAFE96B00BFE3BE /* Project object */;
 }
