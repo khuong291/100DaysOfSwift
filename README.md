@@ -14,7 +14,7 @@ http://www.theappguruz.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 29/100
+Progress: 30/100
 
 2 days will create 1 project :)
 
@@ -135,3 +135,8 @@ Progress: 29/100
 ### 29/ Project UsingSQLite
 
 ![](UsingSQLite.png)
+
+### 30/ Project UsingClosure
+
+![](UsingClosure.png)
+
