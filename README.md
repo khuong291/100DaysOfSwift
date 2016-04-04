@@ -14,7 +14,7 @@ http://www.theappguruz.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 31/100
+Progress: 32/100
 
 2 days will create 1 project :)
 
@@ -144,3 +144,6 @@ Progress: 31/100
 
 ![](UsingProtocol.png)
 
+### 32/ Project ConvertStringToUIColor
+
+![](ConvertStringToUIColor.png)
