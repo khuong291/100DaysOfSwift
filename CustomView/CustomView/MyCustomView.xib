@@ -14,11 +14,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="325" height="387"/>
+            <rect key="frame" x="0.0" y="0.0" width="325" height="430"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5Lf-Xz-9oa">
-                    <rect key="frame" x="0.0" y="69" width="325" height="318"/>
+                    <rect key="frame" x="0.0" y="69" width="325" height="332"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ke5-U4-A3j">
                     <rect key="frame" x="0.0" y="0.0" width="325" height="71"/>
@@ -29,19 +29,36 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5R6-ik-gq7">
+                    <rect key="frame" x="0.0" y="400" width="325" height="30"/>
+                    <color key="backgroundColor" red="0.20392156859999999" green="0.7843137255" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Say Hello"/>
+                    <connections>
+                        <action selector="buttonTapped:" destination="-1" eventType="touchUpInside" id="r2O-TV-T3t"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="5R6-ik-gq7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4Iu-o0-eVI"/>
+                <constraint firstAttribute="trailing" secondItem="5R6-ik-gq7" secondAttribute="trailing" id="5Em-13-RLx"/>
                 <constraint firstItem="Ke5-U4-A3j" firstAttribute="trailing" secondItem="5Lf-Xz-9oa" secondAttribute="trailing" id="BvZ-uU-pLQ"/>
                 <constraint firstItem="5Lf-Xz-9oa" firstAttribute="leading" secondItem="Ke5-U4-A3j" secondAttribute="leading" id="Bye-fj-zZu"/>
                 <constraint firstItem="Ke5-U4-A3j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="C08-9k-tZy"/>
+                <constraint firstItem="5R6-ik-gq7" firstAttribute="top" secondItem="5Lf-Xz-9oa" secondAttribute="bottom" constant="-1" id="Idg-Rk-unf"/>
                 <constraint firstAttribute="trailing" secondItem="Ke5-U4-A3j" secondAttribute="trailing" id="Ml0-yE-V1Z"/>
                 <constraint firstItem="Ke5-U4-A3j" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MzD-4p-lBK"/>
                 <constraint firstAttribute="bottom" secondItem="5Lf-Xz-9oa" secondAttribute="bottom" id="O1X-oF-uca"/>
+                <constraint firstAttribute="bottom" secondItem="5R6-ik-gq7" secondAttribute="bottom" id="P1q-0q-hE0"/>
                 <constraint firstItem="5Lf-Xz-9oa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="69" id="pYJ-rp-vsM"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="504.5" y="220.5"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="O1X-oF-uca"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="504.5" y="242"/>
         </view>
     </objects>
 </document>

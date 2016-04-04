@@ -48,4 +48,7 @@ class MyCustomView: UIView {
         addSubview(contentView)
     }
     
+    @IBAction func buttonTapped(sender: AnyObject) {
+        print("hello")
+    }
 }
