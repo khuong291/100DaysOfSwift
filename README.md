@@ -14,7 +14,7 @@ http://www.theappguruz.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 30/100
+Progress: 31/100
 
 2 days will create 1 project :)
 
@@ -139,4 +139,8 @@ Progress: 30/100
 ### 30/ Project UsingClosure
 
 ![](UsingClosure.png)
+
+### 31/ Project UsingProtocol
+
+![](UsingProtocol.png)
 
