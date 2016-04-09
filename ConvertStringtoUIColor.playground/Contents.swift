@@ -16,4 +16,3 @@ let blue = (Float(colorsString[2])!) / 255
 
 let myColor = UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: 1)
 
-
