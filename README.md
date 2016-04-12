@@ -16,7 +16,7 @@ http://www.theappguruz.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 33/100
+Progress: 34/100
 
 2 days will create 1 project :)
 
@@ -154,3 +154,6 @@ Progress: 33/100
 
 ![](ARC.png)
 
+### 34/ Project PlayMP3
+
+![](PlayMP3.png)
