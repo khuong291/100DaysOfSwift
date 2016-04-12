@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74528D7E1B49C5FD001B8944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74528D7D1B49C5FD001B8944 /* AppDelegate.swift */; };
+		74528D801B49C5FD001B8944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74528D7F1B49C5FD001B8944 /* ViewController.swift */; };
+		74528D831B49C5FD001B8944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74528D811B49C5FD001B8944 /* Main.storyboard */; };
+		74528D851B49C5FD001B8944 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74528D841B49C5FD001B8944 /* Images.xcassets */; };
+		74528D881B49C5FD001B8944 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74528D861B49C5FD001B8944 /* LaunchScreen.xib */; };
+		74528D941B49C5FD001B8944 /* MP3PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74528D931B49C5FD001B8944 /* MP3PlayerTests.swift */; };
+		74528DA41B49DBCF001B8944 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74528DA31B49DBCF001B8944 /* AVFoundation.framework */; };
+		74528DC61B595D13001B8944 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 74528DA81B595D13001B8944 /* Back.png */; };
+		74528DC71B595D13001B8944 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74528DA91B595D13001B8944 /* background.jpg */; };
+		74528DCA1B595D13001B8944 /* BasePlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 74528DAC1B595D13001B8944 /* BasePlayer.png */; };
+		74528DCD1B595D13001B8944 /* FWD.png in Resources */ = {isa = PBXBuildFile; fileRef = 74528DAF1B595D13001B8944 /* FWD.png */; };
+		74528DCF1B595D13001B8944 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 74528DB11B595D13001B8944 /* Pause.png */; };
+		74528DD11B595D13001B8944 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 74528DB31B595D13001B8944 /* Play.png */; };
+		74528DDC1B595D13001B8944 /* Stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 74528DBE1B595D13001B8944 /* Stop.png */; };
+		74528DE81B5987E6001B8944 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74528DE71B5987E6001B8944 /* FileReader.swift */; };
+		74528DEA1B5992A1001B8944 /* MP3Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74528DE91B5992A1001B8944 /* MP3Player.swift */; };
+		74964D621B62BF49005E3199 /* Lonesome Road Blues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74964D5F1B62BF49005E3199 /* Lonesome Road Blues.mp3 */; };
+		74964D631B62BF49005E3199 /* Moonlight Bay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74964D601B62BF49005E3199 /* Moonlight Bay.mp3 */; };
+		74964D641B62BF49005E3199 /* Opera Wheels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74964D611B62BF49005E3199 /* Opera Wheels.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74528D8E1B49C5FD001B8944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74528D701B49C5FC001B8944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74528D771B49C5FD001B8944;
+			remoteInfo = MP3Player;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74528D781B49C5FD001B8944 /* MP3Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP3Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74528D7C1B49C5FD001B8944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74528D7D1B49C5FD001B8944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74528D7F1B49C5FD001B8944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74528D821B49C5FD001B8944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74528D841B49C5FD001B8944 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74528D871B49C5FD001B8944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		74528D8D1B49C5FD001B8944 /* MP3PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MP3PlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74528D921B49C5FD001B8944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74528D931B49C5FD001B8944 /* MP3PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP3PlayerTests.swift; sourceTree = "<group>"; };
+		74528DA31B49DBCF001B8944 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		74528DA81B595D13001B8944 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		74528DA91B595D13001B8944 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		74528DAC1B595D13001B8944 /* BasePlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BasePlayer.png; sourceTree = "<group>"; };
+		74528DAF1B595D13001B8944 /* FWD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FWD.png; sourceTree = "<group>"; };
+		74528DB11B595D13001B8944 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		74528DB31B595D13001B8944 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		74528DBE1B595D13001B8944 /* Stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stop.png; sourceTree = "<group>"; };
+		74528DE71B5987E6001B8944 /* FileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileReader.swift; path = ../FileReader.swift; sourceTree = "<group>"; };
+		74528DE91B5992A1001B8944 /* MP3Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MP3Player.swift; sourceTree = SOURCE_ROOT; };
+		74964D5F1B62BF49005E3199 /* Lonesome Road Blues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lonesome Road Blues.mp3"; sourceTree = "<group>"; };
+		74964D601B62BF49005E3199 /* Moonlight Bay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Moonlight Bay.mp3"; sourceTree = "<group>"; };
+		74964D611B62BF49005E3199 /* Opera Wheels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Opera Wheels.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74528D751B49C5FD001B8944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74528DA41B49DBCF001B8944 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74528D8A1B49C5FD001B8944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74528D6F1B49C5FC001B8944 = {
+			isa = PBXGroup;
+			children = (
+				74528DA31B49DBCF001B8944 /* AVFoundation.framework */,
+				74528D7A1B49C5FD001B8944 /* MP3Player */,
+				74528D901B49C5FD001B8944 /* MP3PlayerTests */,
+				74528D791B49C5FD001B8944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74528D791B49C5FD001B8944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74528D781B49C5FD001B8944 /* MP3Player.app */,
+				74528D8D1B49C5FD001B8944 /* MP3PlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74528D7A1B49C5FD001B8944 /* MP3Player */ = {
+			isa = PBXGroup;
+			children = (
+				74964D5F1B62BF49005E3199 /* Lonesome Road Blues.mp3 */,
+				74964D601B62BF49005E3199 /* Moonlight Bay.mp3 */,
+				74964D611B62BF49005E3199 /* Opera Wheels.mp3 */,
+				74528DE91B5992A1001B8944 /* MP3Player.swift */,
+				74528DE71B5987E6001B8944 /* FileReader.swift */,
+				74528D7D1B49C5FD001B8944 /* AppDelegate.swift */,
+				74528D7F1B49C5FD001B8944 /* ViewController.swift */,
+				74528D811B49C5FD001B8944 /* Main.storyboard */,
+				74528DA81B595D13001B8944 /* Back.png */,
+				74528DA91B595D13001B8944 /* background.jpg */,
+				74528DAC1B595D13001B8944 /* BasePlayer.png */,
+				74528DAF1B595D13001B8944 /* FWD.png */,
+				74528DB11B595D13001B8944 /* Pause.png */,
+				74528DB31B595D13001B8944 /* Play.png */,
+				74528DBE1B595D13001B8944 /* Stop.png */,
+				74528D841B49C5FD001B8944 /* Images.xcassets */,
+				74528D861B49C5FD001B8944 /* LaunchScreen.xib */,
+				74528D7B1B49C5FD001B8944 /* Supporting Files */,
+			);
+			path = MP3Player;
+			sourceTree = "<group>";
+		};
+		74528D7B1B49C5FD001B8944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74528D7C1B49C5FD001B8944 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74528D901B49C5FD001B8944 /* MP3PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				74528D931B49C5FD001B8944 /* MP3PlayerTests.swift */,
+				74528D911B49C5FD001B8944 /* Supporting Files */,
+			);
+			path = MP3PlayerTests;
+			sourceTree = "<group>";
+		};
+		74528D911B49C5FD001B8944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74528D921B49C5FD001B8944 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74528D771B49C5FD001B8944 /* MP3Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74528D971B49C5FD001B8944 /* Build configuration list for PBXNativeTarget "MP3Player" */;
+			buildPhases = (
+				74528D741B49C5FD001B8944 /* Sources */,
+				74528D751B49C5FD001B8944 /* Frameworks */,
+				74528D761B49C5FD001B8944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MP3Player;
+			productName = MP3Player;
+			productReference = 74528D781B49C5FD001B8944 /* MP3Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74528D8C1B49C5FD001B8944 /* MP3PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74528D9A1B49C5FD001B8944 /* Build configuration list for PBXNativeTarget "MP3PlayerTests" */;
+			buildPhases = (
+				74528D891B49C5FD001B8944 /* Sources */,
+				74528D8A1B49C5FD001B8944 /* Frameworks */,
+				74528D8B1B49C5FD001B8944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74528D8F1B49C5FD001B8944 /* PBXTargetDependency */,
+			);
+			name = MP3PlayerTests;
+			productName = MP3PlayerTests;
+			productReference = 74528D8D1B49C5FD001B8944 /* MP3PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74528D701B49C5FC001B8944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "James Tyner";
+				TargetAttributes = {
+					74528D771B49C5FD001B8944 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					74528D8C1B49C5FD001B8944 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 74528D771B49C5FD001B8944;
+					};
+				};
+			};
+			buildConfigurationList = 74528D731B49C5FC001B8944 /* Build configuration list for PBXProject "MP3Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74528D6F1B49C5FC001B8944;
+			productRefGroup = 74528D791B49C5FD001B8944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74528D771B49C5FD001B8944 /* MP3Player */,
+				74528D8C1B49C5FD001B8944 /* MP3PlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74528D761B49C5FD001B8944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74964D631B62BF49005E3199 /* Moonlight Bay.mp3 in Resources */,
+				74528DDC1B595D13001B8944 /* Stop.png in Resources */,
+				74528DCD1B595D13001B8944 /* FWD.png in Resources */,
+				74528DCF1B595D13001B8944 /* Pause.png in Resources */,
+				74964D641B62BF49005E3199 /* Opera Wheels.mp3 in Resources */,
+				74964D621B62BF49005E3199 /* Lonesome Road Blues.mp3 in Resources */,
+				74528DCA1B595D13001B8944 /* BasePlayer.png in Resources */,
+				74528DC61B595D13001B8944 /* Back.png in Resources */,
+				74528D831B49C5FD001B8944 /* Main.storyboard in Resources */,
+				74528D881B49C5FD001B8944 /* LaunchScreen.xib in Resources */,
+				74528DC71B595D13001B8944 /* background.jpg in Resources */,
+				74528DD11B595D13001B8944 /* Play.png in Resources */,
+				74528D851B49C5FD001B8944 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74528D8B1B49C5FD001B8944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74528D741B49C5FD001B8944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74528D801B49C5FD001B8944 /* ViewController.swift in Sources */,
+				74528D7E1B49C5FD001B8944 /* AppDelegate.swift in Sources */,
+				74528DE81B5987E6001B8944 /* FileReader.swift in Sources */,
+				74528DEA1B5992A1001B8944 /* MP3Player.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74528D891B49C5FD001B8944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74528D941B49C5FD001B8944 /* MP3PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74528D8F1B49C5FD001B8944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74528D771B49C5FD001B8944 /* MP3Player */;
+			targetProxy = 74528D8E1B49C5FD001B8944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74528D811B49C5FD001B8944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74528D821B49C5FD001B8944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74528D861B49C5FD001B8944 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74528D871B49C5FD001B8944 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74528D951B49C5FD001B8944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		74528D961B49C5FD001B8944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74528D981B49C5FD001B8944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MP3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74528D991B49C5FD001B8944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MP3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74528D9B1B49C5FD001B8944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MP3PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MP3Player.app/MP3Player";
+			};
+			name = Debug;
+		};
+		74528D9C1B49C5FD001B8944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MP3PlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MP3Player.app/MP3Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74528D731B49C5FC001B8944 /* Build configuration list for PBXProject "MP3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74528D951B49C5FD001B8944 /* Debug */,
+				74528D961B49C5FD001B8944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74528D971B49C5FD001B8944 /* Build configuration list for PBXNativeTarget "MP3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74528D981B49C5FD001B8944 /* Debug */,
+				74528D991B49C5FD001B8944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74528D9A1B49C5FD001B8944 /* Build configuration list for PBXNativeTarget "MP3PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74528D9B1B49C5FD001B8944 /* Debug */,
+				74528D9C1B49C5FD001B8944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74528D701B49C5FC001B8944 /* Project object */;
+}

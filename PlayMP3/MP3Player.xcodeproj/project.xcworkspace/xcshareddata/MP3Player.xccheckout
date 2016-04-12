@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3752E8F2-2767-4B97-A769-DA763E0D0428</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MP3Player</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>90A1345C9564A36A403D375E992C9F6AC73D33AE</key>
+		<string>https://github.com/jamestutsplus/CreateAMP3PlayerStarterProject.git</string>
+		<key>B763B9D16167CBF8CE7666FBE79732FF2870DF03</key>
+		<string>https://github.com/jamestutsplus/MP3PlayerAVFoundationStarterProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MP3Player.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>90A1345C9564A36A403D375E992C9F6AC73D33AE</key>
+		<string>../../../MP3PlayerStarter</string>
+		<key>B763B9D16167CBF8CE7666FBE79732FF2870DF03</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jamestutsplus/MP3PlayerAVFoundationStarterProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B763B9D16167CBF8CE7666FBE79732FF2870DF03</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B763B9D16167CBF8CE7666FBE79732FF2870DF03</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MP3PlayerAVFoundationStarterProject</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90A1345C9564A36A403D375E992C9F6AC73D33AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MP3PlayerStarter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
