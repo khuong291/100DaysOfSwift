@@ -9,6 +9,8 @@
 import UIKit
 
 class FileReader: NSObject {
-    
+    class func readFiles() -> [String] {
+        return NSBundle.mainBundle().pathsForResourcesOfType("mp3", inDirectory: nil)
+    }
 }
 
