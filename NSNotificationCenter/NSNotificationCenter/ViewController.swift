@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.setName(_:)), name: "forSettingName", object: nil)
     }
-
+    
+    func setName(notification: NSNotification) {
+        label.text = "Khuong"
+    }
 
 }
 

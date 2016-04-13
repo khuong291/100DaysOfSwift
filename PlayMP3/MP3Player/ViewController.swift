@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     }
 
     func setupNotificationCenter() {
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "setTrackName", name: "SetTrackNameText", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.setTrackName), name: "SetTrackNameText", object: nil)
     }
     
     override func didReceiveMemoryWarning() {
