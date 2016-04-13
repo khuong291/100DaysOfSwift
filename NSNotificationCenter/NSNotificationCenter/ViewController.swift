@@ -17,7 +17,7 @@ class ViewController: UIViewController {
 
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.setName(_:)), name: "forSettingName", object: nil)
     }
-    
+
     func setName(notification: NSNotification) {
         label.text = "Khuong"
     }

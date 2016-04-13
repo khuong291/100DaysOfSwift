@@ -10,13 +10,15 @@ http://appcoda.com
 
 http://www.ioscreator.com/
 
+http://code.tutsplus.com/
+
 http://ashishkakkad.com/
 
 http://www.theappguruz.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 34/100
+Progress: 35/100
 
 2 days will create 1 project :)
 
@@ -157,3 +159,7 @@ Progress: 34/100
 ### 34/ Project PlayMP3
 
 ![](PlayMP3.png)
+
+### 35/ Project NSNotificationCenter
+
+![](NSNotificationCenter.gif)
