@@ -18,7 +18,7 @@ http://www.theappguruz.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 35/100
+Progress: 36/100
 
 2 days will create 1 project :)
 
@@ -163,3 +163,7 @@ Progress: 35/100
 ### 35/ Project NSNotificationCenter
 
 ![](NSNotificationCenter.gif)
+
+### 36/ Project ReDrawPreviousVC
+
+![](ReDrawPreviousVC.gif)
