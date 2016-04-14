@@ -26,7 +26,6 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchResultsUp
             controller.searchBar.sizeToFit()
 
             self.tableView.tableHeaderView = controller.searchBar
-
             return controller
         })()
 
@@ -40,7 +39,6 @@ class ViewController: UIViewController, UITableViewDataSource, UISearchResultsUp
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return resultSearchController.active ? filteredTableData.count : tableData.count
     }
-
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)

@@ -12,6 +12,8 @@
 		99C05EE91CBFE6A300CEE999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C05EE71CBFE6A300CEE999 /* Main.storyboard */; };
 		99C05EEB1CBFE6A400CEE999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C05EEA1CBFE6A400CEE999 /* Assets.xcassets */; };
 		99C05EEE1CBFE6A400CEE999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C05EEC1CBFE6A400CEE999 /* LaunchScreen.storyboard */; };
+		99C05EF61CBFF27300CEE999 /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C05EF51CBFF27300CEE999 /* DimmingPresentationController.swift */; };
+		99C05EF81CBFF67D00CEE999 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C05EF71CBFF67D00CEE999 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		99C05EEA1CBFE6A400CEE999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C05EED1CBFE6A400CEE999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99C05EEF1CBFE6A400CEE999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C05EF51CBFF27300CEE999 /* DimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmingPresentationController.swift; sourceTree = "<group>"; };
+		99C05EF71CBFF67D00CEE999 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				99C05EEA1CBFE6A400CEE999 /* Assets.xcassets */,
 				99C05EEC1CBFE6A400CEE999 /* LaunchScreen.storyboard */,
 				99C05EEF1CBFE6A400CEE999 /* Info.plist */,
+				99C05EF51CBFF27300CEE999 /* DimmingPresentationController.swift */,
+				99C05EF71CBFF67D00CEE999 /* ViewController2.swift */,
 			);
 			path = ReDrawPreviousVC;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C05EE61CBFE6A300CEE999 /* ViewController.swift in Sources */,
+				99C05EF81CBFF67D00CEE999 /* ViewController2.swift in Sources */,
 				99C05EE41CBFE6A300CEE999 /* AppDelegate.swift in Sources */,
+				99C05EF61CBFF27300CEE999 /* DimmingPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
