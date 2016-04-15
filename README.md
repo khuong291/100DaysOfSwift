@@ -18,7 +18,7 @@ http://www.theappguruz.com/
 
 https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
 
-Progress: 36/100
+Progress: 37/100
 
 2 days will create 1 project :)
 
@@ -167,3 +167,7 @@ Progress: 36/100
 ### 36/ Project ReDrawPreviousVC
 
 ![](ReDrawPreviousVC.gif)
+
+### 37/ Project PhotoDetailView
+
+![](PhotoDetailView.gif)
