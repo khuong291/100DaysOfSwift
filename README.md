@@ -32,13 +32,13 @@ Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
 
-### 2/ Project ImageCropper
+Project 02 - [ImageCropper](https://github.com/khuong291/Swift_Example_Series/tree/master/ImageCropper)
 
-![](ImageCropper.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ImageCropper.gif)
 
-### 3/ Project CandySearch
+Project 03 - [CandySearch](https://github.com/khuong291/Swift_Example_Series/tree/master/CandySearch)
 
-![](CandySearch.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CandySearch.gif)
 
 ### 4/ Project SpringAnimateText
 
