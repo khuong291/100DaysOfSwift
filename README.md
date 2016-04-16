@@ -2,21 +2,25 @@
 
 Here is a punch of example projects with Swift, I am going to build 100 example projects here. I follow some tutorials from:
 
-https://developer.apple.com/
+[Apple](https://developer.apple.com/)
 
-http://www.raywenderlich.com
+[Raywenderlich](http://www.raywenderlich.com)
 
-http://appcoda.com
+[AppCoda](http://appcoda.com)
 
-http://www.ioscreator.com/
+[IOSCreator](http://www.ioscreator.com/)
 
-http://code.tutsplus.com/
+[Tutsplus](http://code.tutsplus.com/)
 
-http://ashishkakkad.com/
+[Ashishkakkad](http://ashishkakkad.com/)
 
-http://www.theappguruz.com/
+[TheAppGuruz](http://www.theappguruz.com/)
 
-https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw
+[Youtube - Brian Advent](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw)
+
+[Youtube - Jared Davidson](https://www.youtube.com/user/Archetapp)
+
+[Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
 Progress: 38/100
 
@@ -26,7 +30,7 @@ Progress: 38/100
 
 ### 1/ Project MyLocation
 
-![](MyLocation.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
 
 ### 2/ Project ImageCropper
 
