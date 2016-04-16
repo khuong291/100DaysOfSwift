@@ -22,7 +22,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 38/100
+Progress: 39/100
 
 ## Project Demos
 
@@ -177,6 +177,10 @@ Project 37 - [PhotoDetailView](https://github.com/khuong291/Swift_Example_Series
 Project 38 - [GCD](https://github.com/khuong291/Swift_Example_Series/tree/master/GCD)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/GCD.gif)
+
+Project 39 - [NSOperation](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation.gif)
 
 ## Reach me ##
 
