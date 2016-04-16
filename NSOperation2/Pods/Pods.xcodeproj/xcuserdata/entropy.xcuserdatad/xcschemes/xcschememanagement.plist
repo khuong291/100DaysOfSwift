@@ -14,22 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Cosmos.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-NSOperation2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>SwiftyJSON.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>TTGEmojiRate-TTGEmojiRate.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>TTGEmojiRate.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,12 +37,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>08AB4108EE538E3FD036E6A85B986831</key>
+		<key>608B49B5DDACC601EE8044A1931993F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3D22B18B9EF23094FD9580C3009B71DB</key>
+		<key>6B2697BC5A45687B7ACF999C35EFDDD6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>80949CFDB8BA80175A76C9CBF6831CC6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D745D242262AB1F4F0FF84AAA7F37301</key>
+		<key>FF47D894980F284653EBABFB23A6F6B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

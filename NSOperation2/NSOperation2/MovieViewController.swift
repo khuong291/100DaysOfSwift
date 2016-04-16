@@ -7,20 +7,31 @@
 //
 
 import UIKit
-import TTGEmojiRate
+import Cosmos
 import Alamofire
 import AlamofireImage
 import SwiftyJSON
 
-class MovieViewController: UIViewController {
+class MovieViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
+    let test = ["a","b"]
 
     var movies: [NSDictionary] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchMovies()
+    }
+
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! MovieTableViewCell
+        cell.movieTitleLabel.text = test[indexPath.row]
+        return cell
+    }
+
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return test.count
     }
 
     func fetchMovies() {

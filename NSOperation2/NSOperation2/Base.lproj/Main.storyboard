@@ -42,18 +42,64 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnp-bb-Rjq">
-                                                    <rect key="frame" x="116" y="51" width="49" height="21"/>
+                                                    <rect key="frame" x="116" y="53" width="49" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TmE-5O-fw0">
-                                                    <rect key="frame" x="179" y="37" width="50" height="50"/>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TmE-5O-fw0" customClass="CosmosView" customModule="Cosmos">
+                                                    <rect key="frame" x="179" y="54" width="150" height="20"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="50" id="tuq-0S-8F0"/>
-                                                        <constraint firstAttribute="width" constant="50" id="vgG-0p-0EL"/>
+                                                        <constraint firstAttribute="height" constant="20" id="tuq-0S-8F0"/>
+                                                        <constraint firstAttribute="width" constant="150" id="vgG-0p-0EL"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rateLineWidth">
+                                                            <real key="value" value="14"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="rateDynamicColor" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rateMouthWidth">
+                                                            <real key="value" value="0.59999999999999998"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rateEyeVerticalPosition">
+                                                            <real key="value" value="0.59999999999999998"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rateValue">
+                                                            <real key="value" value="4"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rateEyeWidth">
+                                                            <real key="value" value="0.20000000000000001"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="rateShowEyes" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rateMouthVerticalPosition">
+                                                            <real key="value" value="0.34999999999999998"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                                            <real key="value" value="3.5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                                            <real key="value" value="20"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                                            <color key="value" red="0.042938959280000001" green="0.61935399540000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                                            <color key="value" red="1" green="0.60516536080000005" blue="0.31968149950000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                                            <color key="value" red="1" green="0.60516536080000005" blue="0.31968149950000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="filledBorderColor">
+                                                            <color key="value" red="1" green="0.60516536080000005" blue="0.31968149950000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                                            <integer key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
                                             <constraints>
@@ -62,7 +108,7 @@
                                                 <constraint firstItem="Gnp-bb-Rjq" firstAttribute="leading" secondItem="iwP-xo-ZLz" secondAttribute="leading" id="CKk-CA-5bo"/>
                                                 <constraint firstItem="iwP-xo-ZLz" firstAttribute="leading" secondItem="46r-Sp-eHW" secondAttribute="trailing" constant="8" id="FLy-zU-p8r"/>
                                                 <constraint firstItem="Gnp-bb-Rjq" firstAttribute="top" secondItem="iwP-xo-ZLz" secondAttribute="bottom" constant="22" id="JpB-OA-Cpt"/>
-                                                <constraint firstItem="TmE-5O-fw0" firstAttribute="top" secondItem="iwP-xo-ZLz" secondAttribute="bottom" constant="3" id="RS4-e0-Vhd"/>
+                                                <constraint firstItem="TmE-5O-fw0" firstAttribute="top" secondItem="iwP-xo-ZLz" secondAttribute="bottom" constant="20" id="RS4-e0-Vhd"/>
                                                 <constraint firstAttribute="trailing" secondItem="iwP-xo-ZLz" secondAttribute="trailing" constant="8" id="XgE-Rj-nLt"/>
                                                 <constraint firstItem="46r-Sp-eHW" firstAttribute="centerY" secondItem="vB5-aC-hbZ" secondAttribute="centerY" id="bdh-A1-T31"/>
                                                 <constraint firstItem="Gnp-bb-Rjq" firstAttribute="centerY" secondItem="TmE-5O-fw0" secondAttribute="centerY" id="iJx-C6-aYs"/>
@@ -76,11 +122,14 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="movieImageView" destination="46r-Sp-eHW" id="iO2-MB-SXS"/>
-                                            <outlet property="movieRatingView" destination="Gnp-bb-Rjq" id="Yr2-qI-Blj"/>
+                                            <outlet property="movieRatingView" destination="TmE-5O-fw0" id="2fh-FR-QIJ"/>
                                             <outlet property="movieTitleLabel" destination="iwP-xo-ZLz" id="eOS-wP-1cf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="PzA-59-2jR" id="Ksf-fy-YHa"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
