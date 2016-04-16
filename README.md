@@ -28,7 +28,7 @@ Progress: 38/100
 
 ## Project Demos
 
-### 1/ Project MyLocation
+Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
 
