@@ -24,8 +24,6 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 Progress: 38/100
 
-2 days will create 1 project :)
-
 ## Project Demos
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
@@ -144,38 +142,44 @@ Project 29 - [UsingSQLite](https://github.com/khuong291/Swift_Example_Series/tre
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingSQLite.png)
 
-### 30/ Project UsingClosure
+Project 30 - [UsingClosure](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingClosure)
 
-![](UsingClosure.png)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingClosure.png)
 
-### 31/ Project UsingProtocol
+Project 31 - [UsingProtocol](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingProtocol)
 
-![](UsingProtocol.png)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol.png)
 
-### 32/ Project ConvertStringToUIColor
+Project 32 - [ConvertStringToUIColor](https://github.com/khuong291/Swift_Example_Series/tree/master/ConvertStringToUIColor)
 
-![](ConvertStringToUIColor.png)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ConvertStringToUIColor.png)
 
-### 33/ Project ARC
+Project 33 - [ARC](https://github.com/khuong291/Swift_Example_Series/tree/master/ARC)
 
-![](ARC.png)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ARC.png)
 
-### 34/ Project PlayMP3
+Project 34 - [PlayMP3](https://github.com/khuong291/Swift_Example_Series/tree/master/PlayMP3)
 
-![](PlayMP3.png)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PlayMP3.png)
 
-### 35/ Project NSNotificationCenter
+Project 35 - [NSNotificationCenter](https://github.com/khuong291/Swift_Example_Series/tree/master/NSNotificationCenter)
 
-![](NSNotificationCenter.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSNotificationCenter.gif)
 
-### 36/ Project ReDrawPreviousVC
+Project 36 - [ReDrawPreviousVC](https://github.com/khuong291/Swift_Example_Series/tree/master/ReDrawPreviousVC)
 
-![](ReDrawPreviousVC.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ReDrawPreviousVC.gif)
 
-### 37/ Project PhotoDetailView
+Project 37 - [PhotoDetailView](https://github.com/khuong291/Swift_Example_Series/tree/master/PhotoDetailView)
 
-![](PhotoDetailView.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PhotoDetailView.gif)
 
-### 38/ Project GCD
+Project 38 - [GCD](https://github.com/khuong291/Swift_Example_Series/tree/master/GCD)
 
-![](GCD.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/GCD.gif)
+
+## Reach me ##
+
+Twitter: [khuong291](https://twitter.com/khuong291)
+
+Facebook: [Đăng Khương Phạm](https://www.facebook.com/profile.php?id=100003211267207)
