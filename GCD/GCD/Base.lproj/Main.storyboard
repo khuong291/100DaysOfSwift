@@ -1,25 +1,116 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="x6S-eN-5xH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Download Images-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GCD" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="tsp-Z2-YxV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Emf-V5-HrD" userLabel="Image View1">
+                                <rect key="frame" x="0.0" y="64" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="9YQ-4h-pwc"/>
+                                    <constraint firstAttribute="height" constant="150" id="snL-k7-dBS"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dye-TW-LBu">
+                                <rect key="frame" x="225" y="64" width="150" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3KR-WW-XPA">
+                                <rect key="frame" x="0.0" y="250" width="150" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oyn-JT-NR9">
+                                <rect key="frame" x="225" y="250" width="150" height="150"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5YX-4x-c00">
+                                <rect key="frame" x="37" y="532" width="300" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="296" id="LBb-E2-2q7"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="oIh-c9-0XC"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uX-Pn-jOd">
+                                <rect key="frame" x="166" y="476" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dye-TW-LBu" firstAttribute="height" secondItem="Emf-V5-HrD" secondAttribute="height" id="0pH-jI-JCy"/>
+                            <constraint firstItem="oyn-JT-NR9" firstAttribute="top" secondItem="Dye-TW-LBu" secondAttribute="bottom" constant="36" id="12h-rq-NTB"/>
+                            <constraint firstItem="3KR-WW-XPA" firstAttribute="width" secondItem="Emf-V5-HrD" secondAttribute="width" id="14L-aL-cd5"/>
+                            <constraint firstItem="oyn-JT-NR9" firstAttribute="height" secondItem="Emf-V5-HrD" secondAttribute="height" id="1Ay-ks-xfW"/>
+                            <constraint firstItem="2uX-Pn-jOd" firstAttribute="top" secondItem="3KR-WW-XPA" secondAttribute="bottom" constant="76" id="2Jd-vs-DtH"/>
+                            <constraint firstItem="Emf-V5-HrD" firstAttribute="leading" secondItem="tsp-Z2-YxV" secondAttribute="leading" id="8Hu-WQ-tqb"/>
+                            <constraint firstItem="5YX-4x-c00" firstAttribute="top" secondItem="2uX-Pn-jOd" secondAttribute="bottom" constant="35" id="8oc-3S-bRW"/>
+                            <constraint firstItem="2uX-Pn-jOd" firstAttribute="centerX" secondItem="tsp-Z2-YxV" secondAttribute="centerX" id="GWl-F2-A18"/>
+                            <constraint firstItem="Emf-V5-HrD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="JFb-6Q-x4d"/>
+                            <constraint firstItem="oyn-JT-NR9" firstAttribute="width" secondItem="Emf-V5-HrD" secondAttribute="width" id="QoA-4o-u4c"/>
+                            <constraint firstItem="Dye-TW-LBu" firstAttribute="width" secondItem="Emf-V5-HrD" secondAttribute="width" id="U0V-52-kTw"/>
+                            <constraint firstItem="3KR-WW-XPA" firstAttribute="top" secondItem="Emf-V5-HrD" secondAttribute="bottom" constant="36" id="Z5b-f0-azU"/>
+                            <constraint firstAttribute="trailing" secondItem="Dye-TW-LBu" secondAttribute="trailing" id="hIQ-cc-k6d"/>
+                            <constraint firstItem="3KR-WW-XPA" firstAttribute="leading" secondItem="tsp-Z2-YxV" secondAttribute="leading" id="jeK-yj-dNL"/>
+                            <constraint firstItem="5YX-4x-c00" firstAttribute="centerX" secondItem="tsp-Z2-YxV" secondAttribute="centerX" id="n4Y-UP-Oab"/>
+                            <constraint firstItem="3KR-WW-XPA" firstAttribute="height" secondItem="Emf-V5-HrD" secondAttribute="height" id="nOW-6Z-LHj"/>
+                            <constraint firstAttribute="trailing" secondItem="oyn-JT-NR9" secondAttribute="trailing" id="rmv-NB-K69"/>
+                            <constraint firstItem="Dye-TW-LBu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="zAj-tE-VHy"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Download Images" id="eXT-uu-XPx">
+                        <barButtonItem key="rightBarButtonItem" title="Download" id="eha-r7-qzC">
+                            <connections>
+                                <action selector="didClickOnStart:" destination="BYZ-38-t0r" id="kIs-cF-YlC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView1" destination="Emf-V5-HrD" id="zHT-wP-JAT"/>
+                        <outlet property="imageView2" destination="Dye-TW-LBu" id="c1R-GH-Sxo"/>
+                        <outlet property="imageView3" destination="3KR-WW-XPA" id="sJm-2V-8ND"/>
+                        <outlet property="imageView4" destination="oyn-JT-NR9" id="g0p-ty-K9l"/>
+                        <outlet property="sliderValueLabel" destination="2uX-Pn-jOd" id="KFl-ue-sEv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="269.5" y="214.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Qma-zY-eTH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x6S-eN-5xH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="v3R-wA-BkR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pNc-B1-Y1d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zeB-Ak-xgo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-267" y="215"/>
         </scene>
     </scenes>
 </document>
