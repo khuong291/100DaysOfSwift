@@ -40,29 +40,29 @@ Project 03 - [CandySearch](https://github.com/khuong291/Swift_Example_Series/tre
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CandySearch.gif)
 
-### 4/ Project SpringAnimateText
+Project 04 - [SpringAnimateText](https://github.com/khuong291/Swift_Example_Series/tree/master/SpringAnimateText)
 
-![](SpringAnimateText.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SpringAnimateText.gif)
 
-### 5/ Project BlurEffect
+Project 05 - [BlurEffect](https://github.com/khuong291/Swift_Example_Series/tree/master/BlurEffect)
 
-![](BlurEffect.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/BlurEffect.gif)
 
-### 6/ Project ShowPopoverController
+Project 06 - [ShowPopoverController](https://github.com/khuong291/Swift_Example_Series/tree/master/ShowPopoverController)
 
-![](ShowPopoverController.png)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ShowPopoverController.gif)
 
-### 7/ Project CustomView
+Project 07 - [CustomView](https://github.com/khuong291/Swift_Example_Series/tree/master/CustomView)
 
-![](CustomView.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomView.gif)
 
-### 8/ Project CustomViewControllerTransition
+Project 08 - [CustomViewControllerTransition](https://github.com/khuong291/Swift_Example_Series/tree/master/CustomViewControllerTransition)
 
-![](CustomViewControllerTransition.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomViewControllerTransition.gif)
 
-### 9/ Project ParseJSONUsingGloss
+Project 09 - [ParseJSONUsingGloss](https://github.com/khuong291/Swift_Example_Series/tree/master/ParseJSONUsingGloss)
 
-![](ParseJSONUsingGloss.png)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ParseJSONUsingGloss.png)
 
 ### 10/ Project SortAndFilterArray
 
