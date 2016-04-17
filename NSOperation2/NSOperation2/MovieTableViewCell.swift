@@ -13,6 +13,6 @@ class MovieTableViewCell: UITableViewCell {
 
     @IBOutlet var movieImageView: UIImageView!
     @IBOutlet var movieTitleLabel: UILabel!
-
     @IBOutlet var movieRatingView: CosmosView!
+
 }
