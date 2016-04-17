@@ -16,6 +16,8 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [TheAppGuruz](http://www.theappguruz.com/)
 
+[WeHeartSwift](https://www.weheartswift.com)
+
 [Youtube - Brian Advent](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw)
 
 [Youtube - Jared Davidson](https://www.youtube.com/user/Archetapp)
