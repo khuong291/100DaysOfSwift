@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		29435D3E51338A212375FF7E /* Pods_NSOperation2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41F391C91FF684F5CBB8C55 /* Pods_NSOperation2.framework */; };
+		99B63BCD1CC3426A0043EB8D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B63BCC1CC3426A0043EB8D /* Movie.swift */; };
 		99E094141CC29B0300BC6B43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E094131CC29B0300BC6B43 /* AppDelegate.swift */; };
 		99E094191CC29B0300BC6B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E094171CC29B0300BC6B43 /* Main.storyboard */; };
 		99E0941B1CC29B0400BC6B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E0941A1CC29B0400BC6B43 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		103D98AB996DC0AF35BC4EA6 /* Pods-NSOperation2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSOperation2.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSOperation2/Pods-NSOperation2.release.xcconfig"; sourceTree = "<group>"; };
+		99B63BCC1CC3426A0043EB8D /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		99E094101CC29B0300BC6B43 /* NSOperation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSOperation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E094131CC29B0300BC6B43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E094181CC29B0300BC6B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				99E0941F1CC29B0400BC6B43 /* Info.plist */,
 				99E094271CC2AA0B00BC6B43 /* MovieViewController.swift */,
 				99E094291CC2AB9900BC6B43 /* MovieTableViewCell.swift */,
+				99B63BCC1CC3426A0043EB8D /* Movie.swift */,
 			);
 			path = NSOperation2;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			files = (
 				99E094141CC29B0300BC6B43 /* AppDelegate.swift in Sources */,
 				99E094281CC2AA0B00BC6B43 /* MovieViewController.swift in Sources */,
+				99B63BCD1CC3426A0043EB8D /* Movie.swift in Sources */,
 				99E0942A1CC2AB9900BC6B43 /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

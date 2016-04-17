@@ -6,7 +6,6 @@ use_frameworks!
 target 'NSOperation2' do
 	pod 'Cosmos', '~> 1.2'
 	pod 'Alamofire', '~> 3.3'
-	pod 'AlamofireImage', '~> 2.4'
 	pod 'SwiftyJSON', '~> 2.3'
 end
 

@@ -9,11 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>AlamofireImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Cosmos.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +27,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>05094CC4A047119F7ADC14EE74C4881C</key>
+		<key>17837F7CFFC13810B713FA0B47C910FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5FCBC2ED0445E59CB5783FE20C4D6C85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,17 +42,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6B2697BC5A45687B7ACF999C35EFDDD6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FF47D894980F284653EBABFB23A6F6B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

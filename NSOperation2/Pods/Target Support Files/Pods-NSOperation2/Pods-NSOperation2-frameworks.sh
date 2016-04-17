@@ -85,13 +85,11 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-NSOperation2/Alamofire.framework"
-  install_framework "Pods-NSOperation2/AlamofireImage.framework"
   install_framework "Pods-NSOperation2/Cosmos.framework"
   install_framework "Pods-NSOperation2/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-NSOperation2/Alamofire.framework"
-  install_framework "Pods-NSOperation2/AlamofireImage.framework"
   install_framework "Pods-NSOperation2/Cosmos.framework"
   install_framework "Pods-NSOperation2/SwiftyJSON.framework"
 fi
