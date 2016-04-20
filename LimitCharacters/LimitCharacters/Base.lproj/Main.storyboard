@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LimitCharacters" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JrE-sR-E3L">
+                                <rect key="frame" x="69" y="291" width="192" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7C-Qa-uUq">
+                                <rect key="frame" x="278" y="291" width="27" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="27" id="VXQ-Tm-DE9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A5g-qy-Ntk">
+                                <rect key="frame" x="69" y="346" width="192" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="988-fd-RqX">
+                                <rect key="frame" x="278" y="346" width="27" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JrE-sR-E3L" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="271" id="3CF-HZ-Jte"/>
+                            <constraint firstItem="JrE-sR-E3L" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="53" id="FTl-6k-TUC"/>
+                            <constraint firstItem="JrE-sR-E3L" firstAttribute="bottom" secondItem="O7C-Qa-uUq" secondAttribute="bottom" id="JgV-gS-vQT"/>
+                            <constraint firstItem="O7C-Qa-uUq" firstAttribute="trailing" secondItem="988-fd-RqX" secondAttribute="trailing" id="LMt-lL-gzL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O7C-Qa-uUq" secondAttribute="trailing" constant="54" id="LYa-Hb-edE"/>
+                            <constraint firstItem="JrE-sR-E3L" firstAttribute="trailing" secondItem="A5g-qy-Ntk" secondAttribute="trailing" id="MGQ-2r-hSa"/>
+                            <constraint firstItem="JrE-sR-E3L" firstAttribute="leading" secondItem="A5g-qy-Ntk" secondAttribute="leading" id="V3V-k8-GuL"/>
+                            <constraint firstItem="A5g-qy-Ntk" firstAttribute="top" secondItem="JrE-sR-E3L" secondAttribute="bottom" constant="25" id="XKV-Sc-ORU"/>
+                            <constraint firstItem="O7C-Qa-uUq" firstAttribute="leading" secondItem="JrE-sR-E3L" secondAttribute="trailing" constant="17" id="hGt-El-0da"/>
+                            <constraint firstItem="A5g-qy-Ntk" firstAttribute="bottom" secondItem="988-fd-RqX" secondAttribute="bottom" id="pWs-VX-BSD"/>
+                            <constraint firstItem="A5g-qy-Ntk" firstAttribute="top" secondItem="988-fd-RqX" secondAttribute="top" id="t8J-Rh-b4S"/>
+                            <constraint firstItem="O7C-Qa-uUq" firstAttribute="leading" secondItem="988-fd-RqX" secondAttribute="leading" id="ujB-Dx-qjZ"/>
+                            <constraint firstItem="JrE-sR-E3L" firstAttribute="top" secondItem="O7C-Qa-uUq" secondAttribute="top" id="xca-FN-W4n"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="label1" destination="O7C-Qa-uUq" id="3WF-GX-Iqa"/>
+                        <outlet property="label2" destination="988-fd-RqX" id="cNh-WR-Kem"/>
+                        <outlet property="textField1" destination="JrE-sR-E3L" id="9Ho-lq-RFt"/>
+                        <outlet property="textField2" destination="A5g-qy-Ntk" id="6um-6g-WUS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="395.5" y="303.5"/>
         </scene>
     </scenes>
 </document>
