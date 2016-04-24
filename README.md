@@ -24,7 +24,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 44/100
+Progress: 45/100
 
 ## Project Demos
 
@@ -156,51 +156,55 @@ Project 32 - [UsingProtocol](https://github.com/khuong291/Swift_Example_Series/t
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol.png)
 
-Project 33 - [ConvertStringToUIColor](https://github.com/khuong291/Swift_Example_Series/tree/master/ConvertStringToUIColor)
+Project 33 - [UsingProtocol2](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingProtocol2)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol2.png)
+
+Project 34 - [ConvertStringToUIColor](https://github.com/khuong291/Swift_Example_Series/tree/master/ConvertStringToUIColor)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ConvertStringToUIColor.png)
 
-Project 34 - [ARC](https://github.com/khuong291/Swift_Example_Series/tree/master/ARC)
+Project 35 - [ARC](https://github.com/khuong291/Swift_Example_Series/tree/master/ARC)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ARC.png)
 
-Project 35 - [PlayMP3](https://github.com/khuong291/Swift_Example_Series/tree/master/PlayMP3)
+Project 36 - [PlayMP3](https://github.com/khuong291/Swift_Example_Series/tree/master/PlayMP3)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PlayMP3.png)
 
-Project 36 - [NSNotificationCenter](https://github.com/khuong291/Swift_Example_Series/tree/master/NSNotificationCenter)
+Project 37 - [NSNotificationCenter](https://github.com/khuong291/Swift_Example_Series/tree/master/NSNotificationCenter)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSNotificationCenter.gif)
 
-Project 37 - [ReDrawPreviousVC](https://github.com/khuong291/Swift_Example_Series/tree/master/ReDrawPreviousVC)
+Project 38 - [ReDrawPreviousVC](https://github.com/khuong291/Swift_Example_Series/tree/master/ReDrawPreviousVC)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ReDrawPreviousVC.gif)
 
-Project 38 - [PhotoDetailView](https://github.com/khuong291/Swift_Example_Series/tree/master/PhotoDetailView)
+Project 39 - [PhotoDetailView](https://github.com/khuong291/Swift_Example_Series/tree/master/PhotoDetailView)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PhotoDetailView.gif)
 
-Project 39 - [GCD](https://github.com/khuong291/Swift_Example_Series/tree/master/GCD)
+Project 40 - [GCD](https://github.com/khuong291/Swift_Example_Series/tree/master/GCD)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/GCD.gif)
 
-Project 40 - [NSOperation](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation)
+Project 41 - [NSOperation](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation.gif)
 
-Project 41 - [NSOperation2](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation2)
+Project 42 - [NSOperation2](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation2)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation2.gif)
 
-Project 42 - [LimitCharacters](https://github.com/khuong291/Swift_Example_Series/tree/master/LimitCharacters)
+Project 43 - [LimitCharacters](https://github.com/khuong291/Swift_Example_Series/tree/master/LimitCharacters)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/LimitCharacters.gif)
 
-Project 43 - [AddConstraintsProgrammatically](https://github.com/khuong291/Swift_Example_Series/tree/master/AddConstraintsProgrammatically)
+Project 44 - [AddConstraintsProgrammatically](https://github.com/khuong291/Swift_Example_Series/tree/master/AddConstraintsProgrammatically)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically.png)
 
-Project 44 - [AddConstraintsProgrammatically2](https://github.com/khuong291/Swift_Example_Series/tree/master/AddConstraintsProgrammatically2)
+Project 45 - [AddConstraintsProgrammatically2](https://github.com/khuong291/Swift_Example_Series/tree/master/AddConstraintsProgrammatically2)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically2.png)
 
