@@ -24,7 +24,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 45/100
+Progress: 46/100
 
 ## Project Demos
 
@@ -207,6 +207,10 @@ Project 44 - [AddConstraintsProgrammatically](https://github.com/khuong291/Swift
 Project 45 - [AddConstraintsProgrammatically2](https://github.com/khuong291/Swift_Example_Series/tree/master/AddConstraintsProgrammatically2)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically2.png)
+
+Project 46 - [FunctionalProgramming](https://github.com/khuong291/Swift_Example_Series/tree/master/FunctionalProgramming)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FunctionalProgramming.png)
 
 ## Reach me ##
 
