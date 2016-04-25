@@ -24,7 +24,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 47/100
+Progress: 48/100
 
 ## Project Demos
 
@@ -215,6 +215,10 @@ Project 46 - [FunctionalProgramming](https://github.com/khuong291/Swift_Example_
 Project 47 - [OpenPDF](https://github.com/khuong291/Swift_Example_Series/tree/master/OpenPDF)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/OpenPDF.png)
+
+Project 48 - [IndexedTableView](https://github.com/khuong291/Swift_Example_Series/tree/master/IndexedTableView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/IndexedTableView.png)
 
 ## Reach me ##
 
