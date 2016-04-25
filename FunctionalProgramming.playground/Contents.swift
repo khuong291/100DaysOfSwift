@@ -30,25 +30,13 @@ let animals = ["Cat", "Chicken", "Fish", "Dog", "Mouse", "Pig", "Monkey"]
 typealias Entry = (Character, [String])
 
 func buildIndex(words: [String]) -> [Entry] {
-    var result = [Entry]()
-    var letters = [Character]()
-    for word in words {
-        let firstLetter = Character(word.substringToIndex(word.startIndex.advancedBy(1)).uppercaseString)
-        if !letters.contains(firstLetter) {
-            letters.append(firstLetter)
-        }
-    }
-    for letter in letters {
-        var wordsForLetter = [String]()
-        for word in words {
-            let firstLetter = Character(word.substringToIndex(word.startIndex.advancedBy(1)).uppercaseString)
-            if firstLetter == letter {
-                wordsForLetter.append(word)
-            }
-        }
-        result.append((letter, wordsForLetter))
-    }
-    return result
+    let distinctLetters = Array(Set(words.map { Character($0.substringToIndex($0.startIndex.advancedBy(1))) })).sort()
+    return distinctLetters.map({ (letter) -> Entry in
+        return (letter, words.filter({ (word) -> Bool in
+            Character(word.substringToIndex(word.startIndex.advancedBy(1))) == letter
+        }))
+    })
 }
 print(buildIndex(animals))
+
 
