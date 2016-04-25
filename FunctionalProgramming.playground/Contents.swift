@@ -39,4 +39,12 @@ func buildIndex(words: [String]) -> [Entry] {
 }
 print(buildIndex(animals))
 
+let catalog = Array(Set(animals.map( {(ch) -> Character in ch.characters.first! })))
+    .sort()
+    .map({ (ch) -> (Character, [String]) in
+        (ch, animals.filter { (name) -> Bool in name.hasPrefix(String(ch)) })
+    })
+
+print(catalog)
+
 
