@@ -24,7 +24,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 49/100
+Progress: 50/100
 
 ## Project Demos
 
@@ -223,6 +223,10 @@ Project 48 - [IndexedTableView](https://github.com/khuong291/Swift_Example_Serie
 Project 49 - [TableViewMovingCell](https://github.com/khuong291/Swift_Example_Series/tree/master/TableViewMovingCell)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/TableViewMovingCell.png)
+
+Project 50 - [Generic](https://github.com/khuong291/Swift_Example_Series/tree/master/Generic)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/Generic.png)
 
 ## Reach me ##
 
