@@ -10,4 +10,5 @@ import UIKit
 
 class GuyCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet var guyImageView: UIImageView!
 }

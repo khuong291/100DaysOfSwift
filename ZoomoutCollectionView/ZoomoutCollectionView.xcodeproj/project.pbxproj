@@ -12,6 +12,7 @@
 		99B6EBE01CD4FE4400C080B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B6EBDE1CD4FE4300C080B8 /* Main.storyboard */; };
 		99B6EBE21CD4FE4400C080B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B6EBE11CD4FE4400C080B8 /* Assets.xcassets */; };
 		99B6EBE51CD4FE4400C080B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B6EBE31CD4FE4400C080B8 /* LaunchScreen.storyboard */; };
+		99B6EBED1CD5011200C080B8 /* GuyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B6EBEC1CD5011200C080B8 /* GuyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		99B6EBE11CD4FE4400C080B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B6EBE41CD4FE4400C080B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B6EBE61CD4FE4400C080B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B6EBEC1CD5011200C080B8 /* GuyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				99B6EBE11CD4FE4400C080B8 /* Assets.xcassets */,
 				99B6EBE31CD4FE4400C080B8 /* LaunchScreen.storyboard */,
 				99B6EBE61CD4FE4400C080B8 /* Info.plist */,
+				99B6EBEC1CD5011200C080B8 /* GuyCollectionViewCell.swift */,
 			);
 			path = ZoomoutCollectionView;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				99B6EBDD1CD4FE4300C080B8 /* ViewController.swift in Sources */,
 				99B6EBDB1CD4FE4300C080B8 /* AppDelegate.swift in Sources */,
+				99B6EBED1CD5011200C080B8 /* GuyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
