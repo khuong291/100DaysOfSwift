@@ -24,7 +24,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 50/100
+Progress: 51/100
 
 ## Project Demos
 
@@ -227,6 +227,10 @@ Project 49 - [TableViewMovingCell](https://github.com/khuong291/Swift_Example_Se
 Project 50 - [Generic](https://github.com/khuong291/Swift_Example_Series/tree/master/Generic)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/Generic.png)
+
+Project 51 - [ZoomoutCollectionView](https://github.com/khuong291/Swift_Example_Series/tree/master/ZoomoutCollectionView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ZoomoutCollectionView.gif)
 
 ## Reach me ##
 
