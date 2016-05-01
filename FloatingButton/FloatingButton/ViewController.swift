@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var khuongLabel: UILabel!
+    @IBOutlet var khoaLabel: UILabel!
+
     @IBOutlet var floatingButtonTopToKhuongBottomConstraint: NSLayoutConstraint!
     @IBOutlet var khuongTopToKhoaBottomConstraint: NSLayoutConstraint!
 
@@ -29,8 +32,19 @@ class ViewController: UIViewController {
         floatingButton.addGestureRecognizer(gesture)
         makeCircleImages()
         makeKhuongAndKhoaViewHidden()
+        makeLabelsAlphaEqualToZero()
         floatingButtonTopToKhuongBottomConstraint.constant = 0
         khuongTopToKhoaBottomConstraint.constant = 0
+    }
+
+    private func makeLabelsAlphaEqualToOne () {
+        khuongLabel.alpha = 1
+        khoaLabel.alpha = 1
+    }
+
+    private func makeLabelsAlphaEqualToZero () {
+        khuongLabel.alpha = 0
+        khoaLabel.alpha = 0
     }
 
     private func makeKhuongAndKhoaViewHidden() {
@@ -62,25 +76,41 @@ class ViewController: UIViewController {
         if floatingButtonIsActive == false {
             makeKhuongAndKhoaViewAppeared()
 
-            UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
+            UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
+                self.makeLabelsAlphaEqualToOne()
                 self.floatingButton.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_4))
-                self.floatingButtonTopToKhuongBottomConstraint.constant = 30
-                self.khuongTopToKhoaBottomConstraint.constant = 30
+                self.floatingButtonTopToKhuongBottomConstraint.constant += 80
+                self.khuongTopToKhoaBottomConstraint.constant += 80
                 self.view.layoutIfNeeded()
                 }, completion: { _ in
                     self.floatingButtonIsActive = true
             })
 
         } else {
-            makeKhuongAndKhoaViewHidden()
-            UIView.animateWithDuration(0.5, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
-                self.floatingButton.transform = CGAffineTransformIdentity
-                self.floatingButtonTopToKhuongBottomConstraint.constant = 0
-                self.khuongTopToKhoaBottomConstraint.constant = 0
+
+            UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
+                self.khoaView.center.y = self.khuongView.center.y
+                self.khoaLabel.alpha = 0
                 self.view.layoutIfNeeded()
                 }, completion: { _ in
-                    self.floatingButtonIsActive = false
+                    UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
+                        self.khuongLabel.alpha = 0
+                        self.khuongView.center.y = self.floatingButton.center.y
+                        self.khoaView.center.y = self.khuongView.center.y
+                        self.view.layoutIfNeeded()
+                        }, completion: { _ in
+                            UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
+                                self.floatingButton.transform = CGAffineTransformIdentity
+                                }, completion: { _ in
+                                    self.floatingButtonTopToKhuongBottomConstraint.constant = 0
+                                    self.khuongTopToKhoaBottomConstraint.constant = 0
+                                    self.view.layoutIfNeeded()
+                                    self.floatingButtonIsActive = false
+                                    self.makeKhuongAndKhoaViewHidden()
+                            })
+                    })
             })
+
         }
     }
 }
