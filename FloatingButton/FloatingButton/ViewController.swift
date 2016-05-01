@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         if floatingButtonIsActive == false {
             makeKhuongAndKhoaViewAppeared()
 
-            UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
+            UIView.animateWithDuration(1.0, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 5, options: .CurveEaseInOut, animations: {
                 self.makeLabelsAlphaEqualToOne()
                 self.floatingButton.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_4))
                 self.floatingButtonTopToKhuongBottomConstraint.constant += 80
