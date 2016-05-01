@@ -34,8 +34,8 @@
                                             <constraint firstAttribute="width" constant="50" id="dTV-Ve-9V6"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="khuong291" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEn-6Z-054">
-                                        <rect key="frame" x="7" y="11" width="104" height="27"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="khuong291" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEn-6Z-054">
+                                        <rect key="frame" x="7" y="14" width="104" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -62,8 +62,8 @@
                                             <constraint firstAttribute="width" constant="50" id="SoI-l7-fo9"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="onmyway133" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qv-fo-9Wb">
-                                        <rect key="frame" x="7" y="11" width="104" height="27"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="onmyway133" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qv-fo-9Wb">
+                                        <rect key="frame" x="7" y="14" width="104" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -94,6 +94,12 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="floatingButton" destination="Xhm-QL-jvN" id="mMf-kb-fHI"/>
+                        <outlet property="floatingButtonTopToKhuongBottomConstraint" destination="zLP-gJ-SuF" id="qrY-QF-Dp1"/>
+                        <outlet property="khoaImageView" destination="NYl-cC-uRE" id="JN1-pw-4ow"/>
+                        <outlet property="khoaView" destination="2hu-Vo-Mk7" id="v8I-t3-y1u"/>
+                        <outlet property="khuongImageView" destination="uOH-rG-w9a" id="oMt-Bx-sVG"/>
+                        <outlet property="khuongTopToKhoaBottomConstraint" destination="v17-xG-jDS" id="Z53-yj-yky"/>
+                        <outlet property="khuongView" destination="nb5-JK-4Ux" id="cvb-lN-9gc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
