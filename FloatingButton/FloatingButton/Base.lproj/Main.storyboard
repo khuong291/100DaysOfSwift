@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FloatingButton" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floating_button" translatesAutoresizingMaskIntoConstraints="NO" id="Xhm-QL-jvN">
+                                <rect key="frame" x="305" y="597" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="DWC-rU-ly5"/>
+                                    <constraint firstAttribute="height" constant="50" id="tv5-kV-z1p"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nb5-JK-4Ux" userLabel="khuong">
+                                <rect key="frame" x="186" y="517" width="169" height="50"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="khuong" translatesAutoresizingMaskIntoConstraints="NO" id="uOH-rG-w9a">
+                                        <rect key="frame" x="119" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="F41-mU-H21"/>
+                                            <constraint firstAttribute="width" constant="50" id="dTV-Ve-9V6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="khuong291" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEn-6Z-054">
+                                        <rect key="frame" x="7" y="11" width="104" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uOH-rG-w9a" secondAttribute="trailing" id="40N-4i-eVS"/>
+                                    <constraint firstAttribute="width" constant="169" id="ddO-Le-0ui"/>
+                                    <constraint firstItem="uOH-rG-w9a" firstAttribute="leading" secondItem="pEn-6Z-054" secondAttribute="trailing" constant="8" id="fa8-gN-60A"/>
+                                    <constraint firstItem="pEn-6Z-054" firstAttribute="centerY" secondItem="uOH-rG-w9a" secondAttribute="centerY" id="gB0-fN-I9h"/>
+                                    <constraint firstItem="uOH-rG-w9a" firstAttribute="top" secondItem="nb5-JK-4Ux" secondAttribute="top" id="gBW-vQ-g9l"/>
+                                    <constraint firstItem="pEn-6Z-054" firstAttribute="leading" secondItem="nb5-JK-4Ux" secondAttribute="leading" constant="7" id="knm-5r-Ut0"/>
+                                    <constraint firstAttribute="height" constant="50" id="l0x-9V-ZHN"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2hu-Vo-Mk7" userLabel="khoa">
+                                <rect key="frame" x="186" y="437" width="169" height="50"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="khoa" translatesAutoresizingMaskIntoConstraints="NO" id="NYl-cC-uRE">
+                                        <rect key="frame" x="119" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="CP7-Qw-UCC"/>
+                                            <constraint firstAttribute="width" constant="50" id="SoI-l7-fo9"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="onmyway133" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qv-fo-9Wb">
+                                        <rect key="frame" x="7" y="11" width="104" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="3qv-fo-9Wb" firstAttribute="leading" secondItem="2hu-Vo-Mk7" secondAttribute="leading" constant="7" id="0af-t1-Far"/>
+                                    <constraint firstAttribute="trailing" secondItem="NYl-cC-uRE" secondAttribute="trailing" id="4ro-iY-qWl"/>
+                                    <constraint firstItem="3qv-fo-9Wb" firstAttribute="centerY" secondItem="NYl-cC-uRE" secondAttribute="centerY" id="S17-Dh-MBk"/>
+                                    <constraint firstAttribute="height" constant="50" id="XtV-Lt-kbq"/>
+                                    <constraint firstItem="NYl-cC-uRE" firstAttribute="leading" secondItem="3qv-fo-9Wb" secondAttribute="trailing" constant="8" id="Yf6-h4-IWX"/>
+                                    <constraint firstAttribute="width" constant="169" id="mCP-om-yYq"/>
+                                    <constraint firstItem="NYl-cC-uRE" firstAttribute="top" secondItem="2hu-Vo-Mk7" secondAttribute="top" id="pXB-bq-S39"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Xhm-QL-jvN" secondAttribute="trailing" constant="20" id="PAU-kY-J5g"/>
+                            <constraint firstAttribute="trailing" secondItem="2hu-Vo-Mk7" secondAttribute="trailing" constant="20" id="Qlb-HJ-k86"/>
+                            <constraint firstAttribute="trailing" secondItem="nb5-JK-4Ux" secondAttribute="trailing" constant="20" id="ajH-RD-PPZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xhm-QL-jvN" secondAttribute="bottom" constant="20" id="fZX-dG-dtQ"/>
+                            <constraint firstItem="nb5-JK-4Ux" firstAttribute="top" secondItem="2hu-Vo-Mk7" secondAttribute="bottom" constant="30" id="v17-xG-jDS"/>
+                            <constraint firstItem="Xhm-QL-jvN" firstAttribute="top" secondItem="nb5-JK-4Ux" secondAttribute="bottom" constant="30" id="zLP-gJ-SuF"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="floatingButton" destination="Xhm-QL-jvN" id="mMf-kb-fHI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="396.5" y="288.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="floating_button" width="300" height="300"/>
+        <image name="khoa" width="460" height="460"/>
+        <image name="khuong" width="346" height="357"/>
+    </resources>
 </document>
