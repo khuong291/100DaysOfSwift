@@ -22,7 +22,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.dataSource = self
         tableView.delegate = self
         headerView.backgroundColor = UIColor.blueColor()
-        headerView.frame.size.height = 200
     }
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

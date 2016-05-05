@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--BestBank-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="MovingUpHeaderView" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,13 +21,20 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="nmB-Mg-IaH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="63"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="235"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.0" green="0.81539083779999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Actions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iws-V2-lBI">
+                                            <rect key="frame" x="20" y="100" width="335" height="36"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </view>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="69" id="KRb-mh-Xno">
-                                        <rect key="frame" x="0.0" y="91" width="375" height="69"/>
+                                        <rect key="frame" x="0.0" y="263" width="375" height="69"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KRb-mh-Xno" id="fXY-qI-g8j">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
@@ -45,9 +52,9 @@
                             <constraint firstAttribute="trailing" secondItem="HaX-Om-mje" secondAttribute="trailing" id="dbr-ZA-j5N"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="tQ2-Ow-oKJ">
-                        <barButtonItem key="leftBarButtonItem" title="Left" id="duL-bn-pOe"/>
-                        <barButtonItem key="rightBarButtonItem" title="Right" id="IHr-uu-YZP"/>
+                    <navigationItem key="navigationItem" title="BestBank" id="tQ2-Ow-oKJ">
+                        <barButtonItem key="leftBarButtonItem" title="ATM" id="duL-bn-pOe"/>
+                        <barButtonItem key="rightBarButtonItem" title="New Card" id="IHr-uu-YZP"/>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
