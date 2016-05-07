@@ -14,13 +14,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet var headerView: UIView!
 
     var dataSource: [String] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map {"\($0)"}
-    let threshold = 300.0
+    let threshold = 500.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.dataSource = self
         tableView.delegate = self
+
+        tableView.tableHeaderView = headerView
 
     }
 
@@ -44,7 +46,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         if Double(maximumOffset - contentOffset) <= threshold {
             dispatch_async(dispatch_get_main_queue()) {
-                self.navigationController?.navigationBar.barTintColor = self.headerView.backgroundColor
+                UIView.animateWithDuration(0.7, delay: 0.0, options: [.CurveEaseInOut], animations: {
+                    self.headerView.heightAnchor.
+                    self.view.layoutIfNeeded()
+                    }, completion: { (_) in
+                        self.navigationController?.navigationBar.barTintColor = self.headerView.backgroundColor
+                })
             }
         }
     }
