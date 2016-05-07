@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     @IBOutlet var tableView: UITableView!
     @IBOutlet var headerView: UIView!
+    @IBOutlet var contentView: UIView!
+    @IBOutlet var actionLabel: UILabel!
 
     var dataSource: [String] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map {"\($0)"}
     let threshold = 500.0
@@ -23,6 +25,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.delegate = self
 
         tableView.tableHeaderView = headerView
+        contentView.layer.cornerRadius = 10
+        actionLabel.layer.cornerRadius = 10
+        actionLabel.clipsToBounds = true
 
     }
 
@@ -47,7 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if Double(maximumOffset - contentOffset) <= threshold {
             dispatch_async(dispatch_get_main_queue()) {
                 UIView.animateWithDuration(0.7, delay: 0.0, options: [.CurveEaseInOut], animations: {
-                    self.headerView.heightAnchor.
+//                    self.headerView.heightAnchor.
                     self.view.layoutIfNeeded()
                     }, completion: { (_) in
                         self.navigationController?.navigationBar.barTintColor = self.headerView.backgroundColor
