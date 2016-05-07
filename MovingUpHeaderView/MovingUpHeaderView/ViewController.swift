@@ -14,14 +14,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet var headerView: UIView!
 
     var dataSource: [String] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map {"\($0)"}
-    let threshold = 400.0
+    let threshold = 300.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.dataSource = self
         tableView.delegate = self
-        headerView.backgroundColor = UIColor.blueColor()
+
     }
 
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -44,7 +44,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         if Double(maximumOffset - contentOffset) <= threshold {
             dispatch_async(dispatch_get_main_queue()) {
-                self.navigationController?.navigationBar.backgroundColor = UIColor.blueColor()
+                self.navigationController?.navigationBar.barTintColor = self.headerView.backgroundColor
             }
         }
     }
