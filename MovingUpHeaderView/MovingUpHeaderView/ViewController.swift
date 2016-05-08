@@ -10,14 +10,17 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    @IBOutlet var contentViewTrailingConstraint: NSLayoutConstraint!
+    @IBOutlet var contentViewLeadingConstraint: NSLayoutConstraint!
     @IBOutlet var tableView: UITableView!
     @IBOutlet var headerView: UIView!
     @IBOutlet var contentView: UIView!
     @IBOutlet var actionLabel: UILabel!
     var originHeaderViewHeight: CGFloat = 0.0
+    var originContentViewWidth: CGFloat = 0.0
 
     var dataSource: [String] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map {"\($0)"}
-    let threshold = 500.0
+    let threshold = 550.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +33,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         actionLabel.layer.cornerRadius = 10
         actionLabel.clipsToBounds = true
         originHeaderViewHeight = headerView.bounds.height
+        originContentViewWidth = contentView.bounds.width
 
     }
 
@@ -53,8 +57,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         if Double(maximumOffset - contentOffset) <= threshold {
             dispatch_async(dispatch_get_main_queue()) {
-                UIView.animateWithDuration(0.7, delay: 0.0, options: [.CurveEaseInOut], animations: {
-                    self.headerView.bounds.size.height = 0
+                UIView.animateWithDuration(0.4, delay: 0.0, options: [.CurveEaseInOut], animations: {
+                    self.navigationItem.leftBarButtonItem!.title = "*8951"
+                    self.navigationItem.rightBarButtonItem!.title = "$1450"
+                    self.title = "MY DEBIT CARD"
+                    self.contentViewTrailingConstraint.constant = 0
+                    self.contentViewLeadingConstraint.constant = 0
+                    self.headerView.frame.size.height = 0
                     self.headerView.alpha = 0
                     self.view.layoutIfNeeded()
                     }, completion: { (_) in
@@ -64,8 +73,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         else {
             dispatch_async(dispatch_get_main_queue()) {
-                UIView.animateWithDuration(0.7, delay: 0.0, options: [.CurveEaseInOut], animations: {
-                    self.headerView.bounds.size.height = self.originHeaderViewHeight
+                UIView.animateWithDuration(0.4, delay: 0.0, options: [.CurveEaseInOut], animations: {
+                    self.navigationItem.leftBarButtonItem!.title = "ATM"
+                    self.navigationItem.rightBarButtonItem!.title = "NEW CARD"
+                    self.title = "BEST BANK"
+                    self.contentViewTrailingConstraint.constant = 20
+                    self.contentViewLeadingConstraint.constant = 20
+                    self.headerView.frame.size.height = self.originHeaderViewHeight
                     self.headerView.alpha = 1
                     self.view.layoutIfNeeded()
                     }, completion: { (_) in
