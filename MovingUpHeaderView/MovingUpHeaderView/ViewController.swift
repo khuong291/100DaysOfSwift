@@ -19,8 +19,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var originHeaderViewHeight: CGFloat = 0.0
     var originContentViewWidth: CGFloat = 0.0
 
-    var dataSource: [String] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map {"\($0)"}
-    let threshold = 550.0
+    let threshold = 1000.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,12 +41,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dataSource.count
+        return 20
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
-        cell.textLabel!.text = dataSource[indexPath.row]
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! MyTableViewCell
+        cell.myImageView.image = UIImage(named: "1")
+        cell.myLabel.text = "Test"
         return cell
     }
 

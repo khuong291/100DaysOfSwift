@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--BestBank-->
@@ -108,13 +109,38 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="69" id="KRb-mh-Xno">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="69" id="KRb-mh-Xno" customClass="MyTableViewCell" customModule="MovingUpHeaderView" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="263" width="375" height="69"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KRb-mh-Xno" id="fXY-qI-g8j">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="68"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sWJ-AT-JLW">
+                                                    <rect key="frame" x="20" y="9" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="50" id="DQk-ki-eU1"/>
+                                                        <constraint firstAttribute="width" constant="50" id="eG9-Uc-eND"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uiZ-zo-sxs">
+                                                    <rect key="frame" x="78" y="23" width="33" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="uiZ-zo-sxs" firstAttribute="leading" secondItem="sWJ-AT-JLW" secondAttribute="trailing" constant="8" id="74O-95-s1C"/>
+                                                <constraint firstItem="sWJ-AT-JLW" firstAttribute="centerY" secondItem="fXY-qI-g8j" secondAttribute="centerY" id="h6G-mh-ztI"/>
+                                                <constraint firstItem="sWJ-AT-JLW" firstAttribute="leading" secondItem="fXY-qI-g8j" secondAttribute="leadingMargin" constant="12" id="t0N-8U-Nan"/>
+                                                <constraint firstItem="uiZ-zo-sxs" firstAttribute="centerY" secondItem="sWJ-AT-JLW" secondAttribute="centerY" id="zf5-kC-UBI"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="myImageView" destination="sWJ-AT-JLW" id="XYl-zH-f3k"/>
+                                            <outlet property="myLabel" destination="uiZ-zo-sxs" id="X0o-TN-oyc"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
