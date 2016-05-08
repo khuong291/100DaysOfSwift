@@ -14,6 +14,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet var headerView: UIView!
     @IBOutlet var contentView: UIView!
     @IBOutlet var actionLabel: UILabel!
+    var originHeaderViewHeight: CGFloat = 0.0
 
     var dataSource: [String] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].map {"\($0)"}
     let threshold = 500.0
@@ -28,6 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         contentView.layer.cornerRadius = 10
         actionLabel.layer.cornerRadius = 10
         actionLabel.clipsToBounds = true
+        originHeaderViewHeight = headerView.bounds.height
 
     }
 
@@ -52,10 +54,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         if Double(maximumOffset - contentOffset) <= threshold {
             dispatch_async(dispatch_get_main_queue()) {
                 UIView.animateWithDuration(0.7, delay: 0.0, options: [.CurveEaseInOut], animations: {
-//                    self.headerView.heightAnchor.
+                    self.headerView.bounds.size.height = 0
+                    self.headerView.alpha = 0
                     self.view.layoutIfNeeded()
                     }, completion: { (_) in
-                        self.navigationController?.navigationBar.barTintColor = self.headerView.backgroundColor
+                        self.navigationController?.navigationBar.barTintColor = self.contentView.backgroundColor
+                })
+            }
+        }
+        else {
+            dispatch_async(dispatch_get_main_queue()) {
+                UIView.animateWithDuration(0.7, delay: 0.0, options: [.CurveEaseInOut], animations: {
+                    self.headerView.bounds.size.height = self.originHeaderViewHeight
+                    self.headerView.alpha = 1
+                    self.view.layoutIfNeeded()
+                    }, completion: { (_) in
+                        self.navigationController?.navigationBar.barTintColor = UIColor.whiteColor()
                 })
             }
         }
