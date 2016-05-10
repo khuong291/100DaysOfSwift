@@ -92,6 +92,14 @@ Project 16 - [Generic](https://github.com/khuong291/100DaysOfSwift/tree/master/P
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/Generic.png)
 
+Project 17 - [AddConstraintsProgrammatically](https://github.com/khuong291/100DaysOfSwift/tree/master/Project17%20-%20AddConstraintsProgrammatically)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically.png)
+
+Project 18 - [AddConstraintsProgrammatically2](https://github.com/khuong291/100DaysOfSwift/tree/master/Project18%20-%20AddConstraintsProgrammatically2)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically2.png)
+
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
@@ -209,14 +217,6 @@ Project 42 - [NSOperation2](https://github.com/khuong291/Swift_Example_Series/tr
 Project 43 - [LimitCharacters](https://github.com/khuong291/Swift_Example_Series/tree/master/LimitCharacters)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/LimitCharacters.gif)
-
-Project 44 - [AddConstraintsProgrammatically](https://github.com/khuong291/Swift_Example_Series/tree/master/AddConstraintsProgrammatically)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically.png)
-
-Project 45 - [AddConstraintsProgrammatically2](https://github.com/khuong291/Swift_Example_Series/tree/master/AddConstraintsProgrammatically2)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically2.png)
 
 Project 46 - [FunctionalProgramming](https://github.com/khuong291/Swift_Example_Series/tree/master/FunctionalProgramming)
 
