@@ -72,6 +72,14 @@ Project 11 - [UsingCallBack2](https://github.com/khuong291/100DaysOfSwift/tree/m
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingCallBack2.gif)
 
+Project 12 - [UsingProtocol](https://github.com/khuong291/100DaysOfSwift/tree/master/Project12%20-%20UsingProtocol)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol.png)
+
+Project 13 - [UsingProtocol2](https://github.com/khuong291/100DaysOfSwift/tree/master/Project13%20-%20UsingProtocol2)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol2.png)
+
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
@@ -92,7 +100,6 @@ Project 08 - [CustomViewControllerTransition](https://github.com/khuong291/Swift
 Project 09 - [ParseJSONUsingGloss](https://github.com/khuong291/Swift_Example_Series/tree/master/ParseJSONUsingGloss)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ParseJSONUsingGloss.png)
-
 
 Project 11 - [UsingAlamofireAndSwiftyJSON](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingAlamofireAndSwiftyJSON)
 
@@ -154,14 +161,6 @@ Project 29 - [UsingSQLite](https://github.com/khuong291/Swift_Example_Series/tre
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingSQLite.png)
 
-
-Project 32 - [UsingProtocol](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingProtocol)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol.png)
-
-Project 33 - [UsingProtocol2](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingProtocol2)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol2.png)
 
 Project 34 - [ConvertStringToUIColor](https://github.com/khuong291/Swift_Example_Series/tree/master/ConvertStringToUIColor)
 
