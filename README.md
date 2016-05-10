@@ -100,6 +100,14 @@ Project 18 - [AddConstraintsProgrammatically2](https://github.com/khuong291/100D
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AddConstraintsProgrammatically2.png)
 
+Project 19 - [DroppingShadow](https://github.com/khuong291/100DaysOfSwift/tree/master/Project19%20-%20DroppingShadow)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/DroppingShadow.png)
+
+Project 20 - [LimitCharacters](https://github.com/khuong291/100DaysOfSwift/tree/master/Project20%20-%20LimitCharacters)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/LimitCharacters.gif)
+
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
@@ -140,10 +148,6 @@ Project 14 - [SlideMenu](https://github.com/khuong291/Swift_Example_Series/tree/
 Project 15 - [RESTAPIAndSwiftyJSON](https://github.com/khuong291/Swift_Example_Series/tree/master/RESTAPIAndSwiftyJSON)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/RESTAPIAndSwiftyJSON.png)
-
-Project 18 - [DroppingShadow](https://github.com/khuong291/Swift_Example_Series/tree/master/DroppingShadow)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/DroppingShadow.png)
 
 Project 21 - [MultipleTransforms](https://github.com/khuong291/Swift_Example_Series/tree/master/MultipleTransforms)
 
@@ -213,10 +217,6 @@ Project 41 - [NSOperation](https://github.com/khuong291/Swift_Example_Series/tre
 Project 42 - [NSOperation2](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation2)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation2.gif)
-
-Project 43 - [LimitCharacters](https://github.com/khuong291/Swift_Example_Series/tree/master/LimitCharacters)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/LimitCharacters.gif)
 
 Project 46 - [FunctionalProgramming](https://github.com/khuong291/Swift_Example_Series/tree/master/FunctionalProgramming)
 
