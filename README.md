@@ -1,4 +1,6 @@
-# Swift_Example_Series
+# 100DaysOfSwift
+
+Hi community, I am Khuong.
 
 Here is a punch of example projects with Swift, I am going to build 100 example projects here. I follow some tutorials from:
 
@@ -9,6 +11,8 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 [AppCoda](http://appcoda.com)
 
 [IOSCreator](http://www.ioscreator.com/)
+
+[CodePath](https://codepath.com)
 
 [Tutsplus](http://code.tutsplus.com/)
 
@@ -120,127 +124,126 @@ Project 23 - [UsingNSFileManager](https://github.com/khuong291/100DaysOfSwift/tr
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingNSFileManager.png)
 
-
-Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
-
-Project 02 - [ImageCropper](https://github.com/khuong291/Swift_Example_Series/tree/master/ImageCropper)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ImageCropper.gif)
-
-Project 03 - [CandySearch](https://github.com/khuong291/Swift_Example_Series/tree/master/CandySearch)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CandySearch.gif)
-
-Project 08 - [CustomViewControllerTransition](https://github.com/khuong291/Swift_Example_Series/tree/master/CustomViewControllerTransition)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomViewControllerTransition.gif)
-
-Project 09 - [ParseJSONUsingGloss](https://github.com/khuong291/Swift_Example_Series/tree/master/ParseJSONUsingGloss)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ParseJSONUsingGloss.png)
-
-Project 11 - [UsingAlamofireAndSwiftyJSON](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingAlamofireAndSwiftyJSON)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingAlamofireAndSwiftyJSON.png)
-
-Project 12 - [DrawRouteMap](https://github.com/khuong291/Swift_Example_Series/tree/master/DrawRouteMap)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/DrawRouteMap.png)
-
-Project 13 - [UsingIBDesignableAndIBInspectable](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingIBDesignableAndIBInspectable)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingIBDesignableAndIBInspectable.png)
-
-Project 14 - [SlideMenu](https://github.com/khuong291/Swift_Example_Series/tree/master/SlideMenu)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SlideMenu.gif)
-
-Project 15 - [RESTAPIAndSwiftyJSON](https://github.com/khuong291/Swift_Example_Series/tree/master/RESTAPIAndSwiftyJSON)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/RESTAPIAndSwiftyJSON.png)
-
-Project 21 - [MultipleTransforms](https://github.com/khuong291/Swift_Example_Series/tree/master/MultipleTransforms)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MultipleTransforms.gif)
-
-Project 22 - [SearchTableView](https://github.com/khuong291/Swift_Example_Series/tree/master/SearchTableView)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SearchTableView.gif)
-
-Project 23 - [CustomSearchBar](https://github.com/khuong291/Swift_Example_Series/tree/master/CustomSearchBar)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomSearchBar.gif)
-
-Project 24 - [SearchCollectionView](https://github.com/khuong291/Swift_Example_Series/tree/master/SearchCollectionView)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SearchCollectionView.gif)
-
-Project 25 - [SwipeViewController](https://github.com/khuong291/Swift_Example_Series/tree/master/SwipeViewController)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SwipeViewController.gif)
-
-Project 28 - [CacheImageUsingNSUserDefault](https://github.com/khuong291/Swift_Example_Series/tree/master/CacheImageUsingNSUserDefault)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CacheImageUsingNSUserDefault.gif)
-
-Project 29 - [UsingSQLite](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingSQLite)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingSQLite.png)
-
-
-Project 35 - [ARC](https://github.com/khuong291/Swift_Example_Series/tree/master/ARC)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ARC.png)
-
-Project 36 - [PlayMP3](https://github.com/khuong291/Swift_Example_Series/tree/master/PlayMP3)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PlayMP3.png)
-
-Project 37 - [NSNotificationCenter](https://github.com/khuong291/Swift_Example_Series/tree/master/NSNotificationCenter)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSNotificationCenter.gif)
-
-Project 38 - [ReDrawPreviousVC](https://github.com/khuong291/Swift_Example_Series/tree/master/ReDrawPreviousVC)
+Project 24 - [ReDrawPreviousVC](https://github.com/khuong291/100DaysOfSwift/tree/master/Project24%20-%20ReDrawPreviousVC)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ReDrawPreviousVC.gif)
 
-Project 39 - [PhotoDetailView](https://github.com/khuong291/Swift_Example_Series/tree/master/PhotoDetailView)
+Project 25 - [MyLocation](https://github.com/khuong291/100DaysOfSwift/tree/master/Project25%20-%20MyLocation)
 
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PhotoDetailView.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
 
-Project 40 - [GCD](https://github.com/khuong291/Swift_Example_Series/tree/master/GCD)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/GCD.gif)
-
-Project 41 - [NSOperation](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation.gif)
-
-Project 42 - [NSOperation2](https://github.com/khuong291/Swift_Example_Series/tree/master/NSOperation2)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation2.gif)
-
-Project 46 - [FunctionalProgramming](https://github.com/khuong291/Swift_Example_Series/tree/master/FunctionalProgramming)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FunctionalProgramming.png)
-
-Project 48 - [IndexedTableView](https://github.com/khuong291/Swift_Example_Series/tree/master/IndexedTableView)
+Project 26 - [IndexedTableView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project26%20-%20IndexedTableView)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/IndexedTableView.png)
 
-Project 51 - [ZoomoutCollectionView](https://github.com/khuong291/Swift_Example_Series/tree/master/ZoomoutCollectionView)
+Project 27 - [CacheImageUsingNSUserDefault](https://github.com/khuong291/100DaysOfSwift/tree/master/Project27%20-%20CacheImageUsingNSUserDefault)
 
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ZoomoutCollectionView.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CacheImageUsingNSUserDefault.gif)
 
-Project 52 - [FloatingButton](https://github.com/khuong291/Swift_Example_Series/tree/master/FloatingButton)
+Project 28 - [PhotoDetailView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project28%20-%20PhotoDetailView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PhotoDetailView.gif)
+
+Project 29 - [NSNotificationCenter](https://github.com/khuong291/100DaysOfSwift/tree/master/Project29%20-%20NSNotificationCenter)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSNotificationCenter.gif)
+
+Project 30 - [UsingIBDesignableAndIBInspectable](https://github.com/khuong291/100DaysOfSwift/tree/master/Project30%20-%20UsingIBDesignableAndIBInspectable)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingIBDesignableAndIBInspectable.png)
+
+Project 31 - [DrawRouteMap](https://github.com/khuong291/100DaysOfSwift/tree/master/Project31%20-%20DrawRouteMap)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/DrawRouteMap.png)
+
+Project 32 - [SearchTableView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project32%20-%20SearchTableView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SearchTableView.gif)
+
+Project 33 - [CustomSearchBar](https://github.com/khuong291/100DaysOfSwift/tree/master/Project33%20-%20CustomSearchBar)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomSearchBar.gif)
+
+Project 34 - [SearchCollectionView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project34%20-%20SearchCollectionView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SearchCollectionView.gif)
+
+Project 35 - [CandySearch](https://github.com/khuong291/100DaysOfSwift/tree/master/Project35%20-%20CandySearch)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CandySearch.gif)
+
+Project 36 - [GCD](https://github.com/khuong291/100DaysOfSwift/tree/master/Project36%20-%20GCD)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/GCD.gif)
+
+Project 37 - [NSOperation](https://github.com/khuong291/100DaysOfSwift/tree/master/Project37%20-%20NSOperation)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation.gif)
+
+Project 38 - [NSOperation2](https://github.com/khuong291/100DaysOfSwift/tree/master/Project38%20-%20NSOperation2)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSOperation2.gif)
+
+Project 39 - [ParseJSONUsingGloss](https://github.com/khuong291/100DaysOfSwift/tree/master/Project39%20-%20ParseJSONUsingGloss)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ParseJSONUsingGloss.png)
+
+Project 40 - [RESTAPIAndSwiftyJSON](https://github.com/khuong291/100DaysOfSwift/tree/master/Project40%20-%20RESTAPIAndSwiftyJSON)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/RESTAPIAndSwiftyJSON.png)
+
+Project 41 - [UsingAlamofireAndSwiftyJSON](https://github.com/khuong291/100DaysOfSwift/tree/master/Project41%20-%20UsingAlamofireAndSwiftyJSON)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingAlamofireAndSwiftyJSON.png)
+
+Project 42 - [SwipeViewController](https://github.com/khuong291/100DaysOfSwift/tree/master/Project42%20-%20SwipeViewController)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SwipeViewController.gif)
+
+Project 43 - [SlideMenu](https://github.com/khuong291/100DaysOfSwift/tree/master/Project43%20-%20SlideMenu)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SlideMenu.gif)
+
+Project 44 - [MultipleTransforms](https://github.com/khuong291/100DaysOfSwift/tree/master/Project44%20-%20MultipleTransforms)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MultipleTransforms.gif)
+
+Project 45 - [PlayMP3](https://github.com/khuong291/100DaysOfSwift/tree/master/Project45%20-%20PlayMP3)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PlayMP3.png)
+
+Project 46 - [FunctionalProgramming](https://github.com/khuong291/100DaysOfSwift/tree/master/Project46%20-%20FunctionalProgramming)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FunctionalProgramming.png)
+
+Project 47 - [ARC](https://github.com/khuong291/100DaysOfSwift/tree/master/Project47%20-%20ARC)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ARC.png)
+
+Project 48 - [ImageCropper](https://github.com/khuong291/100DaysOfSwift/tree/master/Project48%20-%20ImageCropper)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ImageCropper.gif)
+
+Project 49 - [UsingSQLite](https://github.com/khuong291/100DaysOfSwift/tree/master/Project49%20-%20UsingSQLite)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingSQLite.png)
+
+Project 50 - [MovingUpHeaderView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project50%20-%20MovingUpHeaderView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MovingUpHeaderView.gif)
+
+Project 51 - [FloatingButton](https://github.com/khuong291/100DaysOfSwift/tree/master/Project51%20-%20FloatingButton)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FloatingButton.gif)
 
-Project 53 - [MovingUpHeaderView](https://github.com/khuong291/Swift_Example_Series/tree/master/MovingUpHeaderView)
+Project 52 - [CustomViewControllerTransition](https://github.com/khuong291/100DaysOfSwift/tree/master/Project52%20-%20CustomViewControllerTransition)
 
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MovingUpHeaderView.gif)
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomViewControllerTransition.gif)
+
+Project 53 - [ZoomoutCollectionView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project53%20-%20ZoomoutCollectionView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ZoomoutCollectionView.gif)
+
 
 ## Reach me ##
 
