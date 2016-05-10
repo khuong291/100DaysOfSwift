@@ -108,6 +108,18 @@ Project 20 - [LimitCharacters](https://github.com/khuong291/100DaysOfSwift/tree/
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/LimitCharacters.gif)
 
+Project 21 - [TableViewMovingCell](https://github.com/khuong291/100DaysOfSwift/tree/master/Project21%20-%20TableViewMovingCell)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/TableViewMovingCell.png)
+
+Project 22 - [SavingDataUsingNSStringAndNSData](https://github.com/khuong291/100DaysOfSwift/tree/master/Project22%20-%20SavingDataUsingNSStringAndNSData)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SavingDataUsingNSStringAndNSData.png)
+
+Project 23 - [UsingNSFileManager](https://github.com/khuong291/100DaysOfSwift/tree/master/Project23%20-%20UsingNSFileManager)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingNSFileManager.png)
+
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
@@ -169,14 +181,6 @@ Project 25 - [SwipeViewController](https://github.com/khuong291/Swift_Example_Se
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SwipeViewController.gif)
 
-Project 26 - [SavingDataUsingNSStringAndNSData](https://github.com/khuong291/Swift_Example_Series/tree/master/SavingDataUsingNSStringAndNSData)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SavingDataUsingNSStringAndNSData.png)
-
-Project 27 - [UsingNSFileManager](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingNSFileManager)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingNSFileManager.png)
-
 Project 28 - [CacheImageUsingNSUserDefault](https://github.com/khuong291/Swift_Example_Series/tree/master/CacheImageUsingNSUserDefault)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CacheImageUsingNSUserDefault.gif)
@@ -225,10 +229,6 @@ Project 46 - [FunctionalProgramming](https://github.com/khuong291/Swift_Example_
 Project 48 - [IndexedTableView](https://github.com/khuong291/Swift_Example_Series/tree/master/IndexedTableView)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/IndexedTableView.png)
-
-Project 49 - [TableViewMovingCell](https://github.com/khuong291/Swift_Example_Series/tree/master/TableViewMovingCell)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/TableViewMovingCell.png)
 
 Project 51 - [ZoomoutCollectionView](https://github.com/khuong291/Swift_Example_Series/tree/master/ZoomoutCollectionView)
 
