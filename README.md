@@ -52,6 +52,15 @@ Project 06 - [ErrorHandling](https://github.com/khuong291/100DaysOfSwift/tree/ma
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ErrorHandling.png)
 
+Project 07 - [UsingClosure](https://github.com/khuong291/100DaysOfSwift/tree/master/Project07%20-%20UsingClosure)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingClosure.png)
+
+Project 08 - [UsingClosure2](https://github.com/khuong291/100DaysOfSwift/tree/master/Project08%20-%20UsingClosure2)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingClosure2.png)
+
+
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
@@ -145,13 +154,6 @@ Project 29 - [UsingSQLite](https://github.com/khuong291/Swift_Example_Series/tre
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingSQLite.png)
 
-Project 30 - [UsingClosure](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingClosure)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingClosure.png)
-
-Project 31 - [UsingClosure2](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingClosure2)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingClosure2.png)
 
 Project 32 - [UsingProtocol](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingProtocol)
 
