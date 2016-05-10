@@ -80,6 +80,18 @@ Project 13 - [UsingProtocol2](https://github.com/khuong291/100DaysOfSwift/tree/m
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingProtocol2.png)
 
+Project 14 - [ConvertStringToUIColor](https://github.com/khuong291/100DaysOfSwift/tree/master/Project14%20-%20ConvertStringToUIColor)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ConvertStringToUIColor.png)
+
+Project 15 - [OpenPDF](https://github.com/khuong291/100DaysOfSwift/tree/master/Project15%20-%20OpenPDF)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/OpenPDF.png)
+
+Project 16 - [Generic](https://github.com/khuong291/100DaysOfSwift/tree/master/Project16%20-%20Generic)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/Generic.png)
+
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
@@ -162,10 +174,6 @@ Project 29 - [UsingSQLite](https://github.com/khuong291/Swift_Example_Series/tre
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingSQLite.png)
 
 
-Project 34 - [ConvertStringToUIColor](https://github.com/khuong291/Swift_Example_Series/tree/master/ConvertStringToUIColor)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ConvertStringToUIColor.png)
-
 Project 35 - [ARC](https://github.com/khuong291/Swift_Example_Series/tree/master/ARC)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ARC.png)
@@ -214,10 +222,6 @@ Project 46 - [FunctionalProgramming](https://github.com/khuong291/Swift_Example_
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FunctionalProgramming.png)
 
-Project 47 - [OpenPDF](https://github.com/khuong291/Swift_Example_Series/tree/master/OpenPDF)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/OpenPDF.png)
-
 Project 48 - [IndexedTableView](https://github.com/khuong291/Swift_Example_Series/tree/master/IndexedTableView)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/IndexedTableView.png)
@@ -225,10 +229,6 @@ Project 48 - [IndexedTableView](https://github.com/khuong291/Swift_Example_Serie
 Project 49 - [TableViewMovingCell](https://github.com/khuong291/Swift_Example_Series/tree/master/TableViewMovingCell)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/TableViewMovingCell.png)
-
-Project 50 - [Generic](https://github.com/khuong291/Swift_Example_Series/tree/master/Generic)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/Generic.png)
 
 Project 51 - [ZoomoutCollectionView](https://github.com/khuong291/Swift_Example_Series/tree/master/ZoomoutCollectionView)
 
