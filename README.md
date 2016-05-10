@@ -60,6 +60,18 @@ Project 08 - [UsingClosure2](https://github.com/khuong291/100DaysOfSwift/tree/ma
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingClosure2.png)
 
+Project 09 - [SortAndFilterArray](https://github.com/khuong291/100DaysOfSwift/tree/master/Project09%20-%20SortAndFilterArray)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SortAndFilterArray.png)
+
+Project 10 - [UsingCallBack](https://github.com/khuong291/100DaysOfSwift/tree/master/Project10%20-%20UsingCallBack)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingCallBack.gif)
+
+Project 11 - [UsingCallBack2](https://github.com/khuong291/100DaysOfSwift/tree/master/Project11%20-%20UsingCallBack2)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingCallBack2.gif)
+
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
@@ -73,7 +85,6 @@ Project 03 - [CandySearch](https://github.com/khuong291/Swift_Example_Series/tre
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CandySearch.gif)
 
-
 Project 08 - [CustomViewControllerTransition](https://github.com/khuong291/Swift_Example_Series/tree/master/CustomViewControllerTransition)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomViewControllerTransition.gif)
@@ -82,9 +93,6 @@ Project 09 - [ParseJSONUsingGloss](https://github.com/khuong291/Swift_Example_Se
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ParseJSONUsingGloss.png)
 
-Project 10 - [SortAndFilterArray](https://github.com/khuong291/Swift_Example_Series/tree/master/SortAndFilterArray)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SortAndFilterArray.png)
 
 Project 11 - [UsingAlamofireAndSwiftyJSON](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingAlamofireAndSwiftyJSON)
 
@@ -109,14 +117,6 @@ Project 15 - [RESTAPIAndSwiftyJSON](https://github.com/khuong291/Swift_Example_S
 Project 18 - [DroppingShadow](https://github.com/khuong291/Swift_Example_Series/tree/master/DroppingShadow)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/DroppingShadow.png)
-
-Project 19 - [UsingCallBack](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingCallBack)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingCallBack.gif)
-
-Project 20 - [UsingCallBack2](https://github.com/khuong291/Swift_Example_Series/tree/master/UsingCallBack2)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UsingCallBack2.gif)
 
 Project 21 - [MultipleTransforms](https://github.com/khuong291/Swift_Example_Series/tree/master/MultipleTransforms)
 
