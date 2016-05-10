@@ -32,6 +32,10 @@ Project 01 - [SpringAnimateText](https://github.com/khuong291/Swift_Example_Seri
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SpringAnimateText.gif)
 
+Project 02 - [ShowPopoverController](https://github.com/khuong291/Swift_Example_Series/tree/master/ShowPopoverController)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ShowPopoverController.png)
+
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
