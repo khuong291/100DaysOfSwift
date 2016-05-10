@@ -40,6 +40,18 @@ Project 03 - [BlurEffect](https://github.com/khuong291/100DaysOfSwift/tree/maste
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/BlurEffect.gif)
 
+Project 04 - [CustomView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project04%20-%20CustomView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomView.gif)
+
+Project 05 - [Header_Footer_TableView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project05%20-%20Header_Footer_TableView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/Header_Footer_TableView.png)
+
+Project 06 - [ErrorHandling](https://github.com/khuong291/100DaysOfSwift/tree/master/Project06%20-%20ErrorHandling)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ErrorHandling.png)
+
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
@@ -52,17 +64,6 @@ Project 03 - [CandySearch](https://github.com/khuong291/Swift_Example_Series/tre
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CandySearch.gif)
 
-Project 05 - [BlurEffect](https://github.com/khuong291/Swift_Example_Series/tree/master/BlurEffect)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/BlurEffect.gif)
-
-Project 06 - [ShowPopoverController](https://github.com/khuong291/Swift_Example_Series/tree/master/ShowPopoverController)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ShowPopoverController.png)
-
-Project 07 - [CustomView](https://github.com/khuong291/Swift_Example_Series/tree/master/CustomView)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomView.gif)
 
 Project 08 - [CustomViewControllerTransition](https://github.com/khuong291/Swift_Example_Series/tree/master/CustomViewControllerTransition)
 
@@ -95,14 +96,6 @@ Project 14 - [SlideMenu](https://github.com/khuong291/Swift_Example_Series/tree/
 Project 15 - [RESTAPIAndSwiftyJSON](https://github.com/khuong291/Swift_Example_Series/tree/master/RESTAPIAndSwiftyJSON)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/RESTAPIAndSwiftyJSON.png)
-
-Project 16 - [Header_Footer_TableView](https://github.com/khuong291/Swift_Example_Series/tree/master/Header_Footer_TableView)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/Header_Footer_TableView.png)
-
-Project 17 - [ErrorHandling](https://github.com/khuong291/Swift_Example_Series/tree/master/ErrorHandling)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ErrorHandling.png)
 
 Project 18 - [DroppingShadow](https://github.com/khuong291/Swift_Example_Series/tree/master/DroppingShadow)
 
