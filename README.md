@@ -28,6 +28,10 @@ Progress: 53/100
 
 ## Project Demos
 
+Project 01 - [SpringAnimateText](https://github.com/khuong291/Swift_Example_Series/tree/master/SpringAnimateText)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SpringAnimateText.gif)
+
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MyLocation.gif)
@@ -39,10 +43,6 @@ Project 02 - [ImageCropper](https://github.com/khuong291/Swift_Example_Series/tr
 Project 03 - [CandySearch](https://github.com/khuong291/Swift_Example_Series/tree/master/CandySearch)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CandySearch.gif)
-
-Project 04 - [SpringAnimateText](https://github.com/khuong291/Swift_Example_Series/tree/master/SpringAnimateText)
-
-![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SpringAnimateText.gif)
 
 Project 05 - [BlurEffect](https://github.com/khuong291/Swift_Example_Series/tree/master/BlurEffect)
 
