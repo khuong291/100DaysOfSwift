@@ -28,13 +28,17 @@ Progress: 53/100
 
 ## Project Demos
 
-Project 01 - [SpringAnimateText](https://github.com/khuong291/Swift_Example_Series/tree/master/SpringAnimateText)
+Project 01 - [SpringAnimateText](https://github.com/khuong291/100DaysOfSwift/tree/master/Project01%20-%20%20SpringAnimateText)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/SpringAnimateText.gif)
 
-Project 02 - [ShowPopoverController](https://github.com/khuong291/Swift_Example_Series/tree/master/ShowPopoverController)
+Project 02 - [ShowPopoverController](https://github.com/khuong291/100DaysOfSwift/tree/master/Project02%20-%20ShowPopoverController)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ShowPopoverController.png)
+
+Project 03 - [BlurEffect](https://github.com/khuong291/100DaysOfSwift/tree/master/Project03%20-%20BlurEffect)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/BlurEffect.gif)
 
 Project 01 - [MyLocation](https://github.com/khuong291/Swift_Example_Series/tree/master/MyLocation)
 
