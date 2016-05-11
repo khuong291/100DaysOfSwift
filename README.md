@@ -1,6 +1,6 @@
 # 100DaysOfSwift
 
-![Alt text](https://github.com/khuong291/100DaysOfSwift/master/cover_photo.png)
+![Alt text](https://github.com/khuong291/100DaysOfSwift/blob/master/cover_photo.png)
 
 Hi community, I am Khuong.
 
