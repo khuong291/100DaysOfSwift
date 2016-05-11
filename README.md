@@ -7,16 +7,27 @@ Hi community, I am Khuong.
 Here is a punch of example projects with Swift, I am going to build 100 example projects here. I follow some tutorials from:
 
 [Apple](https://developer.apple.com/)
+
 [Raywenderlich](http://www.raywenderlich.com)
+
 [AppCoda](http://appcoda.com)
+
 [IOSCreator](http://www.ioscreator.com/)
+
 [CodePath](https://codepath.com)
+
 [Tutsplus](http://code.tutsplus.com/)
+
 [Ashishkakkad](http://ashishkakkad.com/)
+
 [TheAppGuruz](http://www.theappguruz.com/)
+
 [WeHeartSwift](https://www.weheartswift.com)
+
 [Youtube - Brian Advent](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw)
+
 [Youtube - Jared Davidson](https://www.youtube.com/user/Archetapp)
+
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
 Progress: 53/100
