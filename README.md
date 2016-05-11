@@ -3,7 +3,7 @@
 ![Alt text](https://github.com/khuong291/100DaysOfSwift/blob/master/cover_photo.png)
 
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=https://github.com/khuong291/100DaysOfSwift)
-[![Twitter Follow](https://img.shields.io/twitter/follow/creativewang.svg?style=social)](https://twitter.com/khuong291)
+[![Twitter Follow](https://img.shields.io/twitter/follow/khuong291.svg?style=social)](https://twitter.com/khuong291)
 
 Hi community, I am Khuong.
 
