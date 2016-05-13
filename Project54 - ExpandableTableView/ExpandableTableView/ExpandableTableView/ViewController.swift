@@ -12,6 +12,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet var tableView: UITableView!
 
+    var isExpand = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -43,7 +45,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        //
+        if !isExpand {
+            tableView.cellForRowAtIndexPath(indexPath)?.frame.size.height += 200
+            isExpand = true
+        } else {
+            tableView.cellForRowAtIndexPath(indexPath)?.frame.size.height -= 200
+            isExpand = false
+        }
+
     }
 
 }
