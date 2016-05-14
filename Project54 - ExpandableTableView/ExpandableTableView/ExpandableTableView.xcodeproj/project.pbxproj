@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993B29F81CE7747E0094734F /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 993B29F71CE7747E0094734F /* DetailView.xib */; };
+		993B29FA1CE777D80094734F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993B29F91CE777D80094734F /* DetailView.swift */; };
 		99DDC6E11CE63E68008DAC05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DDC6E01CE63E68008DAC05 /* AppDelegate.swift */; };
 		99DDC6E31CE63E68008DAC05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DDC6E21CE63E68008DAC05 /* ViewController.swift */; };
 		99DDC6E61CE63E68008DAC05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99DDC6E41CE63E68008DAC05 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993B29F71CE7747E0094734F /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		993B29F91CE777D80094734F /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		99DDC6DD1CE63E67008DAC05 /* ExpandableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DDC6E01CE63E68008DAC05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99DDC6E21CE63E68008DAC05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				99DDC6E91CE63E68008DAC05 /* LaunchScreen.storyboard */,
 				99DDC6EC1CE63E68008DAC05 /* Info.plist */,
 				99DDC6F21CE647FC008DAC05 /* MyTableViewCell.swift */,
+				993B29F71CE7747E0094734F /* DetailView.xib */,
+				993B29F91CE777D80094734F /* DetailView.swift */,
 			);
 			path = ExpandableTableView;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DDC6EB1CE63E68008DAC05 /* LaunchScreen.storyboard in Resources */,
+				993B29F81CE7747E0094734F /* DetailView.xib in Resources */,
 				99DDC6E81CE63E68008DAC05 /* Assets.xcassets in Resources */,
 				99DDC6E61CE63E68008DAC05 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99DDC6E31CE63E68008DAC05 /* ViewController.swift in Sources */,
+				993B29FA1CE777D80094734F /* DetailView.swift in Sources */,
 				99DDC6E11CE63E68008DAC05 /* AppDelegate.swift in Sources */,
 				99DDC6F31CE647FC008DAC05 /* MyTableViewCell.swift in Sources */,
 			);
@@ -290,6 +298,7 @@
 				99DDC6F11CE63E68008DAC05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

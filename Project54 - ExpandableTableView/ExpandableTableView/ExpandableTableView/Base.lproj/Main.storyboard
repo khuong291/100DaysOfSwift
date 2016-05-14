@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--AIR FLY-->
+        <!--AIR FLIGHT-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="ExpandableTableView" customModuleProvider="target" sceneMemberID="viewController">
@@ -210,7 +210,7 @@
                             <constraint firstItem="5fx-x0-9LO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="te3-SV-klk"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="AIR FLY" id="hh3-pO-7wu"/>
+                    <navigationItem key="navigationItem" title="AIR FLIGHT" id="hh3-pO-7wu"/>
                     <connections>
                         <outlet property="tableView" destination="5fx-x0-9LO" id="aNc-0g-fPa"/>
                     </connections>
