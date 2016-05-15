@@ -33,7 +33,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 53/100
+Progress: 54/100
 
 ## Project Demos
 
@@ -248,6 +248,10 @@ Project 52 - [CustomViewControllerTransition](https://github.com/khuong291/100Da
 Project 53 - [ZoomoutCollectionView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project53%20-%20ZoomoutCollectionView)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ZoomoutCollectionView.gif)
+
+Project 54 - [ExpandableTableView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project54%20-%20ExpandableTableView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ExpandableTableView.gif)
 
 
 ## Reach me ##
