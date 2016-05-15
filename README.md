@@ -264,7 +264,7 @@ Twitter: [khuong291](https://twitter.com/khuong291)
 
 Facebook: [Đăng Khương Phạm](https://www.facebook.com/profile.php?id=100003211267207)
 
-StackOverFlow: [khuong291](http://stackoverflow.com/users/4742830/khuong291)
+StackOverFlow: [Khuong](http://stackoverflow.com/users/4742830/khuong)
 
 #### よろしくお願い致します。🕵 ####
 
