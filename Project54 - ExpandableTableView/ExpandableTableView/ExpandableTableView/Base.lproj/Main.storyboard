@@ -17,18 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="211" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5fx-x0-9LO">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="477" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5fx-x0-9LO">
                                 <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="211" id="0Sh-60-MEl" customClass="MyTableViewCell" customModule="ExpandableTableView" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="211"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="477" id="0Sh-60-MEl" customClass="MyTableViewCell" customModule="ExpandableTableView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="477"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Sh-60-MEl" id="6Mm-pl-9Fo">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="210"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="476"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wrh-bv-Z3N" userLabel="Container View">
+                                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wrh-bv-Z3N" userLabel="Container View">
                                                     <rect key="frame" x="15" y="15" width="570" height="180"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FHV-mc-Bra" userLabel="Line">
@@ -140,10 +140,18 @@
                                                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s4a-IR-s3D" userLabel="DetailView" customClass="DetailView" customModule="ExpandableTableView" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="180" width="570" height="250"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="250" id="D4F-iH-L1C"/>
+                                                            </constraints>
+                                                        </view>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     <constraints>
                                                         <constraint firstItem="dhp-Ir-u5T" firstAttribute="centerY" secondItem="ov7-D9-mQb" secondAttribute="centerY" id="0jO-uc-biP"/>
+                                                        <constraint firstItem="s4a-IR-s3D" firstAttribute="top" secondItem="lsi-cM-GKC" secondAttribute="bottom" constant="10" id="39K-t6-N4L"/>
                                                         <constraint firstItem="dhp-Ir-u5T" firstAttribute="leading" secondItem="ov7-D9-mQb" secondAttribute="trailing" constant="10" id="5W7-Uw-Seu"/>
                                                         <constraint firstItem="zhd-yW-ccq" firstAttribute="leading" secondItem="aQU-F2-eIt" secondAttribute="leading" id="6Zm-PB-ouC"/>
                                                         <constraint firstItem="R61-20-Akl" firstAttribute="top" secondItem="xPW-Ik-upV" secondAttribute="top" id="7PU-iO-ck9"/>
@@ -163,6 +171,7 @@
                                                         <constraint firstItem="SjD-5O-a9r" firstAttribute="leading" secondItem="R61-20-Akl" secondAttribute="leading" id="UtJ-Pc-fCM"/>
                                                         <constraint firstItem="Nmb-ag-FP6" firstAttribute="leading" secondItem="xPW-Ik-upV" secondAttribute="leading" id="Uwg-8t-AoF"/>
                                                         <constraint firstItem="pwV-I5-w0P" firstAttribute="top" secondItem="ov7-D9-mQb" secondAttribute="bottom" constant="15" id="Wsh-iJ-nDo"/>
+                                                        <constraint firstAttribute="trailing" secondItem="s4a-IR-s3D" secondAttribute="trailing" id="Y3C-DB-RaM"/>
                                                         <constraint firstAttribute="bottom" secondItem="lsi-cM-GKC" secondAttribute="bottom" id="eEM-jH-gnK"/>
                                                         <constraint firstItem="lsi-cM-GKC" firstAttribute="leading" secondItem="Wrh-bv-Z3N" secondAttribute="leading" id="ecJ-3L-A1e"/>
                                                         <constraint firstItem="MGG-tL-HeJ" firstAttribute="leading" secondItem="dhp-Ir-u5T" secondAttribute="leading" id="hHZ-iN-Hyl"/>
@@ -170,6 +179,7 @@
                                                         <constraint firstItem="dhp-Ir-u5T" firstAttribute="top" secondItem="ov7-D9-mQb" secondAttribute="top" id="qdz-AX-eSt"/>
                                                         <constraint firstItem="ov7-D9-mQb" firstAttribute="leading" secondItem="lsi-cM-GKC" secondAttribute="trailing" constant="8" id="rH0-s2-ZTy"/>
                                                         <constraint firstItem="R61-20-Akl" firstAttribute="leading" secondItem="xPW-Ik-upV" secondAttribute="trailing" constant="20" id="vMd-BG-pXd"/>
+                                                        <constraint firstItem="s4a-IR-s3D" firstAttribute="leading" secondItem="Wrh-bv-Z3N" secondAttribute="leading" id="wyJ-MC-BHX"/>
                                                         <constraint firstItem="xPW-Ik-upV" firstAttribute="leading" secondItem="lsi-cM-GKC" secondAttribute="trailing" constant="8" id="yxL-pJ-qfU"/>
                                                         <constraint firstItem="Nmb-ag-FP6" firstAttribute="top" secondItem="xPW-Ik-upV" secondAttribute="bottom" constant="8" id="zTd-I5-sUq"/>
                                                     </constraints>
@@ -194,6 +204,7 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="containerView" destination="Wrh-bv-Z3N" id="Cnx-9Q-z4L"/>
+                                            <outlet property="detailView" destination="s4a-IR-s3D" id="XIv-3N-Q0b"/>
                                             <outlet property="leftView" destination="lsi-cM-GKC" id="ezn-iI-vBW"/>
                                         </connections>
                                     </tableViewCell>

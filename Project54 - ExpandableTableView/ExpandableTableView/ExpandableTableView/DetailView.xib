@@ -90,7 +90,7 @@
                     </constraints>
                 </imageView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="tCQ-ye-HFV" secondAttribute="trailing" constant="8" id="5Sa-k2-hv7"/>
                 <constraint firstItem="tCQ-ye-HFV" firstAttribute="top" secondItem="L4l-Io-dOt" secondAttribute="bottom" id="D3v-Ne-7M6"/>

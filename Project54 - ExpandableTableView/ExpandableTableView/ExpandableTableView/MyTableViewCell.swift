@@ -12,6 +12,7 @@ class MyTableViewCell: UITableViewCell {
 
     @IBOutlet var containerView: UIView!
     @IBOutlet var leftView: UIView!
+    @IBOutlet var detailView: DetailView!
 
     class var expandedHeight: CGFloat { get { return 450 } }
 
@@ -24,10 +25,12 @@ class MyTableViewCell: UITableViewCell {
         containerView.clipsToBounds = true
         leftView.layer.cornerRadius = 10
         leftView.clipsToBounds = true
+        detailView.layer.cornerRadius = 10
+        detailView.clipsToBounds = true
     }
 
     func checkHeight() {
-        
+        detailView.hidden = frame.size.height < MyTableViewCell.expandedHeight
     }
 
     func watchFrameChange() {

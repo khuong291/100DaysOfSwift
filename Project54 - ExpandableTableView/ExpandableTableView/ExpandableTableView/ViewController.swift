@@ -39,7 +39,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        return indexPath == selectedIndexPath ? MyTableViewCell.defaultHeight : MyTableViewCell.expandedHeight
+        return indexPath == selectedIndexPath ? MyTableViewCell.expandedHeight : MyTableViewCell.defaultHeight
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
@@ -100,6 +100,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //                    self.detailView.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
 //            })
 //        }
+    }
+
+    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        (cell as! MyTableViewCell).watchFrameChange()
+    }
+
+    func tableView(tableView: UITableView, didEndDisplayingCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+        (cell as! MyTableViewCell).watchFrameChange()
     }
 
 }
