@@ -14,7 +14,7 @@ class MyTableViewCell: UITableViewCell {
     @IBOutlet var leftView: UIView!
     @IBOutlet var detailView: DetailView!
 
-    class var expandedHeight: CGFloat { get { return 450 } }
+    class var expandedHeight: CGFloat { get { return 465 } }
 
     class var defaultHeight: CGFloat { get { return 200 } }
 
