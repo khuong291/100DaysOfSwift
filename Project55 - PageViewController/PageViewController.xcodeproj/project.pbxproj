@@ -12,6 +12,8 @@
 		99C063DE1CE844AF00387953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C063DC1CE844AF00387953 /* Main.storyboard */; };
 		99C063E01CE844AF00387953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C063DF1CE844AF00387953 /* Assets.xcassets */; };
 		99C063E31CE844AF00387953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C063E11CE844AF00387953 /* LaunchScreen.storyboard */; };
+		99C063EB1CE845D800387953 /* LiverpoolPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C063EA1CE845D800387953 /* LiverpoolPageViewController.swift */; };
+		99C063ED1CE84F0B00387953 /* LiverpoolFootballer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C063EC1CE84F0B00387953 /* LiverpoolFootballer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		99C063DF1CE844AF00387953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C063E21CE844AF00387953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99C063E41CE844AF00387953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C063EA1CE845D800387953 /* LiverpoolPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiverpoolPageViewController.swift; sourceTree = "<group>"; };
+		99C063EC1CE84F0B00387953 /* LiverpoolFootballer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiverpoolFootballer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				99C063DF1CE844AF00387953 /* Assets.xcassets */,
 				99C063E11CE844AF00387953 /* LaunchScreen.storyboard */,
 				99C063E41CE844AF00387953 /* Info.plist */,
+				99C063EA1CE845D800387953 /* LiverpoolPageViewController.swift */,
+				99C063EC1CE84F0B00387953 /* LiverpoolFootballer.swift */,
 			);
 			path = PageViewController;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C063EB1CE845D800387953 /* LiverpoolPageViewController.swift in Sources */,
 				99C063DB1CE844AF00387953 /* ViewController.swift in Sources */,
+				99C063ED1CE84F0B00387953 /* LiverpoolFootballer.swift in Sources */,
 				99C063D91CE844AF00387953 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				99C063E91CE844AF00387953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

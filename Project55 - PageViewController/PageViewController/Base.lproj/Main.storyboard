@@ -3,12 +3,69 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="Qi8-8M-SPb">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" automaticallyAdjustsScrollViewInsets="NO" id="tAI-pb-N2y" customClass="ViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5sW-7U-C4D"/>
+                        <viewControllerLayoutGuide type="bottom" id="j3J-BG-8H1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eQd-ka-iU6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gerrard" translatesAutoresizingMaskIntoConstraints="NO" id="UR3-HE-aFn">
+                                <rect key="frame" x="0.0" y="67" width="375" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Steven Gerrard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYo-KV-3Kb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
+                                <color key="backgroundColor" red="0.93463272506940143" green="0.90628683849304359" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="r6U-NS-prw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.064558162069999994" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UR3-HE-aFn" secondAttribute="trailing" id="0jq-mT-xuf"/>
+                            <constraint firstItem="UR3-HE-aFn" firstAttribute="top" secondItem="eQd-ka-iU6" secondAttribute="topMargin" constant="100" id="8hV-49-wKY"/>
+                            <constraint firstAttribute="trailing" secondItem="PYo-KV-3Kb" secondAttribute="trailing" id="DP7-lP-eWd"/>
+                            <constraint firstItem="UR3-HE-aFn" firstAttribute="leading" secondItem="eQd-ka-iU6" secondAttribute="leading" id="FHP-IQ-XzK"/>
+                            <constraint firstItem="j3J-BG-8H1" firstAttribute="top" secondItem="UR3-HE-aFn" secondAttribute="bottom" id="Mzt-58-VCj"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="UR3-HE-aFn" secondAttribute="bottom" id="Pur-og-i9M"/>
+                            <constraint firstItem="PYo-KV-3Kb" firstAttribute="leading" secondItem="eQd-ka-iU6" secondAttribute="leading" id="RXa-mU-Sos"/>
+                            <constraint firstItem="UR3-HE-aFn" firstAttribute="top" secondItem="5sW-7U-C4D" secondAttribute="bottom" id="VSA-iY-jp1"/>
+                            <constraint firstItem="UR3-HE-aFn" firstAttribute="top" secondItem="PYo-KV-3Kb" secondAttribute="bottom" id="k46-UA-v6A"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8hV-49-wKY"/>
+                                <exclude reference="VSA-iY-jp1"/>
+                                <exclude reference="Mzt-58-VCj"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="UR3-HE-aFn" id="kum-eK-Uoq"/>
+                        <outlet property="nameLabel" destination="PYo-KV-3Kb" id="5Th-lv-oRr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OhW-om-vsG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858.5" y="295.5"/>
+        </scene>
+        <!--Liverpool Page View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LiverpoolPageViewController" id="BYZ-38-t0r" customClass="LiverpoolPageViewController" customModule="PageViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -24,4 +81,7 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="gerrard" width="400" height="600"/>
+    </resources>
 </document>
