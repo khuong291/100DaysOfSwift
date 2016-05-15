@@ -18,10 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gerrard" translatesAutoresizingMaskIntoConstraints="NO" id="UR3-HE-aFn">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="gerrard" translatesAutoresizingMaskIntoConstraints="NO" id="UR3-HE-aFn">
                                 <rect key="frame" x="0.0" y="67" width="375" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Steven Gerrard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYo-KV-3Kb">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steven Gerrard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYo-KV-3Kb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
                                 <color key="backgroundColor" red="0.93463272506940143" green="0.90628683849304359" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -42,6 +42,7 @@
                             <constraint firstAttribute="bottomMargin" secondItem="UR3-HE-aFn" secondAttribute="bottom" id="Pur-og-i9M"/>
                             <constraint firstItem="PYo-KV-3Kb" firstAttribute="leading" secondItem="eQd-ka-iU6" secondAttribute="leading" id="RXa-mU-Sos"/>
                             <constraint firstItem="UR3-HE-aFn" firstAttribute="top" secondItem="5sW-7U-C4D" secondAttribute="bottom" id="VSA-iY-jp1"/>
+                            <constraint firstAttribute="topMargin" secondItem="PYo-KV-3Kb" secondAttribute="top" id="cPi-HK-E0b"/>
                             <constraint firstItem="UR3-HE-aFn" firstAttribute="top" secondItem="PYo-KV-3Kb" secondAttribute="bottom" id="k46-UA-v6A"/>
                         </constraints>
                         <variation key="default">

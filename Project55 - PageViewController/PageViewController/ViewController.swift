@@ -14,8 +14,18 @@ class ViewController: UIViewController {
     @IBOutlet var nameLabel: UILabel!
     var page = 0
 
+    var image: UIImage?
+    var name: String?
+
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+
+        imageView.image = image
+        nameLabel.text = name
     }
 
 }
