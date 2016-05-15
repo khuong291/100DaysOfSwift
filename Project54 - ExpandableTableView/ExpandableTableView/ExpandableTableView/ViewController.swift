@@ -12,7 +12,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     @IBOutlet var tableView: UITableView!
 
-    var isExpand = false
+    var isExpanded = false
+    let detailView = DetailView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,11 +24,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func addBackgroundImage() {
         UIGraphicsBeginImageContext(self.view.frame.size)
         UIImage(named: "blur_background")?.drawInRect(self.view.bounds)
-
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
-
         UIGraphicsEndImageContext()
-
         view.backgroundColor = UIColor(patternImage: image)
     }
 
@@ -45,14 +43,48 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if !isExpand {
-            tableView.cellForRowAtIndexPath(indexPath)?.frame.size.height += 200
-            isExpand = true
-        } else {
-            tableView.cellForRowAtIndexPath(indexPath)?.frame.size.height -= 200
-            isExpand = false
-        }
+        if !isExpanded {
+            isExpanded = true
 
+            let cellContentView = tableView.cellForRowAtIndexPath(indexPath)?.contentView
+            let containerViewSize = cellContentView?.subviews.last?.bounds
+            detailView.frame.size = CGSize(width: (containerViewSize?.width)!, height: 0)
+
+            let rect = cellContentView!.convertRect(cellContentView!.frame, toView: self.view)
+            detailView.center = CGPointMake(rect.origin.x + rect.size.width / 2, rect.origin.y + rect.size.height / 2)
+            cellContentView!.addSubview(detailView)
+
+            UIView.transitionFromView(self.detailView, toView: self.detailView.contentView, duration: 0.5, options: UIViewAnimationOptions.TransitionFlipFromTop, completion: nil)
+
+            UIView.animateWithDuration(0.5, delay: 0, options: [.CurveEaseInOut], animations: {
+                tableView.cellForRowAtIndexPath(indexPath)?.frame.size.height += 50
+                cellContentView?.frame.size.height += 20
+                self.detailView.center.y += 30
+                self.detailView.frame.size.height += (containerViewSize?.height)!
+                }, completion: nil)
+
+        } else {
+            isExpanded = false
+
+            let cellContentView = tableView.cellForRowAtIndexPath(indexPath)?.contentView
+            let containerViewSize = cellContentView?.subviews.last?.bounds
+            detailView.frame.size = CGSize(width: (containerViewSize?.width)!, height: 0)
+
+            let rect = cellContentView!.convertRect(cellContentView!.frame, toView: self.view)
+            detailView.center = CGPointMake(rect.origin.x + rect.size.width / 2, rect.origin.y + rect.size.height / 2)
+
+            UIView.transitionFromView(self.detailView.contentView, toView: self.detailView, duration: 0.5, options: UIViewAnimationOptions.TransitionFlipFromBottom, completion: nil)
+
+            UIView.animateWithDuration(0.5, delay: 0, options: [.CurveEaseInOut], animations: {
+                tableView.cellForRowAtIndexPath(indexPath)?.frame.size.height -= 50
+                cellContentView?.frame.size.height -= 20
+                self.detailView.center.y -= 30
+                self.detailView.frame.size.height -= (containerViewSize?.height)!
+                }, completion: { bool in
+                    self.detailView.removeFromSuperview()
+                    self.detailView.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
+            })
+        }
     }
 
 }

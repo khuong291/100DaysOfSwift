@@ -16,6 +16,7 @@ class DetailView: UIView {
 
     required override init(frame: CGRect) {
         super.init(frame: frame)
+        initSubviews()
     }
 
     required init?(coder aDecoder: NSCoder) {

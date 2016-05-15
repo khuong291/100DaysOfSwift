@@ -14,11 +14,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="466" height="581"/>
+            <rect key="frame" x="0.0" y="0.0" width="466" height="267"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCQ-ye-HFV">
-                    <rect key="frame" x="8" y="418" width="450" height="150"/>
+                    <rect key="frame" x="8" y="108" width="450" height="150"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUj-SO-U8x">
                             <rect key="frame" x="8" y="5" width="103" height="21"/>
@@ -50,18 +50,20 @@
                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6en-x5-AO1">
-                            <rect key="frame" x="20" y="78" width="410" height="30"/>
-                            <state key="normal" title="SEND REQUEST"/>
-                        </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 people have sent a request" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Amh-9R-85p">
                             <rect key="frame" x="115" y="110" width="221" height="21"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6en-x5-AO1">
+                            <rect key="frame" x="20" y="78" width="410" height="30"/>
+                            <state key="normal" title="SEND REQUEST">
+                                <color key="titleColor" red="0.63529411764705879" green="0.11372549019607843" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.91932921315763561" green="0.9804401247351533" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstItem="Amh-9R-85p" firstAttribute="centerX" secondItem="tCQ-ye-HFV" secondAttribute="centerX" id="1h8-Ar-Vil"/>
                         <constraint firstItem="TiP-k4-2CI" firstAttribute="leading" secondItem="foS-gR-BcE" secondAttribute="leading" id="3hv-4H-oC3"/>
@@ -82,26 +84,26 @@
                     </constraints>
                 </view>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map" translatesAutoresizingMaskIntoConstraints="NO" id="L4l-Io-dOt">
-                    <rect key="frame" x="8" y="8" width="450" height="400"/>
+                    <rect key="frame" x="8" y="8" width="450" height="100"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="400" id="MjN-hw-vPy"/>
+                        <constraint firstAttribute="height" constant="100" id="MjN-hw-vPy"/>
                     </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="tCQ-ye-HFV" secondAttribute="trailing" constant="8" id="5Sa-k2-hv7"/>
-                <constraint firstItem="tCQ-ye-HFV" firstAttribute="top" secondItem="L4l-Io-dOt" secondAttribute="bottom" constant="10" id="D3v-Ne-7M6"/>
+                <constraint firstItem="tCQ-ye-HFV" firstAttribute="top" secondItem="L4l-Io-dOt" secondAttribute="bottom" id="D3v-Ne-7M6"/>
                 <constraint firstItem="L4l-Io-dOt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="SzX-D5-uvh"/>
                 <constraint firstItem="L4l-Io-dOt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="ZrP-gZ-i9x"/>
                 <constraint firstAttribute="trailing" secondItem="L4l-Io-dOt" secondAttribute="trailing" constant="8" id="duN-NT-CSd"/>
                 <constraint firstItem="tCQ-ye-HFV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="jTP-D1-MGr"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="348" y="331.5"/>
+            <point key="canvasLocation" x="348" y="174.5"/>
         </view>
     </objects>
     <resources>
-        <image name="map" width="374" height="303"/>
+        <image name="map" width="374" height="131"/>
     </resources>
 </document>
