@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9908D1711CEA3288002012B5 /* GithubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908D1701CEA3288002012B5 /* GithubViewController.swift */; };
 		9908D1731CEA32E3002012B5 /* StackOverFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908D1721CEA32E3002012B5 /* StackOverFlowViewController.swift */; };
+		9908D1751CEA3C14002012B5 /* CodeWarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908D1741CEA3C14002012B5 /* CodeWarsViewController.swift */; };
 		99AA7F101CE8DCEE00F8C867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA7F0F1CE8DCEE00F8C867 /* AppDelegate.swift */; };
 		99AA7F121CE8DCEE00F8C867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA7F111CE8DCEE00F8C867 /* ViewController.swift */; };
 		99AA7F151CE8DCEE00F8C867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AA7F131CE8DCEE00F8C867 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		9908D1701CEA3288002012B5 /* GithubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubViewController.swift; sourceTree = "<group>"; };
 		9908D1721CEA32E3002012B5 /* StackOverFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackOverFlowViewController.swift; sourceTree = "<group>"; };
+		9908D1741CEA3C14002012B5 /* CodeWarsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeWarsViewController.swift; sourceTree = "<group>"; };
 		99AA7F0C1CE8DCEE00F8C867 /* ContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AA7F0F1CE8DCEE00F8C867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99AA7F111CE8DCEE00F8C867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				99AA7F1B1CE8DCEE00F8C867 /* Info.plist */,
 				9908D1701CEA3288002012B5 /* GithubViewController.swift */,
 				9908D1721CEA32E3002012B5 /* StackOverFlowViewController.swift */,
+				9908D1741CEA3C14002012B5 /* CodeWarsViewController.swift */,
 			);
 			path = ContainerViewController;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				9908D1711CEA3288002012B5 /* GithubViewController.swift in Sources */,
 				99AA7F121CE8DCEE00F8C867 /* ViewController.swift in Sources */,
 				99AA7F101CE8DCEE00F8C867 /* AppDelegate.swift in Sources */,
+				9908D1751CEA3C14002012B5 /* CodeWarsViewController.swift in Sources */,
 				9908D1731CEA32E3002012B5 /* StackOverFlowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

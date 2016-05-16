@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +17,104 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c7o-je-vOr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                                <connections>
+                                    <segue destination="WBG-wA-SU2" kind="embed" id="lxH-9W-hzi"/>
+                                </connections>
+                            </containerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="khuong" translatesAutoresizingMaskIntoConstraints="NO" id="qgf-JC-UBL">
+                                <rect key="frame" x="20" y="381" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="E8q-Ah-f3M"/>
+                                    <constraint firstAttribute="width" constant="100" id="wG0-sn-yAV"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xAw-2d-mxN">
+                                <rect key="frame" x="0.0" y="601" width="375" height="66"/>
+                                <color key="backgroundColor" red="1" green="0.35896027372594375" blue="0.3400344660134017" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="gq3-6I-tvp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <state key="normal" title="CONTACT HIM">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0Ph-v6-ODp" userLabel="Name Stack View">
+                                <rect key="frame" x="128" y="405" width="179" height="52"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Khuong" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2N7-e1-2lB">
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="24"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ジュラキュール・ミホーク" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FV7-VQ-ajd">
+                                        <rect key="frame" x="0.0" y="34" width="179" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="EmI-aa-gBI" userLabel="Profile Stack View">
+                                <rect key="frame" x="48" y="501" width="280" height="80"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="github" translatesAutoresizingMaskIntoConstraints="NO" id="IKc-6T-Gzh">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stackoverflow" translatesAutoresizingMaskIntoConstraints="NO" id="RnX-QC-gKn">
+                                        <rect key="frame" x="100" y="0.0" width="80" height="80"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="codewars" translatesAutoresizingMaskIntoConstraints="NO" id="07f-zy-hfo">
+                                        <rect key="frame" x="200" y="0.0" width="80" height="80"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="dGh-KY-f13"/>
+                                    <constraint firstAttribute="height" constant="80" id="e0c-Gk-7wU"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xAw-2d-mxN" firstAttribute="top" secondItem="EmI-aa-gBI" secondAttribute="bottom" constant="20" id="6cw-JL-cBv"/>
+                            <constraint firstItem="EmI-aa-gBI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8eU-0c-TCi"/>
+                            <constraint firstItem="0Ph-v6-ODp" firstAttribute="centerY" secondItem="qgf-JC-UBL" secondAttribute="centerY" id="8kf-E8-k6E"/>
+                            <constraint firstAttribute="trailing" secondItem="EmI-aa-gBI" secondAttribute="trailing" constant="50" id="9wr-EL-FlM"/>
+                            <constraint firstItem="EmI-aa-gBI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="BKL-VL-rjQ"/>
+                            <constraint firstItem="qgf-JC-UBL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="CzE-QZ-B1R"/>
+                            <constraint firstItem="EmI-aa-gBI" firstAttribute="top" secondItem="qgf-JC-UBL" secondAttribute="bottom" constant="20" id="E6z-z6-SWh"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="xAw-2d-mxN" secondAttribute="bottom" id="H0f-lz-ySI"/>
+                            <constraint firstAttribute="trailing" secondItem="xAw-2d-mxN" secondAttribute="trailing" id="QY7-3C-43r"/>
+                            <constraint firstItem="xAw-2d-mxN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZBQ-Yg-rn9"/>
+                            <constraint firstItem="c7o-je-vOr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="njN-Gd-6LV"/>
+                            <constraint firstAttribute="topMargin" secondItem="c7o-je-vOr" secondAttribute="top" id="qX2-Fd-r3I"/>
+                            <constraint firstAttribute="trailing" secondItem="c7o-je-vOr" secondAttribute="trailing" id="uxa-Xm-rLL"/>
+                            <constraint firstItem="0Ph-v6-ODp" firstAttribute="leading" secondItem="qgf-JC-UBL" secondAttribute="trailing" constant="8" id="whi-P7-Akw"/>
+                            <constraint firstItem="0Ph-v6-ODp" firstAttribute="top" secondItem="c7o-je-vOr" secondAttribute="bottom" constant="-1" id="xpx-1F-MkV"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9wr-EL-FlM"/>
+                                <exclude reference="BKL-VL-rjQ"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="avatarImageView" destination="qgf-JC-UBL" id="qye-yq-Gih"/>
+                        <outlet property="codewarsImageView" destination="07f-zy-hfo" id="E86-Eq-Q0b"/>
+                        <outlet property="containerView" destination="c7o-je-vOr" id="HJF-gt-Blh"/>
+                        <outlet property="githubImageView" destination="IKc-6T-Gzh" id="Mzk-8J-0EN"/>
+                        <outlet property="stackoverflowImageView" destination="RnX-QC-gKn" id="hZz-qX-qVe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="258.5" y="295.5"/>
         </scene>
         <!--Stack Over Flow View Controller-->
         <scene sceneID="jhU-Vh-p3Y">
@@ -40,7 +133,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5NT-9Z-gH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870.5" y="771.5"/>
+            <point key="canvasLocation" x="878.5" y="1219.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v4W-ai-FsE">
+            <objects>
+                <viewController id="OzG-4U-ieW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zj8-3B-0OR"/>
+                        <viewControllerLayoutGuide type="bottom" id="yxL-LB-As6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Su4-W3-KId">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ePf-ta-p3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="891" y="-559"/>
         </scene>
         <!--Github View Controller-->
         <scene sceneID="lAc-1B-1ap">
@@ -59,7 +171,27 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="icJ-bu-wu7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="870.5" y="-40.5"/>
+            <point key="canvasLocation" x="878.5" y="279.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IYG-Wl-Wvr">
+            <objects>
+                <viewController id="WBG-wA-SU2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aqg-oW-kYV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.65255430020000005" green="0.7968093034" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYu-zX-kw8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392.5" y="1190"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="codewars" width="100" height="100"/>
+        <image name="github" width="25" height="25"/>
+        <image name="khuong" width="345" height="360"/>
+        <image name="stackoverflow" width="24" height="24"/>
+    </resources>
 </document>

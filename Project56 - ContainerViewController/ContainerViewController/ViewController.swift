@@ -10,16 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var codewarsImageView: UIImageView!
+    @IBOutlet var stackoverflowImageView: UIImageView!
+    @IBOutlet var githubImageView: UIImageView!
+    @IBOutlet var avatarImageView: UIImageView!
+    @IBOutlet var containerView: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        UIImageView.makeImageCircle(avatarImageView)
+        UIImageView.makeImageCircle(githubImageView)
+        UIImageView.makeImageCircle(stackoverflowImageView)
+        UIImageView.makeImageCircle(codewarsImageView)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+}
+
+extension UIImageView {
+    class func makeImageCircle(imageView: UIImageView) {
+        imageView.layer.cornerRadius = imageView.frame.width / 2
+        imageView.layer.borderColor = UIColor.whiteColor().CGColor
+        imageView.layer.borderWidth = 1
+        imageView.clipsToBounds = true
     }
-
-
 }
 
