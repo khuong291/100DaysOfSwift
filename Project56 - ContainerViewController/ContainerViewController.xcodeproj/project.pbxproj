@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9908D1711CEA3288002012B5 /* GithubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908D1701CEA3288002012B5 /* GithubViewController.swift */; };
+		9908D1731CEA32E3002012B5 /* StackOverFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9908D1721CEA32E3002012B5 /* StackOverFlowViewController.swift */; };
 		99AA7F101CE8DCEE00F8C867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA7F0F1CE8DCEE00F8C867 /* AppDelegate.swift */; };
 		99AA7F121CE8DCEE00F8C867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AA7F111CE8DCEE00F8C867 /* ViewController.swift */; };
 		99AA7F151CE8DCEE00F8C867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99AA7F131CE8DCEE00F8C867 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9908D1701CEA3288002012B5 /* GithubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubViewController.swift; sourceTree = "<group>"; };
+		9908D1721CEA32E3002012B5 /* StackOverFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackOverFlowViewController.swift; sourceTree = "<group>"; };
 		99AA7F0C1CE8DCEE00F8C867 /* ContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99AA7F0F1CE8DCEE00F8C867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99AA7F111CE8DCEE00F8C867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				99AA7F161CE8DCEE00F8C867 /* Assets.xcassets */,
 				99AA7F181CE8DCEE00F8C867 /* LaunchScreen.storyboard */,
 				99AA7F1B1CE8DCEE00F8C867 /* Info.plist */,
+				9908D1701CEA3288002012B5 /* GithubViewController.swift */,
+				9908D1721CEA32E3002012B5 /* StackOverFlowViewController.swift */,
 			);
 			path = ContainerViewController;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9908D1711CEA3288002012B5 /* GithubViewController.swift in Sources */,
 				99AA7F121CE8DCEE00F8C867 /* ViewController.swift in Sources */,
 				99AA7F101CE8DCEE00F8C867 /* AppDelegate.swift in Sources */,
+				9908D1731CEA32E3002012B5 /* StackOverFlowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				99AA7F201CE8DCEE00F8C867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
