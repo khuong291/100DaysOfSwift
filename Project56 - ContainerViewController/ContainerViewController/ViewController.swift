@@ -69,6 +69,7 @@ class ViewController: UIViewController {
 extension UIViewController {
     func addSubViewController(parentVC parentVC: ViewController, viewCtrl: UIViewController) {
         viewCtrl.willMoveToParentViewController(parentVC)
+        viewCtrl.view.frame = parentVC.containerView.frame
         parentVC.containerView.addSubview(viewCtrl.view)
         parentVC.addChildViewController(viewCtrl)
         viewCtrl.didMoveToParentViewController(parentVC)
@@ -79,13 +80,6 @@ extension UIViewController {
         viewCtrl.view.removeFromSuperview()
         viewCtrl.removeFromParentViewController()
         viewCtrl.didMoveToParentViewController(nil)
-    }
-
-    func animateViewController(vc: UIViewController) {
-        vc.view.frame.size.height += vc.view.frame.height
-        UIView.animateWithDuration(0.4, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 5, options: [.CurveEaseInOut], animations: { 
-            vc.view.frame.size.height -= vc.view.frame.height
-            }, completion: nil)
     }
 }
 

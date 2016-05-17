@@ -10,4 +10,7 @@ import UIKit
 
 class GithubViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 }
