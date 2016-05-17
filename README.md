@@ -33,7 +33,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 55/100
+Progress: 56/100
 
 ## Project Demos
 
@@ -256,6 +256,10 @@ Project 54 - [ExpandableTableView](https://github.com/khuong291/100DaysOfSwift/t
 Project 55 - [PageViewController](https://github.com/khuong291/100DaysOfSwift/tree/master/Project55%20-%20PageViewController)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/PageViewController.gif)
+
+Project 56 - [ContainerViewController](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20ContainerViewController)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ContainerViewController.gif)
 
 
 ## Reach me ##
