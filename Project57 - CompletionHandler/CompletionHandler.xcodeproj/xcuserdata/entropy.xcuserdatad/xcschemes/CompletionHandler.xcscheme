@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "99F2832F1CEF51E8002450B8"
-               BuildableName = "CollectionViewInsideScrollView.app"
-               BlueprintName = "CollectionViewInsideScrollView"
-               ReferencedContainer = "container:CollectionViewInsideScrollView.xcodeproj">
+               BlueprintIdentifier = "99C5B9E71CF1571000DB4551"
+               BuildableName = "CompletionHandler.app"
+               BlueprintName = "CompletionHandler"
+               ReferencedContainer = "container:CompletionHandler.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99F2832F1CEF51E8002450B8"
-            BuildableName = "CollectionViewInsideScrollView.app"
-            BlueprintName = "CollectionViewInsideScrollView"
-            ReferencedContainer = "container:CollectionViewInsideScrollView.xcodeproj">
+            BlueprintIdentifier = "99C5B9E71CF1571000DB4551"
+            BuildableName = "CompletionHandler.app"
+            BlueprintName = "CompletionHandler"
+            ReferencedContainer = "container:CompletionHandler.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99F2832F1CEF51E8002450B8"
-            BuildableName = "CollectionViewInsideScrollView.app"
-            BlueprintName = "CollectionViewInsideScrollView"
-            ReferencedContainer = "container:CollectionViewInsideScrollView.xcodeproj">
+            BlueprintIdentifier = "99C5B9E71CF1571000DB4551"
+            BuildableName = "CompletionHandler.app"
+            BlueprintName = "CompletionHandler"
+            ReferencedContainer = "container:CompletionHandler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99F2832F1CEF51E8002450B8"
-            BuildableName = "CollectionViewInsideScrollView.app"
-            BlueprintName = "CollectionViewInsideScrollView"
-            ReferencedContainer = "container:CollectionViewInsideScrollView.xcodeproj">
+            BlueprintIdentifier = "99C5B9E71CF1571000DB4551"
+            BuildableName = "CompletionHandler.app"
+            BlueprintName = "CompletionHandler"
+            ReferencedContainer = "container:CompletionHandler.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

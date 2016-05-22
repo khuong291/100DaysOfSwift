@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  CollectionViewInsideScrollView
+//  CompletionHandler
 //
-//  Created by Khuong Pham on 5/20/16.
+//  Created by Khuong Pham on 5/22/16.
 //  Copyright © 2016 Fantageek. All rights reserved.
 //
 
