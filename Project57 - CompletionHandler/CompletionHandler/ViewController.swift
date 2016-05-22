@@ -10,16 +10,34 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var downloadButton: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        addBackgroundImage()
+
+        downloadButton.layer.cornerRadius = downloadButton.frame.width / 2
+        downloadButton.layer.borderColor = UIColor.whiteColor().CGColor
+        downloadButton.layer.borderWidth = 1
+        downloadButton.setTitle("Download\nImages", forState: .Normal)
+        downloadButton.titleLabel?.textAlignment = NSTextAlignment.Center
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func addBackgroundImage() {
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "background")?.drawInRect(self.view.bounds)
+
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+
+        UIGraphicsEndImageContext()
+
+        view.backgroundColor = UIColor(patternImage: image)
     }
 
+    @IBAction func downloadButtonTapped(sender: AnyObject) {
+
+    }
 
 }
 
