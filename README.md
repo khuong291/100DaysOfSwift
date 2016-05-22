@@ -7,7 +7,7 @@
 
 Hi community, I am Khuong.
 
-Here is a punch of example projects with Swift, I am going to build 100 example projects here. I follow some tutorials from:
+Here is a punch of example projects with Swift, I am going to build 100 example projects here. Some projects I made myself and some projects I made by following some tutorials from:
 
 [Apple](https://developer.apple.com/)
 
@@ -33,7 +33,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 56/100
+Progress: 57/100
 
 ## Project Demos
 
@@ -260,6 +260,10 @@ Project 55 - [PageViewController](https://github.com/khuong291/100DaysOfSwift/tr
 Project 56 - [ContainerViewController](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20ContainerViewController)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ContainerViewController.gif)
+
+Project 57 - [CompletionHandler](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20CompletionHandler)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CompletionHandler.gif)
 
 
 ## Reach me ##
