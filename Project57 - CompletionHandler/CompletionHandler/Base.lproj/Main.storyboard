@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -32,16 +33,42 @@
                                     <action selector="downloadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XNr-SF-mF2"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k5p-1N-ufe" userLabel="Line">
+                                <rect key="frame" x="187" y="0.0" width="1" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="3cR-r1-G4w"/>
+                                    <constraint firstAttribute="height" constant="100" id="Nhq-05-fcS"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSs-As-5l2">
+                                <rect key="frame" x="62" y="100" width="250" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="erY-NP-8lS"/>
+                                    <constraint firstAttribute="height" constant="50" id="fMt-5I-FsM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="k5p-1N-ufe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="806-9q-ipW"/>
                             <constraint firstItem="ZJW-cP-Be4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8An-xo-aBs"/>
+                            <constraint firstItem="JSs-As-5l2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LE7-KS-eQd"/>
                             <constraint firstItem="ZJW-cP-Be4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="YUs-hU-MeL"/>
+                            <constraint firstItem="JSs-As-5l2" firstAttribute="top" secondItem="k5p-1N-ufe" secondAttribute="bottom" id="m8z-nm-BYg"/>
+                            <constraint firstItem="k5p-1N-ufe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="rTO-39-shn"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="downloadButton" destination="ZJW-cP-Be4" id="6f3-aC-ib9"/>
+                        <outlet property="lineView" destination="k5p-1N-ufe" id="oL7-af-Bxy"/>
+                        <outlet property="lineViewHeightConstraint" destination="Nhq-05-fcS" id="oIF-39-9t9"/>
+                        <outlet property="statusLabel" destination="JSs-As-5l2" id="FfY-gq-x24"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
