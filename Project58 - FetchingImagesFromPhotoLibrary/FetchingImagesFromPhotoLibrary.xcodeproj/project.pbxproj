@@ -12,6 +12,7 @@
 		995253CD1CF6AF2900AE4E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995253CB1CF6AF2900AE4E37 /* Main.storyboard */; };
 		995253CF1CF6AF2900AE4E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995253CE1CF6AF2900AE4E37 /* Assets.xcassets */; };
 		995253D21CF6AF2900AE4E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995253D01CF6AF2900AE4E37 /* LaunchScreen.storyboard */; };
+		995253DA1CF6B05A00AE4E37 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995253D91CF6B05A00AE4E37 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		995253CE1CF6AF2900AE4E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995253D11CF6AF2900AE4E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		995253D31CF6AF2900AE4E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995253D91CF6B05A00AE4E37 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				995253CE1CF6AF2900AE4E37 /* Assets.xcassets */,
 				995253D01CF6AF2900AE4E37 /* LaunchScreen.storyboard */,
 				995253D31CF6AF2900AE4E37 /* Info.plist */,
+				995253D91CF6B05A00AE4E37 /* MyCollectionViewCell.swift */,
 			);
 			path = FetchingImagesFromPhotoLibrary;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				995253CA1CF6AF2900AE4E37 /* ViewController.swift in Sources */,
 				995253C81CF6AF2900AE4E37 /* AppDelegate.swift in Sources */,
+				995253DA1CF6B05A00AE4E37 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				995253D81CF6AF2900AE4E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

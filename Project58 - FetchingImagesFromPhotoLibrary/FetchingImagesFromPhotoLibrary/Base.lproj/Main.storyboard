@@ -26,14 +26,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="J3m-UX-TEF">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="J3m-UX-TEF" customClass="MyCollectionViewCell" customModule="FetchingImagesFromPhotoLibrary" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="149" height="145"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="149" height="145"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="51F-O0-9Hs">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="51F-O0-9Hs">
                                                     <rect key="frame" x="0.0" y="0.0" width="149" height="145"/>
                                                 </imageView>
                                             </subviews>
@@ -45,6 +45,9 @@
                                             <constraint firstAttribute="bottom" secondItem="51F-O0-9Hs" secondAttribute="bottom" id="dFQ-cO-sGR"/>
                                             <constraint firstItem="51F-O0-9Hs" firstAttribute="leading" secondItem="J3m-UX-TEF" secondAttribute="leading" id="nnq-DJ-dmo"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="myImageView" destination="51F-O0-9Hs" id="YXV-rb-dwt"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -63,6 +66,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="Photo Library" id="guQ-NO-3Pu"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="collectionView" destination="wPk-EK-qDi" id="Ufe-zp-GQo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
