@@ -17,24 +17,63 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HTy-PK-2Id" userLabel="View3">
+                                <rect key="frame" x="137" y="284" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.51669137180000002" green="1" blue="0.35323450620000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ZHl-K3-35e"/>
+                                    <constraint firstAttribute="height" constant="100" id="wQo-MF-0Ub"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psS-ml-3xl" userLabel="View2">
+                                <rect key="frame" x="137" y="284" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.94232946520000005" green="1" blue="0.81949835280000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="aXL-mU-7wV"/>
+                                    <constraint firstAttribute="height" constant="100" id="eLM-qV-3p4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WJs-Sj-FKM" userLabel="View1">
+                                <rect key="frame" x="137" y="284" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.57271252589999999" green="1" blue="0.7102948402" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="A6q-lG-2KW"/>
+                                    <constraint firstAttribute="width" constant="100" id="Sog-Kx-TTq"/>
+                                </constraints>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhb-sV-OgB">
-                                <rect key="frame" x="96" y="270" width="182" height="128"/>
-                                <state key="normal" title="Button" image="play"/>
+                                <rect key="frame" x="106" y="251" width="162" height="166"/>
+                                <state key="normal" image="call"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BLf-BD-2wV"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="psS-ml-3xl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="08v-cf-hUK"/>
+                            <constraint firstItem="psS-ml-3xl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jpp-ml-sXQ"/>
+                            <constraint firstItem="WJs-Sj-FKM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kyp-AW-flk"/>
                             <constraint firstItem="Zhb-sV-OgB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SuS-Bq-PBl"/>
+                            <constraint firstItem="HTy-PK-2Id" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="urN-qN-c0e"/>
                             <constraint firstItem="Zhb-sV-OgB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wYX-hF-ysU"/>
+                            <constraint firstItem="HTy-PK-2Id" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x27-3P-Ss1"/>
+                            <constraint firstItem="WJs-Sj-FKM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zbq-oY-LEb"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="button" destination="Zhb-sV-OgB" id="9QA-Ut-CfX"/>
+                        <outlet property="view1" destination="WJs-Sj-FKM" id="8FX-sr-lbE"/>
+                        <outlet property="view2" destination="psS-ml-3xl" id="sG8-GA-zU6"/>
+                        <outlet property="view3" destination="HTy-PK-2Id" id="4eV-CK-Jb5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="396.5" y="288.5"/>
         </scene>
     </scenes>
     <resources>
-        <image name="play" width="128" height="128"/>
+        <image name="call" width="162" height="166"/>
     </resources>
 </document>
