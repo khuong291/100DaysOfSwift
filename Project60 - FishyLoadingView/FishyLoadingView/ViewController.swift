@@ -11,41 +11,67 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var sharkImageView: UIImageView!
+    @IBOutlet var sharkImageViewCenterXConstraint: NSLayoutConstraint!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(createBubble))
-        sharkImageView.userInteractionEnabled = true
-        sharkImageView.addGestureRecognizer(tapGesture)
-
-        moveShark()
+        NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: #selector(createBubble), userInfo: nil, repeats: true)
 
     }
 
-    func moveShark() {
-//        UIView.animateWithDuration(5, delay: 0.0, options: [.CurveEaseInOut, .Repeat], animations: { 
-//            self.sharkImageView.frame.po = CGRect(x: self.view.frame.size.width + 200, y: self.view.center.y - 100, width: 200, height: 200)
-//            }) { _ in
-//                self.sharkImageView.frame = CGRect(x: self.view.frame.origin.x - 200, y: self.view.center.y - 100, width: 200, height: 200)
-//                self.moveShark()
-//        }
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.sharkImageViewCenterXConstraint.constant -= self.view.frame.width / 2
+    }
+
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        moveShark()
+    }
+
+    private func moveShark() {
+        UIView.animateWithDuration(8, delay: 0.0, options: [.CurveEaseInOut, .Repeat], animations: {
+            self.sharkImageViewCenterXConstraint.constant = (self.view.frame.width + 100)
+            self.view.layoutIfNeeded()
+            }) { _ in
+                self.sharkImageViewCenterXConstraint.constant = self.view.frame.width / 2
+                self.view.layoutIfNeeded()
+        }
+    }
+
+    private func swapTwoInts(inout a: CGPoint, inout _ b: CGPoint) {
+        let temp = a
+        a = b
+        b = temp
+    }
+
+    private func randomFloatBetween(smallNumber: UInt32, bigNumber: UInt32) -> UInt32 {
+        return arc4random_uniform(bigNumber - smallNumber) + smallNumber
     }
 
     func createBubble() {
 
         let bubbleImageView = UIImageView(image: UIImage(named: "bubble"))
-        bubbleImageView.frame = CGRectMake(sharkImageView.frame.width / 2, sharkImageView.frame.origin.y, 20, 20)
+
+        let bubbleSize = CGFloat(randomFloatBetween(5, bigNumber: 30))
+        bubbleImageView.frame = CGRectMake((sharkImageView.layer.presentationLayer()?.frame.origin.x)! + 5, sharkImageView.layer.presentationLayer()!.frame.origin.y + 80, bubbleSize, bubbleSize)
         view.addSubview(bubbleImageView)
 
         let zigzagPath = UIBezierPath()
         let oX: CGFloat = bubbleImageView.frame.origin.x
         let oY: CGFloat = bubbleImageView.frame.origin.y
         let eX: CGFloat = oX
-        let eY: CGFloat = oY - 200
-        let t: CGFloat = 40
+        let eY: CGFloat = oY - CGFloat(randomFloatBetween(50, bigNumber: 300))
+        let t: CGFloat = CGFloat(randomFloatBetween(20, bigNumber: 100))
         var cp1 = CGPointMake(oX - t, (oY + eY) / 2)
         var cp2 = CGPointMake(oX + t, cp1.y)
+
+        let random = arc4random() % 2
+        if random == 1 {
+            swapTwoInts(&cp1, &cp2)
+        }
+
         // the moveToPoint method sets the starting point of the line
         zigzagPath.moveToPoint(CGPointMake(oX, oY))
         // add the end point and the control points
@@ -69,21 +95,10 @@ class ViewController: UIViewController {
 
         CATransaction.commit()
 
-//        let random = arc4random() % 2
-//        if random == 1 {
-//            let temp = cp1
-//            cp1 = cp2
-//            cp2 = temp
-//        }
+
 
 //        bubbleImageView.frame = CGRectMake(sharkImageView.frame.origin.x + 5, sharkImageView.frame.origin.y, 15, 15)
 
     }
-
-//    private func randomFloatBetween(smallNumber: Float, bigNumber: Float) {
-//        let diff = bigNumber - smallNumber
-//        return (((float) (arc4random() % ((unsigned)RAND_MAX + 1)) / RAND_MAX) * diff) + smallNumber;
-//        return arc4random() % (()
-//    }
 }
 
