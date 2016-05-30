@@ -33,7 +33,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 59/100
+Progress: 60/100
 
 ## Project Demos
 
@@ -273,6 +273,9 @@ Project 59 - [CallingAnimation](https://github.com/khuong291/100DaysOfSwift/tree
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CallingAnimation.gif)
 
+Project 60 - [FishyLoadingView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20FishyLoadingView)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FishyLoadingView.gif)
 
 ## Reach me ##
 
