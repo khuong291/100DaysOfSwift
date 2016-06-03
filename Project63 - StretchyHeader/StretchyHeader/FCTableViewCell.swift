@@ -10,12 +10,7 @@ import UIKit
 
 class FCTableViewCell: UITableViewCell {
 
-    @IBOutlet var fcLogoImageView: UIImageView! {
-        didSet {
-            fcLogoImageView.clipsToBounds = true
-            fcLogoImageView.layer.cornerRadius = fcLogoImageView.frame.width / 2
-        }
-    }
+    @IBOutlet var fcLogoImageView: UIImageView!
     @IBOutlet var fcNameLabel: UILabel!
     
     override func awakeFromNib() {
