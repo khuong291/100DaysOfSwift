@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,11 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q2P-Ab-t6i">
-                                <rect key="frame" x="0.0" y="209" width="375" height="250"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q2P-Ab-t6i" customClass="CustomImageView" customModule="CircularImageLoader" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="201" width="375" height="266"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="w6g-cJ-PJm"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="w6g-cJ-PJm"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -29,6 +35,7 @@
                             <constraint firstAttribute="trailing" secondItem="q2P-Ab-t6i" secondAttribute="trailing" id="C2r-ol-SWa"/>
                             <constraint firstItem="q2P-Ab-t6i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JMw-6I-q1b"/>
                             <constraint firstItem="q2P-Ab-t6i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JgL-BO-Voy"/>
+                            <constraint firstItem="q2P-Ab-t6i" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="ctA-vr-R6J"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
