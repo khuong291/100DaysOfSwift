@@ -27,13 +27,15 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [WeHeartSwift](https://www.weheartswift.com)
 
+[MatthewCheok](http://blog.matthewcheok.com)
+
 [Youtube - Brian Advent](https://www.youtube.com/channel/UCysEngjfeIYapEER9K8aikw)
 
 [Youtube - Jared Davidson](https://www.youtube.com/user/Archetapp)
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 62/100
+Progress: 63/100
 
 ## Project Demos
 
@@ -284,6 +286,10 @@ Project 61 - [AttributedString](https://github.com/khuong291/100DaysOfSwift/tree
 Project 62 - [CAReplicatorLayer](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20CAReplicatorLayer)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CAReplicatorLayer.gif)
+
+Project 63 - [StretchyHeader](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20StretchyHeader)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/StretchyHeader.gif)
 
 ## Reach me ##
 
