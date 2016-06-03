@@ -12,6 +12,8 @@
 		998529001D01269E00422E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998528FE1D01269E00422E14 /* Main.storyboard */; };
 		998529021D01269E00422E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998529011D01269E00422E14 /* Assets.xcassets */; };
 		998529051D01269E00422E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998529031D01269E00422E14 /* LaunchScreen.storyboard */; };
+		9985290D1D012ABB00422E14 /* FCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985290C1D012ABB00422E14 /* FCTableViewCell.swift */; };
+		9985290F1D012BB600422E14 /* FootBallClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9985290E1D012BB600422E14 /* FootBallClub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		998529011D01269E00422E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		998529041D01269E00422E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		998529061D01269E00422E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9985290C1D012ABB00422E14 /* FCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCTableViewCell.swift; sourceTree = "<group>"; };
+		9985290E1D012BB600422E14 /* FootBallClub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootBallClub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				998529011D01269E00422E14 /* Assets.xcassets */,
 				998529031D01269E00422E14 /* LaunchScreen.storyboard */,
 				998529061D01269E00422E14 /* Info.plist */,
+				9985290C1D012ABB00422E14 /* FCTableViewCell.swift */,
+				9985290E1D012BB600422E14 /* FootBallClub.swift */,
 			);
 			path = StretchyHeader;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9985290D1D012ABB00422E14 /* FCTableViewCell.swift in Sources */,
 				998528FD1D01269E00422E14 /* ViewController.swift in Sources */,
+				9985290F1D012BB600422E14 /* FootBallClub.swift in Sources */,
 				998528FB1D01269E00422E14 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				9985290B1D01269E00422E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
