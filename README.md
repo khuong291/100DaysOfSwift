@@ -35,7 +35,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 64/100
+Progress: 65/100
 
 ## Project Demos
 
@@ -294,6 +294,10 @@ Project 63 - [StretchyHeader](https://github.com/khuong291/100DaysOfSwift/tree/m
 Project 64 - [CircularImageLoader](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20CircularImageLoader)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CircularImageLoader.gif)
+
+Project 65 - [AnimateTableViewCell](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20AnimateTableViewCell)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AnimateTableViewCell.gif)
 
 ## Reach me ##
 
