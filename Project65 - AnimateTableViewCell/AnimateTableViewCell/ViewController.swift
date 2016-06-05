@@ -43,7 +43,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
 
     func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
         cell.alpha = 0.8
-        let transform = CATransform3DTranslate(CATransform3DIdentity, -250, 20, 0)
+        let transform = CATransform3DTranslate(CATransform3DIdentity, -450, 0, 0)
         cell.layer.transform = transform
 
         UIView.animateWithDuration(1.0, delay: 0.0, options: [.CurveEaseInOut], animations: {
