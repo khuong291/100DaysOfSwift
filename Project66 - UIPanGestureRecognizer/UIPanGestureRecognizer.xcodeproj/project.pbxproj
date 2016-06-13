@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99E28BDB1D0F143100D13A0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E28BDA1D0F143100D13A0B /* AppDelegate.swift */; };
+		99E28BDD1D0F143100D13A0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E28BDC1D0F143100D13A0B /* ViewController.swift */; };
+		99E28BE01D0F143100D13A0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E28BDE1D0F143100D13A0B /* Main.storyboard */; };
+		99E28BE21D0F143100D13A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E28BE11D0F143100D13A0B /* Assets.xcassets */; };
+		99E28BE51D0F143100D13A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E28BE31D0F143100D13A0B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99E28BD71D0F143000D13A0B /* UIPanGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIPanGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99E28BDA1D0F143100D13A0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99E28BDC1D0F143100D13A0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99E28BDF1D0F143100D13A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99E28BE11D0F143100D13A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99E28BE41D0F143100D13A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99E28BE61D0F143100D13A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99E28BD41D0F143000D13A0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99E28BCE1D0F143000D13A0B = {
+			isa = PBXGroup;
+			children = (
+				99E28BD91D0F143100D13A0B /* UIPanGestureRecognizer */,
+				99E28BD81D0F143000D13A0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99E28BD81D0F143000D13A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99E28BD71D0F143000D13A0B /* UIPanGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99E28BD91D0F143100D13A0B /* UIPanGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				99E28BDA1D0F143100D13A0B /* AppDelegate.swift */,
+				99E28BDC1D0F143100D13A0B /* ViewController.swift */,
+				99E28BDE1D0F143100D13A0B /* Main.storyboard */,
+				99E28BE11D0F143100D13A0B /* Assets.xcassets */,
+				99E28BE31D0F143100D13A0B /* LaunchScreen.storyboard */,
+				99E28BE61D0F143100D13A0B /* Info.plist */,
+			);
+			path = UIPanGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99E28BD61D0F143000D13A0B /* UIPanGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99E28BE91D0F143100D13A0B /* Build configuration list for PBXNativeTarget "UIPanGestureRecognizer" */;
+			buildPhases = (
+				99E28BD31D0F143000D13A0B /* Sources */,
+				99E28BD41D0F143000D13A0B /* Frameworks */,
+				99E28BD51D0F143000D13A0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIPanGestureRecognizer;
+			productName = UIPanGestureRecognizer;
+			productReference = 99E28BD71D0F143000D13A0B /* UIPanGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99E28BCF1D0F143000D13A0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					99E28BD61D0F143000D13A0B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 99E28BD21D0F143000D13A0B /* Build configuration list for PBXProject "UIPanGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99E28BCE1D0F143000D13A0B;
+			productRefGroup = 99E28BD81D0F143000D13A0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99E28BD61D0F143000D13A0B /* UIPanGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99E28BD51D0F143000D13A0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E28BE51D0F143100D13A0B /* LaunchScreen.storyboard in Resources */,
+				99E28BE21D0F143100D13A0B /* Assets.xcassets in Resources */,
+				99E28BE01D0F143100D13A0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99E28BD31D0F143000D13A0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E28BDD1D0F143100D13A0B /* ViewController.swift in Sources */,
+				99E28BDB1D0F143100D13A0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99E28BDE1D0F143100D13A0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E28BDF1D0F143100D13A0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99E28BE31D0F143100D13A0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99E28BE41D0F143100D13A0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99E28BE71D0F143100D13A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99E28BE81D0F143100D13A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99E28BEA1D0F143100D13A0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIPanGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.UIPanGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		99E28BEB1D0F143100D13A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIPanGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fantageek.UIPanGestureRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99E28BD21D0F143000D13A0B /* Build configuration list for PBXProject "UIPanGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E28BE71D0F143100D13A0B /* Debug */,
+				99E28BE81D0F143100D13A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99E28BE91D0F143100D13A0B /* Build configuration list for PBXNativeTarget "UIPanGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99E28BEA1D0F143100D13A0B /* Debug */,
+				99E28BEB1D0F143100D13A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99E28BCF1D0F143000D13A0B /* Project object */;
+}

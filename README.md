@@ -33,6 +33,8 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Jared Davidson](https://www.youtube.com/user/Archetapp)
 
+[Youtube - CodeWithChris](https://www.youtube.com/user/CodeWithChris)
+
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
 Progress: 65/100
