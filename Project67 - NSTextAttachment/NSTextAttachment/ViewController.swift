@@ -18,18 +18,21 @@ class ViewController: UIViewController {
         let birdAttachment = NSTextAttachment()
         let birdImage = UIImage(named:"bird")
         birdAttachment.image = birdImage
-        let birdString = NSMutableAttributedString(string: "Bird")
-        let stringWithBirdImage = NSMutableAttributedString(attributedString: NSAttributedString(attachment: birdAttachment))
-        stringWithBirdImage.appendAttributedString(birdString)
+        let birdString = NSAttributedString(string: "Bird")
+        let stringWithBirdImage = NSAttributedString(attributedString: NSAttributedString(attachment: birdAttachment))
 
         let duckAttachment = NSTextAttachment()
         let duckImage = UIImage(named: "duck")
         duckAttachment.image = duckImage
-        let duckString = NSMutableAttributedString(string: "Duck")
-        let stringWithDuckImage = NSMutableAttributedString(attributedString: NSAttributedString(attachment: duckAttachment))
-        stringWithDuckImage.appendAttributedString(duckString)
-        stringWithBirdImage.appendAttributedString(stringWithDuckImage)
-        label.attributedText = stringWithBirdImage
+        let duckString = NSAttributedString(string: "Duck")
+        let stringWithDuckImage = NSAttributedString(attributedString: NSAttributedString(attachment: duckAttachment))
+
+        let finalAttributedString = NSMutableAttributedString(string: "")
+        finalAttributedString.appendAttributedString(stringWithBirdImage)
+        finalAttributedString.appendAttributedString(birdString)
+        finalAttributedString.appendAttributedString(stringWithDuckImage)
+        finalAttributedString.appendAttributedString(duckString)
+        label.attributedText = finalAttributedString
     }
 
 }
