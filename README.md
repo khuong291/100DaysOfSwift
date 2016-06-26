@@ -301,6 +301,10 @@ Project 65 - [AnimateTableViewCell](https://github.com/khuong291/100DaysOfSwift/
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AnimateTableViewCell.gif)
 
+Project 66 - [UIPanGestureRecognizer](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20UIPanGestureRecognizer)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UIPanGestureRecognizer.gif)
+
 Project 67 - [NSTextAttachment](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20NSTextAttachment)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSTextAttachment.png)
