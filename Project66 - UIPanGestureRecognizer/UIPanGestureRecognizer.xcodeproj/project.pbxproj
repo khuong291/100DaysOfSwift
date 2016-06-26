@@ -286,6 +286,7 @@
 				99E28BEB1D0F143100D13A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

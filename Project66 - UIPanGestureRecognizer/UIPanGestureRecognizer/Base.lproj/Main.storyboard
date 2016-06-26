@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LYl-rL-ycI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="ewW-8Z-lDl">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LYl-rL-ycI" customClass="ViewController" customModule="UIPanGestureRecognizer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="27L-0L-fMV"/>
+                        <viewControllerLayoutGuide type="bottom" id="CRY-pt-lrr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="w8c-oM-64c">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hex" translatesAutoresizingMaskIntoConstraints="NO" id="tTN-77-5dd" userLabel="drag">
+                                <rect key="frame" x="30" y="157" width="100" height="100"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="J7u-O8-QPW"/>
+                                    <constraint firstAttribute="height" constant="100" id="ajy-BS-Qpc"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4QO-R1-ogu" appends="YES" id="XT8-07-zq6"/>
+                                </connections>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hex2" translatesAutoresizingMaskIntoConstraints="NO" id="wxo-2e-MEa" userLabel="grow">
+                                <rect key="frame" x="586" y="157" width="100" height="100"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4dv-Uj-bpE"/>
+                                    <constraint firstAttribute="height" constant="100" id="yjI-uC-Atv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="+" translatesAutoresizingMaskIntoConstraints="NO" id="Mw4-nH-deQ">
+                                <rect key="frame" x="586" y="157" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55586630827796568" green="0.75129679593663168" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mw4-nH-deQ" firstAttribute="leading" secondItem="wxo-2e-MEa" secondAttribute="leading" id="BfY-ZC-n4Y"/>
+                            <constraint firstItem="Mw4-nH-deQ" firstAttribute="bottom" secondItem="wxo-2e-MEa" secondAttribute="bottom" id="EKj-Ut-L66"/>
+                            <constraint firstAttribute="trailing" secondItem="wxo-2e-MEa" secondAttribute="trailing" constant="50" id="S1y-qD-qbb"/>
+                            <constraint firstItem="Mw4-nH-deQ" firstAttribute="trailing" secondItem="wxo-2e-MEa" secondAttribute="trailing" id="SrF-kE-9qC"/>
+                            <constraint firstItem="wxo-2e-MEa" firstAttribute="centerY" secondItem="w8c-oM-64c" secondAttribute="centerY" id="UHb-Rz-PSD"/>
+                            <constraint firstItem="Mw4-nH-deQ" firstAttribute="top" secondItem="wxo-2e-MEa" secondAttribute="top" id="XMv-Fs-kAP"/>
+                            <constraint firstItem="tTN-77-5dd" firstAttribute="centerY" secondItem="w8c-oM-64c" secondAttribute="centerY" id="dZh-u3-k9o"/>
+                            <constraint firstItem="tTN-77-5dd" firstAttribute="leading" secondItem="w8c-oM-64c" secondAttribute="leading" constant="30" id="tGr-ik-WWd"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="dragView" destination="tTN-77-5dd" id="dVk-rX-65Q"/>
+                        <outlet property="growView" destination="wxo-2e-MEa" id="BjQ-mc-oAu"/>
+                        <outlet property="plusView" destination="Mw4-nH-deQ" id="3YR-tb-uYv"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eqA-k0-hIr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="4QO-R1-ogu">
+                    <connections>
+                        <action selector="handlePan:" destination="LYl-rL-ycI" id="nuu-sh-pmV"/>
+                        <outlet property="delegate" destination="tTN-77-5dd" id="Wrt-zl-2Vg"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="181.33333333333334" y="366.36000000000001"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="+" width="500" height="500"/>
+        <image name="hex" width="500" height="500"/>
+        <image name="hex2" width="500" height="500"/>
+    </resources>
 </document>
