@@ -7,19 +7,44 @@
 //
 
 import UIKit
+import AlamofireImage
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+
+    @IBOutlet var tableView: UITableView!
+    var imageURLs = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        initData()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // MARK: InitData
+
+    private func initData() {
+        for i in 0..<100 {
+            self.imageURLs.append(NSString(format: "http://dummyimage.com/88/%06X/%06X&text=%d", arc4random() % 0xFFFFFF, arc4random() % 0xFFFFFF, i + 1) as String)
+        }
     }
 
+    // MARK: UITableViewDataSource && UITableViewDelegate
+
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.imageURLs.count
+    }
+
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("ImageTableViewCell", forIndexPath: indexPath) as! ImageTableViewCell
+        cell.imgView.image = UIImage(named: "load")
+        cell.imgView.af_setImageWithURL(NSURL(string: imageURLs[indexPath.row])!)
+
+        return cell
+    }
 
 }
 
