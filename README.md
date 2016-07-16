@@ -37,7 +37,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 65/100
+Progress: 68/100
 
 ## Project Demos
 
@@ -308,6 +308,10 @@ Project 66 - [UIPanGestureRecognizer](https://github.com/khuong291/100DaysOfSwif
 Project 67 - [NSTextAttachment](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20NSTextAttachment)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSTextAttachment.png)
+
+Project 68 - [AsynchronousImageLoading](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20AsynchronousImageLoading)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AsynchronousImageLoading.gif)
 
 ## Reach me ##
 
