@@ -265,55 +265,55 @@ Project 56 - [ContainerViewController](https://github.com/khuong291/100DaysOfSwi
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/ContainerViewController.gif)
 
-Project 57 - [CompletionHandler](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20CompletionHandler)
+Project 57 - [CompletionHandler](https://github.com/khuong291/100DaysOfSwift/tree/master/Project57%20-%20CompletionHandler)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CompletionHandler.gif)
 
-Project 58 - [FetchingImagesFromPhotoLibrary](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20FetchingImagesFromPhotoLibrary)
+Project 58 - [FetchingImagesFromPhotoLibrary](https://github.com/khuong291/100DaysOfSwift/tree/master/Project58%20-%20FetchingImagesFromPhotoLibrary)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FetchingImagesFromPhotoLibrary.gif)
 
-Project 59 - [CallingAnimation](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20CallingAnimation)
+Project 59 - [CallingAnimation](https://github.com/khuong291/100DaysOfSwift/tree/master/Project59%20-%20CallingAnimation)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CallingAnimation.gif)
 
-Project 60 - [FishyLoadingView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20FishyLoadingView)
+Project 60 - [FishyLoadingView](https://github.com/khuong291/100DaysOfSwift/tree/master/Project60%20-%20FishyLoadingView)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/FishyLoadingView.gif)
 
-Project 61 - [AttributedString](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20AttributedString)
+Project 61 - [AttributedString](https://github.com/khuong291/100DaysOfSwift/tree/master/Project61%20-%20AttributedString)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AttributedString.png)
 
-Project 62 - [CAReplicatorLayer](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20CAReplicatorLayer)
+Project 62 - [CAReplicatorLayer](https://github.com/khuong291/100DaysOfSwift/tree/master/Project62%20-%20CAReplicatorLayer)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CAReplicatorLayer.gif)
 
-Project 63 - [StretchyHeader](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20StretchyHeader)
+Project 63 - [StretchyHeader](https://github.com/khuong291/100DaysOfSwift/tree/master/Project63%20-%20StretchyHeader)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/StretchyHeader.gif)
 
-Project 64 - [CircularImageLoader](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20CircularImageLoader)
+Project 64 - [CircularImageLoader](https://github.com/khuong291/100DaysOfSwift/tree/master/Project64%20-%20CircularImageLoader)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CircularImageLoader.gif)
 
-Project 65 - [AnimateTableViewCell](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20AnimateTableViewCell)
+Project 65 - [AnimateTableViewCell](https://github.com/khuong291/100DaysOfSwift/tree/master/Project65%20-%20AnimateTableViewCell)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AnimateTableViewCell.gif)
 
-Project 66 - [UIPanGestureRecognizer](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20UIPanGestureRecognizer)
+Project 66 - [UIPanGestureRecognizer](https://github.com/khuong291/100DaysOfSwift/tree/master/Project66%20-%20UIPanGestureRecognizer)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/UIPanGestureRecognizer.gif)
 
-Project 67 - [NSTextAttachment](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20NSTextAttachment)
+Project 67 - [NSTextAttachment](https://github.com/khuong291/100DaysOfSwift/tree/master/Project67%20-%20NSTextAttachment)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/NSTextAttachment.png)
 
-Project 68 - [AsynchronousImageLoading](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20AsynchronousImageLoading)
+Project 68 - [AsynchronousImageLoading](https://github.com/khuong291/100DaysOfSwift/tree/master/Project68%20-%20AsynchronousImageLoading)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AsynchronousImageLoading.gif)
 
-Project 69 - [AdaptiveLayout](https://github.com/khuong291/100DaysOfSwift/tree/master/Project56%20-%20AdaptiveLayout)
+Project 69 - [AdaptiveLayout](https://github.com/khuong291/100DaysOfSwift/tree/master/Project69%20-%20AdaptiveLayout)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/AdaptiveLayout.gif)
 
