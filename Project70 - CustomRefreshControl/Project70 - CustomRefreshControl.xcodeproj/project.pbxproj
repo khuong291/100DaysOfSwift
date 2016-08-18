@@ -12,6 +12,7 @@
 		99D4BA0E1D65A7B90041119D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D4BA0C1D65A7B90041119D /* Main.storyboard */; };
 		99D4BA101D65A7B90041119D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D4BA0F1D65A7B90041119D /* Assets.xcassets */; };
 		99D4BA131D65A7B90041119D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D4BA111D65A7B90041119D /* LaunchScreen.storyboard */; };
+		99D4BA1B1D65AC2E0041119D /* RefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D4BA1A1D65AC2E0041119D /* RefreshView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		99D4BA0F1D65A7B90041119D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99D4BA121D65A7B90041119D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99D4BA141D65A7B90041119D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D4BA1A1D65AC2E0041119D /* RefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				99D4BA0F1D65A7B90041119D /* Assets.xcassets */,
 				99D4BA111D65A7B90041119D /* LaunchScreen.storyboard */,
 				99D4BA141D65A7B90041119D /* Info.plist */,
+				99D4BA1A1D65AC2E0041119D /* RefreshView.xib */,
 			);
 			path = "Project70 - CustomRefreshControl";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			files = (
 				99D4BA131D65A7B90041119D /* LaunchScreen.storyboard in Resources */,
 				99D4BA101D65A7B90041119D /* Assets.xcassets in Resources */,
+				99D4BA1B1D65AC2E0041119D /* RefreshView.xib in Resources */,
 				99D4BA0E1D65A7B90041119D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
