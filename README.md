@@ -37,7 +37,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 70/100
+Progress: 72/100
 
 ## Project Demos
 
@@ -320,6 +320,10 @@ Project 69 - [AdaptiveLayout](https://github.com/khuong291/100DaysOfSwift/tree/m
 Project 70 - [CustomRefreshControl](https://github.com/khuong291/100DaysOfSwift/tree/master/Project70%20-%20CustomRefreshControl)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CustomRefreshControl.gif)
+
+Project 72 - [CircularTransition](https://github.com/khuong291/100DaysOfSwift/tree/master/Project72%20-%20CircularTransition)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CircularTransition.gif)
 
 ## Reach me ##
 
