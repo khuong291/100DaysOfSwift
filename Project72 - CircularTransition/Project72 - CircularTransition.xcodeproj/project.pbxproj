@@ -12,6 +12,8 @@
 		99BE81841D7BCF3300935A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BE81821D7BCF3300935A3A /* Main.storyboard */; };
 		99BE81861D7BCF3300935A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE81851D7BCF3300935A3A /* Assets.xcassets */; };
 		99BE81891D7BCF3300935A3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BE81871D7BCF3300935A3A /* LaunchScreen.storyboard */; };
+		99BE81911D7BD22800935A3A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE81901D7BD22800935A3A /* SecondViewController.swift */; };
+		99BE81931D7BD2ED00935A3A /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE81921D7BD2ED00935A3A /* CircularTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		99BE81851D7BCF3300935A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BE81881D7BCF3300935A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BE818A1D7BCF3300935A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BE81901D7BD22800935A3A /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		99BE81921D7BD2ED00935A3A /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				99BE81851D7BCF3300935A3A /* Assets.xcassets */,
 				99BE81871D7BCF3300935A3A /* LaunchScreen.storyboard */,
 				99BE818A1D7BCF3300935A3A /* Info.plist */,
+				99BE81901D7BD22800935A3A /* SecondViewController.swift */,
+				99BE81921D7BD2ED00935A3A /* CircularTransition.swift */,
 			);
 			path = "Project72 - CircularTransition";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BE81911D7BD22800935A3A /* SecondViewController.swift in Sources */,
 				99BE81811D7BCF3300935A3A /* ViewController.swift in Sources */,
 				99BE817F1D7BCF3300935A3A /* AppDelegate.swift in Sources */,
+				99BE81931D7BD2ED00935A3A /* CircularTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
