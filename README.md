@@ -23,7 +23,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Ashishkakkad](http://ashishkakkad.com/)
 
-[TheAppGuruz](http://www.theappguruz.com/)
+[ThinkAndBuild](http://www.thinkandbuild.it/)
 
 [WeHeartSwift](https://www.weheartswift.com)
 
@@ -37,7 +37,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 72/100
+Progress: 73/100
 
 ## Project Demos
 
@@ -324,6 +324,10 @@ Project 70 - [CustomRefreshControl](https://github.com/khuong291/100DaysOfSwift/
 Project 72 - [CircularTransition](https://github.com/khuong291/100DaysOfSwift/tree/master/Project72%20-%20CircularTransition)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CircularTransition.gif)
+
+Project 73 - [TwitterUI](https://github.com/khuong291/100DaysOfSwift/tree/master/Project73%20-%20TwitterUI)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/TwitterUI.gif)
 
 ## Reach me ##
 
