@@ -37,7 +37,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 73/100
+Progress: 74/100
 
 ## Project Demos
 
@@ -328,6 +328,10 @@ Project 72 - [CircularTransition](https://github.com/khuong291/100DaysOfSwift/tr
 Project 73 - [TwitterUI](https://github.com/khuong291/100DaysOfSwift/tree/master/Project73%20-%20TwitterUI)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/TwitterUI.gif)
+
+Project 74 - [MoveCollectionViewCell](https://github.com/khuong291/100DaysOfSwift/tree/master/Project74%20-%20MoveCollectionViewCell)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MoveCollectionViewCell.gif)
 
 ## Reach me ##
 
