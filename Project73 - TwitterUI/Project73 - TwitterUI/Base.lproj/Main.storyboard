@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4ex-qu-rLx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rXj-nn-QHu">
+            <objects>
+                <viewController id="4ex-qu-rLx" customClass="ViewController" customModule="Project73___TwitterUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wwB-Z4-TZ7"/>
+                        <viewControllerLayoutGuide type="bottom" id="JiT-a5-N4R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P3T-UY-vCY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mvx-3a-0p2" userLabel="Header">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="107"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Khuong Pham" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5By-6a-xzo">
+                                        <rect key="frame" x="244" y="104" width="112" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="5By-6a-xzo" secondAttribute="centerX" id="6zN-0s-Fdm"/>
+                                    <constraint firstAttribute="height" constant="107" id="OWc-8w-9Fa"/>
+                                    <constraint firstItem="5By-6a-xzo" firstAttribute="top" secondItem="Mvx-3a-0p2" secondAttribute="top" constant="104" id="voe-qZ-5Y5"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hON-Du-4df" userLabel="Scrollview">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="avatar" translatesAutoresizingMaskIntoConstraints="NO" id="p4b-Kb-gI6" userLabel="AvatarImage" customClass="AvatarImageView" customModule="Project73___TwitterUI" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="79" width="69" height="69"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Khuong Pham" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PY-ia-eEL">
+                                        <rect key="frame" x="8" y="156" width="224" height="22"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="textColor" red="0.16078431369999999" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bwi-mN-D9b" userLabel="FollowButton" customClass="TWTButton" customModule="Project73___TwitterUI" customModuleProvider="target">
+                                        <rect key="frame" x="478" y="118" width="112" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="bCb-4Y-gSw"/>
+                                            <constraint firstAttribute="width" constant="112" id="gJo-pG-JCy"/>
+                                        </constraints>
+                                        <state key="normal" title="Follow">
+                                            <color key="titleColor" red="0.33333333329999998" green="0.67450980390000004" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="shamelessActionThatBringsYouToMyTwitterProfile" destination="4ex-qu-rLx" eventType="touchUpInside" id="8i8-kI-sLp"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@khuong291" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hk-JL-Pgr" userLabel="TwitterUsername">
+                                        <rect key="frame" x="8" y="177" width="128" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" red="0.40000000000000002" green="0.41960784309999999" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="love" translatesAutoresizingMaskIntoConstraints="NO" id="OaK-L3-ygP" userLabel="Love">
+                                        <rect key="frame" x="281" y="404" width="32" height="32"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRN-l5-p6b" userLabel="Sizer">
+                                        <rect key="frame" x="0.0" y="477" width="600" height="286"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="286" id="vHE-PM-48n"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bwi-mN-D9b" secondAttribute="trailing" constant="10" id="13c-TX-ixv"/>
+                                    <constraint firstItem="bwi-mN-D9b" firstAttribute="top" secondItem="hON-Du-4df" secondAttribute="top" constant="118" id="2Kx-d0-V5e"/>
+                                    <constraint firstAttribute="centerX" secondItem="OaK-L3-ygP" secondAttribute="centerX" constant="3" id="6wy-67-dW8"/>
+                                    <constraint firstItem="OaK-L3-ygP" firstAttribute="top" secondItem="hON-Du-4df" secondAttribute="top" constant="404" id="BjG-Bt-MWG"/>
+                                    <constraint firstAttribute="trailing" secondItem="mRN-l5-p6b" secondAttribute="trailing" id="FLK-FJ-x4U"/>
+                                    <constraint firstAttribute="bottom" secondItem="mRN-l5-p6b" secondAttribute="bottom" constant="37" id="VcF-Nk-zdM"/>
+                                    <constraint firstItem="mRN-l5-p6b" firstAttribute="leading" secondItem="hON-Du-4df" secondAttribute="leading" id="tye-fH-Elt"/>
+                                    <constraint firstItem="mRN-l5-p6b" firstAttribute="top" secondItem="hON-Du-4df" secondAttribute="top" constant="477" id="yqE-m2-hOw"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JiT-a5-N4R" firstAttribute="top" secondItem="hON-Du-4df" secondAttribute="bottom" id="86n-Bh-Ln6"/>
+                            <constraint firstItem="hON-Du-4df" firstAttribute="top" secondItem="wwB-Z4-TZ7" secondAttribute="bottom" constant="-20" id="CC8-tV-vdO"/>
+                            <constraint firstItem="hON-Du-4df" firstAttribute="leading" secondItem="P3T-UY-vCY" secondAttribute="leading" id="DgA-zA-2Df"/>
+                            <constraint firstItem="Mvx-3a-0p2" firstAttribute="top" secondItem="wwB-Z4-TZ7" secondAttribute="bottom" constant="-20" id="FXt-R9-4T0"/>
+                            <constraint firstAttribute="trailing" secondItem="Mvx-3a-0p2" secondAttribute="trailing" id="QJB-GS-Lfc"/>
+                            <constraint firstAttribute="trailing" secondItem="hON-Du-4df" secondAttribute="trailing" id="ZzL-pj-BM1"/>
+                            <constraint firstAttribute="width" secondItem="mRN-l5-p6b" secondAttribute="width" id="itT-pD-YaW"/>
+                            <constraint firstItem="Mvx-3a-0p2" firstAttribute="leading" secondItem="P3T-UY-vCY" secondAttribute="leading" id="uB8-mP-Awe"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="800"/>
+                    <connections>
+                        <outlet property="avatarImage" destination="p4b-Kb-gI6" id="G8F-nA-NyJ"/>
+                        <outlet property="header" destination="Mvx-3a-0p2" id="8RC-mL-cdU"/>
+                        <outlet property="headerLabel" destination="5By-6a-xzo" id="hm0-c6-1dZ"/>
+                        <outlet property="scrollView" destination="hON-Du-4df" id="nSJ-8V-Upz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UoV-gJ-NZ2" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="avatar" width="460" height="460"/>
+        <image name="love" width="32" height="32"/>
+    </resources>
+</document>

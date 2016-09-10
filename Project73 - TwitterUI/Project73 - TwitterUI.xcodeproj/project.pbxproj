@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99EEE0061D83CC1900772F00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEE0051D83CC1900772F00 /* AppDelegate.swift */; };
+		99EEE0081D83CC1900772F00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEE0071D83CC1900772F00 /* ViewController.swift */; };
+		99EEE00B1D83CC1900772F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EEE0091D83CC1900772F00 /* Main.storyboard */; };
+		99EEE00D1D83CC1900772F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EEE00C1D83CC1900772F00 /* Assets.xcassets */; };
+		99EEE0101D83CC1900772F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EEE00E1D83CC1900772F00 /* LaunchScreen.storyboard */; };
+		99EEE0181D83D57600772F00 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEE0171D83D57600772F00 /* AvatarImageView.swift */; };
+		99EEE01A1D83D58C00772F00 /* TWTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEE0191D83D58C00772F00 /* TWTButton.swift */; };
+		99EEE01E1D83D5CC00772F00 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EEE01D1D83D5CC00772F00 /* FXBlurView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99EEE0021D83CC1900772F00 /* Project73 - TwitterUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project73 - TwitterUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EEE0051D83CC1900772F00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99EEE0071D83CC1900772F00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99EEE00A1D83CC1900772F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99EEE00C1D83CC1900772F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99EEE00F1D83CC1900772F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99EEE0111D83CC1900772F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99EEE0171D83D57600772F00 /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		99EEE0191D83D58C00772F00 /* TWTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWTButton.swift; sourceTree = "<group>"; };
+		99EEE01B1D83D5CB00772F00 /* Project73 - TwitterUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project73 - TwitterUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		99EEE01C1D83D5CC00772F00 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		99EEE01D1D83D5CC00772F00 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EEDFFF1D83CC1900772F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99EEDFF91D83CC1900772F00 = {
+			isa = PBXGroup;
+			children = (
+				99EEE0041D83CC1900772F00 /* Project73 - TwitterUI */,
+				99EEE0031D83CC1900772F00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99EEE0031D83CC1900772F00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EEE0021D83CC1900772F00 /* Project73 - TwitterUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EEE0041D83CC1900772F00 /* Project73 - TwitterUI */ = {
+			isa = PBXGroup;
+			children = (
+				99EEE01C1D83D5CC00772F00 /* FXBlurView.h */,
+				99EEE01D1D83D5CC00772F00 /* FXBlurView.m */,
+				99EEE0051D83CC1900772F00 /* AppDelegate.swift */,
+				99EEE0071D83CC1900772F00 /* ViewController.swift */,
+				99EEE0091D83CC1900772F00 /* Main.storyboard */,
+				99EEE00C1D83CC1900772F00 /* Assets.xcassets */,
+				99EEE00E1D83CC1900772F00 /* LaunchScreen.storyboard */,
+				99EEE0111D83CC1900772F00 /* Info.plist */,
+				99EEE0171D83D57600772F00 /* AvatarImageView.swift */,
+				99EEE0191D83D58C00772F00 /* TWTButton.swift */,
+				99EEE01B1D83D5CB00772F00 /* Project73 - TwitterUI-Bridging-Header.h */,
+			);
+			path = "Project73 - TwitterUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EEE0011D83CC1900772F00 /* Project73 - TwitterUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EEE0141D83CC1900772F00 /* Build configuration list for PBXNativeTarget "Project73 - TwitterUI" */;
+			buildPhases = (
+				99EEDFFE1D83CC1900772F00 /* Sources */,
+				99EEDFFF1D83CC1900772F00 /* Frameworks */,
+				99EEE0001D83CC1900772F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project73 - TwitterUI";
+			productName = "Project73 - TwitterUI";
+			productReference = 99EEE0021D83CC1900772F00 /* Project73 - TwitterUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EEDFFA1D83CC1900772F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Fantageek;
+				TargetAttributes = {
+					99EEE0011D83CC1900772F00 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 99EEDFFD1D83CC1900772F00 /* Build configuration list for PBXProject "Project73 - TwitterUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99EEDFF91D83CC1900772F00;
+			productRefGroup = 99EEE0031D83CC1900772F00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EEE0011D83CC1900772F00 /* Project73 - TwitterUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EEE0001D83CC1900772F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EEE0101D83CC1900772F00 /* LaunchScreen.storyboard in Resources */,
+				99EEE00D1D83CC1900772F00 /* Assets.xcassets in Resources */,
+				99EEE00B1D83CC1900772F00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EEDFFE1D83CC1900772F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EEE0181D83D57600772F00 /* AvatarImageView.swift in Sources */,
+				99EEE01A1D83D58C00772F00 /* TWTButton.swift in Sources */,
+				99EEE01E1D83D5CC00772F00 /* FXBlurView.m in Sources */,
+				99EEE0081D83CC1900772F00 /* ViewController.swift in Sources */,
+				99EEE0061D83CC1900772F00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99EEE0091D83CC1900772F00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EEE00A1D83CC1900772F00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99EEE00E1D83CC1900772F00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EEE00F1D83CC1900772F00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99EEE0121D83CC1900772F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99EEE0131D83CC1900772F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EEE0151D83CC1900772F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project73 - TwitterUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Project73---TwitterUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project73 - TwitterUI/Project73 - TwitterUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99EEE0161D83CC1900772F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Project73 - TwitterUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fantageek.Project73---TwitterUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project73 - TwitterUI/Project73 - TwitterUI-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EEDFFD1D83CC1900772F00 /* Build configuration list for PBXProject "Project73 - TwitterUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EEE0121D83CC1900772F00 /* Debug */,
+				99EEE0131D83CC1900772F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EEE0141D83CC1900772F00 /* Build configuration list for PBXNativeTarget "Project73 - TwitterUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EEE0151D83CC1900772F00 /* Debug */,
+				99EEE0161D83CC1900772F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99EEDFFA1D83CC1900772F00 /* Project object */;
+}
