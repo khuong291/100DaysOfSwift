@@ -37,7 +37,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 74/100
+Progress: 75/100
 
 ## Project Demos
 
@@ -332,6 +332,10 @@ Project 73 - [TwitterUI](https://github.com/khuong291/100DaysOfSwift/tree/master
 Project 74 - [MoveCollectionViewCell](https://github.com/khuong291/100DaysOfSwift/tree/master/Project74%20-%20MoveCollectionViewCell)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/MoveCollectionViewCell.gif)
+
+Project 75 - [3DAnimateTableViewCell](https://github.com/khuong291/100DaysOfSwift/tree/master/Project75%20-%203DAnimateTableViewCell)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/3DAnimateTableViewCell.gif)
 
 ## Reach me ##
 
