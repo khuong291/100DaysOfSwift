@@ -12,6 +12,8 @@
 		997B5BF71D90EFCD00099737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997B5BF51D90EFCD00099737 /* Main.storyboard */; };
 		997B5BF91D90EFCD00099737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997B5BF81D90EFCD00099737 /* Assets.xcassets */; };
 		997B5BFC1D90EFCD00099737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997B5BFA1D90EFCD00099737 /* LaunchScreen.storyboard */; };
+		997B5C061D91094A00099737 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997B5C051D91094A00099737 /* CustomTableViewCell.swift */; };
+		99A0236D1D910E7D004C5BD9 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A0236C1D910E7D004C5BD9 /* Bird.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		997B5BF81D90EFCD00099737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		997B5BFB1D90EFCD00099737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		997B5BFD1D90EFCD00099737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		997B5C051D91094A00099737 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		99A0236C1D910E7D004C5BD9 /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				997B5BF81D90EFCD00099737 /* Assets.xcassets */,
 				997B5BFA1D90EFCD00099737 /* LaunchScreen.storyboard */,
 				997B5BFD1D90EFCD00099737 /* Info.plist */,
+				997B5C051D91094A00099737 /* CustomTableViewCell.swift */,
+				99A0236C1D910E7D004C5BD9 /* Bird.swift */,
 			);
 			path = "Project77 - CachingImages";
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				997B5C061D91094A00099737 /* CustomTableViewCell.swift in Sources */,
 				997B5BF41D90EFCD00099737 /* ViewController.swift in Sources */,
+				99A0236D1D910E7D004C5BD9 /* Bird.swift in Sources */,
 				997B5BF21D90EFCD00099737 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +296,7 @@
 				997B5C021D90EFCD00099737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
