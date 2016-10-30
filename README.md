@@ -37,7 +37,7 @@ Here is a punch of example projects with Swift, I am going to build 100 example 
 
 [Youtube - Vea Software](https://www.youtube.com/user/veasoftware)
 
-Progress: 77/100
+Progress: 78/100
 
 ## Project Demos
 
@@ -344,6 +344,10 @@ Project 76 - [DownloadProcess](https://github.com/khuong291/100DaysOfSwift/tree/
 Project 77 - [CachingImages](https://github.com/khuong291/100DaysOfSwift/tree/master/Project77%20-%20CachingImages)
 
 ![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/CachingImages.gif)
+
+Project 78 - [EventKit](https://github.com/khuong291/100DaysOfSwift/tree/master/Project78%20-%20EventKit)
+
+![Alt text](https://github.com/khuong291/Swift_Example_Series/blob/master/Demo%20Files/EventKit.png)
 
 ## Reach me ##
 
