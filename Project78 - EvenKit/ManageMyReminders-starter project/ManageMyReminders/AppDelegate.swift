@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  EvenKit
+//  ManageMyReminders
 //
-//  Created by Khuong Pham on 10/16/16.
-//  Copyright © 2016 fantageek. All rights reserved.
+//  Created by Malek T. on 11/19/15.
+//  Copyright © 2015 Medigarage Studios LTD. All rights reserved.
 //
 
 import UIKit
@@ -12,16 +12,30 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
+    
+    func dateComponentFromDate(date: Date) -> DateComponents {
+        let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: date)
+        let day = calendar.component(.day, from: date)
+        let month = calendar.component(.month, from: date)
+        let year = calendar.component(.year, from: date)
+        
+        var dateComponents = DateComponents()
+        dateComponents.hour = hour
+        dateComponents.day = day
+        dateComponents.month = month
+        dateComponents.year = year
+        return dateComponents
+    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-        // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
+        // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
     }
 
     func applicationDidEnterBackground(_ application: UIApplication) {
@@ -30,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
-        // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
