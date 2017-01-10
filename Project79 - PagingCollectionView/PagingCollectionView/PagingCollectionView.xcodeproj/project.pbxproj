@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		99023A671E252BBB006A5A31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99023A661E252BBB006A5A31 /* AppDelegate.swift */; };
-		99023A691E252BBB006A5A31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99023A681E252BBB006A5A31 /* ViewController.swift */; };
 		99023A6C1E252BBB006A5A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99023A6A1E252BBB006A5A31 /* Main.storyboard */; };
 		99023A6E1E252BBB006A5A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99023A6D1E252BBB006A5A31 /* Assets.xcassets */; };
 		99023A711E252BBB006A5A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99023A6F1E252BBB006A5A31 /* LaunchScreen.storyboard */; };
 		99023A791E252CF6006A5A31 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99023A781E252CF6006A5A31 /* CustomCollectionViewCell.swift */; };
+		99780D041E25445700B43E38 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99780D031E25445700B43E38 /* MyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99023A631E252BBB006A5A31 /* PagingCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99023A661E252BBB006A5A31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		99023A681E252BBB006A5A31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		99023A6B1E252BBB006A5A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99023A6D1E252BBB006A5A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99023A701E252BBB006A5A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99023A721E252BBB006A5A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99023A781E252CF6006A5A31 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		99780D031E25445700B43E38 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				99023A661E252BBB006A5A31 /* AppDelegate.swift */,
-				99023A681E252BBB006A5A31 /* ViewController.swift */,
 				99023A6A1E252BBB006A5A31 /* Main.storyboard */,
 				99023A6D1E252BBB006A5A31 /* Assets.xcassets */,
 				99023A6F1E252BBB006A5A31 /* LaunchScreen.storyboard */,
 				99023A721E252BBB006A5A31 /* Info.plist */,
 				99023A781E252CF6006A5A31 /* CustomCollectionViewCell.swift */,
+				99780D031E25445700B43E38 /* MyViewController.swift */,
 			);
 			path = PagingCollectionView;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99023A691E252BBB006A5A31 /* ViewController.swift in Sources */,
+				99780D041E25445700B43E38 /* MyViewController.swift in Sources */,
 				99023A791E252CF6006A5A31 /* CustomCollectionViewCell.swift in Sources */,
 				99023A671E252BBB006A5A31 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +304,7 @@
 				99023A771E252BBB006A5A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
